@@ -1,0 +1,27 @@
+<!--PARTNERS-->
+<div id="partners" class="ignite-cta text-center section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h1 class="arrow">Partners</h1>
+                <hr>
+            </div>
+        </div>
+
+        <% for partner_category_key, partner_category of @site.partners: %>
+            <% if partner_category.length > 0: %>
+            <div class="row text-center sponsor">
+                <h2 style="text-transform: uppercase"><%= partner_category_key %></h2>
+                <% for partner_key, partner of partner_category: %>
+                    <span class="sponsor-logo-adblock">
+                    <% if 'link' of partner: %><a href="<%= partner.link %>" target="_blank"><% end %>
+                        <img src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>" />
+                    <% if 'link' of partner: %></a><% end %>
+                    </span>
+                <% end %>
+            </div>
+            <% end %>
+        <% end %>
+    </div>
+</div>
+<!-- /PARTNERS -->
