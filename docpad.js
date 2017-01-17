@@ -12,12 +12,12 @@ var speakersImgBaseUrl = imgBaseUrl + 'speakers/';
 var partnersImgBaseUrl = imgBaseUrl + 'partners/';
 
 docpadConfig = {
-    outPath: '../2016.mobilization.pl-gh-pages/',
+    outPath: '../2017.mobilization.pl-gh-pages/',
     templateData: {
         site: {
-            url: "http://mobilization.pl",
+            url: "http://2017.mobilization.pl",
             oldUrls: ['www.mobilization.pl'],
-            title: "Mobilization 2016",
+            title: "Mobilization 2017",
             description: "Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms.",
             keywords: "mobilization, conference, mobile conference, Łódź",
             styles: [],
