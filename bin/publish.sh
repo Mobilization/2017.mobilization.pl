@@ -12,7 +12,7 @@ fi
 GIT_CURRENT_REVISION=$(git rev-parse --verify HEAD)
 GIT_COMMIT_MESSAGE="Generated page based on revision "$GIT_CURRENT_REVISION
 
-cd ../2016.mobilization.pl-gh-pages
+cd ../2017.mobilization.pl-gh-pages
 git pull -X ours
 git add -A
 git commit -m "$GIT_COMMIT_MESSAGE"
