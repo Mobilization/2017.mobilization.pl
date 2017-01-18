@@ -3,9 +3,4 @@ layout: 'main2017'
 ---
 
 <%- @partial('header.html', @) %>
-<%- @partial('speakers.html', @) %>
-<%- @partial('agenda.html', @) %>
-<%- @partial('sponsors.html', @) %>
-<%- @partial('venue.html', @) %>
-<%- @partial('travelinfo.html', @) %>
 <%- @partial('footer.html', @) %>
