@@ -1758,10 +1758,8 @@ iframe {
   background: rgba(255, 255, 255, 0.2);
   height: 50px;
   width: 50px;
-  border-radius: 50%;
+  font-size: 2em;
   display: inline-block;
-  border-style: double;
-  border-width: thick;
   -webkit-transition: all 0.2 ease;
   transition: all 0.3s linear;
   color: #343d47;

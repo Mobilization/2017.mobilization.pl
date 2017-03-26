@@ -3,4 +3,5 @@ layout: 'main2017'
 ---
 
 <%- @partial('header.html', @) %>
+<%- @partial('about.html', @) %>
 <%- @partial('footer.html', @) %>

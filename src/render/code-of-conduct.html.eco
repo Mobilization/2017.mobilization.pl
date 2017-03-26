@@ -2,7 +2,9 @@
 layout: 'main2017'
 ---
 
-<%- @partial('header-min.html', @) %>
+<div class="single-page">
+    <%- @partial('header-min.html', @) %>
+</div>
 
 <div id="cbx-codeofconduct" class="cbx-codeofconduct">
     <div class="cbx-inner">
