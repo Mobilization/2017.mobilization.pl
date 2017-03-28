@@ -20,73 +20,62 @@ layout: 'main2017'
                                     </span>
                             <span class="title">Code of conduct</span>
                         </h2>
-                        <p class="heading-text-p">
-                            All attendees, speakers, sponsors and volunteers at Mobilization are required to agree
-                            with the following code of conduct. Organisers will enforce this code throughout the event.
-                            We are expecting cooperation from all participants to help ensuring a safe environment for
-                            everybody.
-                        </p>
-                        <p>
-                            <br/><strong>tl;dr: Don’t be a Jerk</strong>
-                        </p>
                     </div>
                 </div> <!--//main COL-->
-
-                <div class="sp-details xs-text-center">
-                    <h3>The Quick Version</h3>
-                    <p><b>Mobilization</b> is dedicated to providing a harassment-free conference experience for
-                        everyone, regardless of gender, sexual orientation, disability, physical appearance, body
-                        size,
-                        race, or religion. We do not tolerate harassment of conference participants in any form.
-                        Sexual
-                        language and imagery is not appropriate for any conference venue, including talks,
-                        workshops,
-                        parties, Twitter and other online media. Conference participants violating these rules may
-                        be
-                        sanctioned or expelled from the conference without a refund at the discretion of the
-                        conference
-                        organisers.
+                <div class="sp-details">
+                    <p>The Mobilization conference is dedicated to providing a harassment-free conference experience for
+                        everyone regardless of sexual orientation, race, gender identity and expression, physical
+                        appearance, disabilities, body size, neurodiversity, ethnicity, neurodiversity, nationality,
+                        religion (or lack thereof), age, technology choices or other protected category.
+                    </p>
+                    <p>
+                        All attendees, speakers, sponsors and volunteers at Mobilization conference are required to
+                        agree with the following code of conduct. Organisers will enforce this code throughout the
+                        event. We do not tolerate harassment of Mobilization participants in any form. We expect
+                        cooperation from all participants to help ensure a safe environment for everybody.
                     </p>
                 </div>
-                <div class="sp-details xs-text-center">
+                <div class="sp-details">
                     <br/>
-                    <h3>The Less Quick Version</h3>
+                    <h2>Mobilization Anti-Harassment Policy</h2>
                     <p>
-                        Harassment includes offensive verbal comments related to gender, sexual orientation,
-                        disability,
-                        physical appearance, body size, race, religion, sexual images in public spaces, deliberate
-                        intimidation, stalking, following, harassing photography or recording, sustained disruption
-                        of
-                        talks or other events, inappropriate physical contact, and unwelcome sexual attention.
-                        Participants asked to stop any harassing behavior are expected to comply immediately.
+                        Mobilization policy extends to talks, forums, workshops, codelabs, social media, parties,
+                        hallway conversations, all attendees, partners, sponsors, volunteers, event staff. Sexual
+                        language and imagery is not appropriate for any conference venue, including talks, workshops,
+                        parties, Facebook, Twitter and other online media. You catch our drift. Mobilization reserves
+                        the right to refuse admittance to, or remove any person from the conference at any time in its
+                        sole discretion. Conference participants violating these rules may be sanctioned or expelled
+                        from the conference without a refund at the discretion of the conference organisers.
+
                     </p>
                     <p>
-                        Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not
-                        use
-                        sexualized images, activities, or other material. Booth staff (including volunteers) should
-                        not
-                        use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+                        Exhibiting partners, sponsors or vendor booths, or similar activities are also subject to this
+                        policy. In particular, they should not use sexualised images, activities,
+                        clothing/uniforms/costumes or other material. Booth staff (including volunteers) should not use
+                        sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.Participants
+                        and exhibiting partners or sponsors disobeying this policy will be notified and are expected to
+                        stop any offending behavior immediately.
                     </p>
                     <p>
-                        If a participant engages in harassing behavior, Mobilization organizers may take any
-                        action
-                        they deem appropriate, including warning the offender or expulsion from the conference with
-                        no
-                        refund.
+                        Our conference staff can usually be identified by special attire. Our zero tolerance policy
+                        means that we will look into and review every allegation of violation of our Anti-Harassment
+                        Policy and respond appropriately. Please note, while we take all concerns raised seriously, we
+                        will use our discretion as to determining when and how to follow up on reported incidents, and
+                        may decline to take any further action and/or may direct the participant to other resources for
+                        resolution.
                     </p>
                     <p>
                         If you are being harassed, notice that someone else is being harassed, or have any other
-                        concerns, please contact a member of conference staff immediately.
+                        concerns, please contact a member of conference staff immediately. Conference staff can be
+                        identified as they'll be wearing branded clothing and/or badges.We will be happy to help
+                        participants contact hotel/venue security or local law enforcement, provide escorts, or
+                        otherwise assist those experiencing discomfort or harassment to feel safe for the duration of
+                        the event. We value your attendance.
                     </p>
                     <p>
-                        Conference staff will be happy to help participants contact venue security or local law
-                        enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe
-                        for
-                        the duration of the conference. We value your attendance.
-                    </p>
-                    <p>
-                        We expect participants to follow these rules at conference and workshop venues and
-                        conference-related social events.
+                        This policy is based on and influenced by several other community policies including: Google
+                        Event Community Guidelines and Anti-Harassment Policy, Code of Conduct for Heroku Events,
+                        droidcon Kraków Code of Conduct
                     </p>
                     <p>
                         <br/><i>Mobilization Organizers</i>
