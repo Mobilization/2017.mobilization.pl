@@ -1745,7 +1745,6 @@ iframe {
     color: #79bf56;
 }
 #cbx-footer .footer-content {
-    color: #f1f1f1;
     padding-top: 15px;
 }
 #cbx-footer .footer-content .cbx-copy-symbol {
@@ -1765,6 +1764,15 @@ iframe {
     color: #343d47;
     margin-bottom: 1.5rem;
 }
+
+#cbx-footer .footer-social ul.editions li a {
+    color: #79bf56 !important;
+}
+
+#cbx-footer .footer-social ul.editions li a:hover {
+    color: #559137 !important;
+}
+
 #cbx-footer .footer-social ul li a i {
     line-height: 38px;
     -webkit-transition: all 0.2 ease;
