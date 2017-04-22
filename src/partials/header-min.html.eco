@@ -1,0 +1,7 @@
+<header>
+    <div id="cbx-header" class="cbx-header">
+        <div class="cbx-header-inner">
+            <%- @partial('menu.html', @) %>
+        </div>
+    </div> <!--//.CBX FOOTER-->
+</header>
