@@ -2499,3 +2499,16 @@ iframe {
 .cbx-footer p {
     font-size: 12px !important;
 }
+
+
+a.outline {
+    color: #DC4E41;
+    border: 2px solid #DC4E41;
+    border-radius: 10px;
+    padding: 8px 12px !important;
+}
+
+a.outline:hover {
+    color: #860000;
+    border: 2px solid #860000;
+}
