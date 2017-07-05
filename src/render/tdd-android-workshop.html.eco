@@ -1,0 +1,37 @@
+---
+layout: 'main2017'
+---
+
+<div class="single-page">
+    <%- @partial('header-min.html', @) %>
+</div>
+
+<div id="cbx-codeofconduct" class="cbx-codeofconduct">
+    <div class="cbx-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <div class="cbx-heading">
+                        <h2 class="uppercase">
+                                    <span class="heading-serial">
+                                        <span class="heading-serial-inner">
+                                         *
+                                        </span>
+                                    </span>
+                            <span class="title">TDD Android Workshop</span>
+                        </h2>
+                    </div>
+                </div> <!--//main COL-->
+                <div class="sp-details">
+                    <p>...
+                    </p>
+                    <p>...
+                    </p>
+                </div>
+            </div> <!--//main row-->
+        </div> <!--//container-->
+    </div> <!--//cbx-inner-->
+</div>
+<!--//.CODE OF CONDUCT END-->
+
+<%- @partial('footer.html', @) %>
