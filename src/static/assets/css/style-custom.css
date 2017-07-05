@@ -2500,7 +2500,6 @@ iframe {
     font-size: 12px !important;
 }
 
-
 a.outline {
     color: #DC4E41;
     border: 2px solid #DC4E41;
@@ -2511,4 +2510,20 @@ a.outline {
 a.outline:hover {
     color: #860000;
     border: 2px solid #860000;
+}
+
+.sponsor-logo-adblock {
+    vertical-align: middle;
+    padding: 20px 30px 0;
+    display: inline-block;
+}
+
+.sponsor-logo-adblock img {
+    height: 80%;
+    width: 80%;
+}
+
+.sponsored-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

@@ -53,7 +53,6 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/cybercom.png",
                         "link": "http://www.cybercom.com/pl/Poland/"
                     },
-                    {"name": "Ericpol", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
                     {
                         "name": "Harman",
                         "logo_url": "/images/sponsors/harman.jpeg",
@@ -96,7 +95,6 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/itkontrakt.png",
                         "link": "https://www.itkontrakt.pl/"
                     },
-                    {"name": "Sii", "logo_url": "/images/sponsors/sii.png", "link": "http://sii.pl/oddzialy/lodz/"},
                 ],
                 copper: [
                     {
