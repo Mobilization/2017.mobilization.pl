@@ -4,4 +4,5 @@ layout: 'main2017'
 
 <%- @partial('header.html', @) %>
 <%- @partial('about.html', @) %>
+<%- @partial('sponsors.html.eco', @) %>
 <%- @partial('footer.html', @) %>
