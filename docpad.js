@@ -124,8 +124,8 @@ docpadConfig = {
 //                    },
                     {
                         "name": "Scala Wave IO",
-                        "logo_url": "/images/partners/scala-wawe.png"
-                        "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017"
+                        "logo_url": "/images/partners/scala-wawe.png",
+                        "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017",
                         "link":"http://www.scalawave.io"
 
                     },
