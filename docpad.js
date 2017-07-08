@@ -123,6 +123,13 @@ docpadConfig = {
 //                        "link": "http://www.meetup.com/Lodz-w-iOS-luje/"
 //                    },
                     {
+                        "name": "Scala Wave IO",
+                        "logo_url": "/images/partners/scala-wawe.png"
+                        "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017"
+                        "link":"http://www.scalawave.io"
+
+                    },
+                    {
                          "name":"Toruń JUG",
                          "logo_url":"/images/partners/jugtorun.png",
                          "description_html":"Toruń JUG is a group of JVM technologies developers and enthusiasts. The main goal of the group is to gather people interested in JVM languages both professionally and personally. Our group contains programmers from many companies, scientists working on Toruń university, students and other technology passionates. We are encouraging knowledge sharing and collaboration in open source projects. Although we are the youngest JUG in Poland we are growing fast already having several big partners supporting us. More about Toruń JUG you can find at: torun.jug.pl"
