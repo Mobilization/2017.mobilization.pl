@@ -23,10 +23,29 @@ layout: 'main2017'
                     </div>
                 </div> <!--//main COL-->
                 <div class="sp-details">
-                    <p>...
+		    <p> 
+		    W ramach Mobilization 2017 zapraszamy na warsztat z TDD dedykowanego dla programistów Android. <p>Warsztat odbędzie się w <strong>piątek 20.10.2017</strong> (dzień przed Mobilization) w hotelu Tobcco ul. Kopernika 64, 90-553 Łódź w godzinach 9-17.</p>
+		    </p>
+		    <p>
+			Warsztat poprowadzą:
+			<ul>
+				<li>Karol Kowalski
+				<li>Kasper Kondzielski
+				<li>Dominik Malantowicz
+			</ul>
+		    </p>
+		    <span class="title">Opis warsztatu</span>
+		    <p>
+			Dużym problemem w nauce TDD są przykłady, na których prezentowane są jego założenia. Są one zbyt proste i nie dają wystarczającej wiedzy do samodzielnego wdrożenia metodyki TDD w prawdziwym projekcie. Dlatego podczas szkolenia pokazujemy praktyki, które stosujemy na codzień w naszej firmie w prawdziwych aplikacjach.
+		    </p>
+		    <p>Prezentujemy nie tylko podejście TDD w testach unitowych i funkcjonalnych na Androidzie, ale również naszą architekturę, sposób pracy z gitem, biblioteki, z których korzystamy (w tym RxJava2 Mockito Espresso).<p>
+		    <p>Całość pokazujemy na przykładzie ekranu logowania. Zaczynamy od krótkiego livecodingu, w którym prezentujemy jak zacząć testy unitowe. Potem uczestnicy w czasie pair-programingu kontynuują testy. Po przerwie obiadowej zaczynamy testy androidowe. Ponownie z krótkim wstępem z naszej strony. W tej części pokazujemy również jak radzimy sobie z izolowaniem środowiska testowego od internetu czy z blokowaniem animacji.
+		    </p>
+		    <p>Po warsztacie, na dostępnym dla uczestników repozytorium, prezentujemy kompletne rozwiązanie wraz z commitami, które pokazują jak ono powstawało krok po kroku.
                     </p>
-                    <p>...
-                    </p>
+                </div>
+                <div class="sp-details">
+                	Bilety na warsztat w cenie 300 PLN dostępne na <a href="https://mobilization-vii-android-tdd-workshop.konfeo.com">stronie</a>.
                 </div>
             </div> <!--//main row-->
         </div> <!--//container-->
