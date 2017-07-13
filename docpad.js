@@ -122,18 +122,18 @@ docpadConfig = {
 //                        "description_html": "The best place for iOS developers based in Łódź. A group with monthly meetings with tech talks, fantastic speakers and unbeatable atmosphere! Join us on facebook: www.facebook.com/lodzwiosluje",
 //                        "link": "http://www.meetup.com/Lodz-w-iOS-luje/"
 //                    },
-                    {
-                        "name": "Scala Wave IO",
-                        "logo_url": "/images/partners/scala-wawe.png",
-                        "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017",
-                        "link":"http://www.scalawave.io"
-
-                    },
-                    {
-                         "name":"Toruń JUG",
-                         "logo_url":"/images/partners/jugtorun.png",
-                         "description_html":"Toruń JUG is a group of JVM technologies developers and enthusiasts. The main goal of the group is to gather people interested in JVM languages both professionally and personally. Our group contains programmers from many companies, scientists working on Toruń university, students and other technology passionates. We are encouraging knowledge sharing and collaboration in open source projects. Although we are the youngest JUG in Poland we are growing fast already having several big partners supporting us. More about Toruń JUG you can find at: torun.jug.pl"
-                    },
+//                     {
+//                         "name": "Scala Wave IO",
+//                         "logo_url": "/images/partners/scala-wawe.png",
+//                         "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017",
+//                         "link":"http://www.scalawave.io"
+//
+//                     },
+                    // {
+                    //      "name":"Toruń JUG",
+                    //      "logo_url":"/images/partners/jugtorun.png",
+                    //      "description_html":"Toruń JUG is a group of JVM technologies developers and enthusiasts. The main goal of the group is to gather people interested in JVM languages both professionally and personally. Our group contains programmers from many companies, scientists working on Toruń university, students and other technology passionates. We are encouraging knowledge sharing and collaboration in open source projects. Although we are the youngest JUG in Poland we are growing fast already having several big partners supporting us. More about Toruń JUG you can find at: torun.jug.pl"
+                    // },
                     {
                         "name": "Android Developer Group Poznań",
                         "logo_url": "/images/partners/adgp.jpeg",
@@ -214,6 +214,7 @@ docpadConfig = {
 //                        "link": "https://www.pluralsight.com/"
 //                    }
                 ],
+
                 supporters: [
                                     // {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
                                     {
@@ -221,11 +222,11 @@ docpadConfig = {
                                         "logo_url": "/images/partners/krawka.png",
                                         "link": "https://www.etsy.com/shop/Krawka?ref=hdr_shop_menu"
                                     },
-                                    {
-                                        "name": "Medialab",
-                                        "logo_url": "/images/partners/medialab.png",
-                                        "link": "http://www.medialab.pl/"
-                                    },
+                                    // {
+                                    //     "name": "Medialab",
+                                    //     "logo_url": "/images/partners/medialab.png",
+                                    //     "link": "http://www.medialab.pl/"
+                                    // },
                                 ]
             },
             slots: {

@@ -2512,3 +2512,21 @@ a.outline:hover {
     color: #860000;
     border: 2px solid #860000;
 }
+
+.partner-logo-adblock {
+    vertical-align: middle;
+    margin: 20px 30px 0;
+    display: inline-block;
+}
+
+.partner-logo-adblock img {
+    height: 120px;
+}
+
+.partners-container > .row {
+    margin-top: 50px;
+}
+
+.partners-container > .row:first-child {
+    margin-top: 0px;
+}
