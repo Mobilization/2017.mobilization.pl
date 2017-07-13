@@ -163,11 +163,11 @@ docpadConfig = {
 //                        "logo_url": "/images/partners/zwinna_lodz.jpeg",
 //                        "link": "http://zwinnalodz.eu/"
 //                    },
-//                    {
-//                        "name": "Mobile Warsaw",
-//                        "logo_url": "/images/partners/mw-logo.png",
-//                        "link": "http://mobile-warsaw.pl"
-//                    },
+                    {
+                        "name": "Mobile Warsaw",
+                        "logo_url": "/images/partners/mw-logo.png",
+                        "link": "http://mobile-warsaw.pl"
+                    },
 //                    {
 //                        "name": "Meet Mobile",
 //                        "logo_url": "/images/partners/meet-mobile.png",
@@ -187,32 +187,32 @@ docpadConfig = {
                     // {"name":"Praca IT","logo_url":"/images/partners/pracait.png","link":"http://pracait.com"},
                     // {"name":"Software Developer's Journal","logo_url":"/images/partners/sdj.png","link":"http://sdjournal.pl"},
                     // {"name":"GoMobi","logo_url":"/images/partners/gomobi.jpg","link":"http://gomobi.pl"},
-                    {
-                        "name": "Programista Magazine",
-                        "logo_url": "/images/partners/programistamag.png",
-                        "link": "http://programistamag.pl"
-                    },
+//                    {
+//                        "name": "Programista Magazine",
+//                        "logo_url": "/images/partners/programistamag.png",
+//                        "link": "http://programistamag.pl"
+//                    },
                     // {"name":"MyApple","logo_url":"/images/partners/myapple.jpg","link":"http://myapple.pl"},
                     // {"name":"4tech.tv","logo_url":"/images/partners/4techmobile.png","link":"http://testytelefonow.pl"},
                     // {"name":"StartUpTV","logo_url":"/images/partners/startuptv.png","link":"http://startuptv.pl"},
                     // {"name":"Linux Magazine","logo_url":"/images/partners/linuxmag.png","link":"http://www.linux-magazine.pl"},
-                    {
-                        "name": "Packt Publishing",
-                        "logo_url": "/images/partners/packt.png",
-                        "link": "https://www.packtpub.com/"
-                    },
+//                    {
+//                        "name": "Packt Publishing",
+//                        "logo_url": "/images/partners/packt.png",
+//                        "link": "https://www.packtpub.com/"
+//                    },
                     // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
-                    {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
-                    {
-                        "name": "Manning Publications",
-                        "logo_url": "/images/partners/manning.png",
-                        "link": "http://www.manning.com"
-                    },
-                    {
-                        "name": "Pluralsight",
-                        "logo_url": "/images/partners/pluralsight.png",
-                        "link": "https://www.pluralsight.com/"
-                    }
+//                    {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
+//                    {
+//                        "name": "Manning Publications",
+//                        "logo_url": "/images/partners/manning.png",
+//                        "link": "http://www.manning.com"
+//                    },
+//                    {
+//                        "name": "Pluralsight",
+//                        "logo_url": "/images/partners/pluralsight.png",
+//                        "link": "https://www.pluralsight.com/"
+//                    }
                 ],
                 supporters: [
                                     // {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
