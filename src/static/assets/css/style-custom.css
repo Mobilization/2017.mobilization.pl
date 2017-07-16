@@ -291,16 +291,12 @@ iframe {
     border-radius: 0;
     z-index: 999;
 }
+
 #cbx-header .cbx-navbar .event-ticket {
-    margin-top: 7px;
-}
-#cbx-header .cbx-navbar .event-ticket li a {
     background: #559137;
-    display: block;
-    padding: 10px 20px;
     color: #fff;
+    padding: 8px 12px !important;
     border-radius: 5px;
-    -webkit-transition: all 0.2 ease;
     transition: all 0.3s linear;
 }
 #cbx-header .cbx-navbar .event-ticket li a:hover {
@@ -2502,15 +2498,15 @@ iframe {
 
 
 a.outline {
-    color: #DC4E41;
-    border: 2px solid #DC4E41;
+    color: #559137;
+    border: 2px solid #559137;
     border-radius: 10px;
     padding: 8px 12px !important;
 }
 
 a.outline:hover {
-    color: #860000;
-    border: 2px solid #860000;
+    color: #559137;
+    border: 2px solid #559137;
 }
 
 .partner-logo-adblock {
