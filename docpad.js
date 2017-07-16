@@ -168,11 +168,16 @@ docpadConfig = {
                         "logo_url": "/images/partners/mw-logo.png",
                         "link": "http://mobile-warsaw.pl"
                     },
-//                    {
-//                        "name": "Meet Mobile",
-//                        "logo_url": "/images/partners/meet-mobile.png",
-//                        "link": "https://www.meetup.com/meet-mobile/"
-//                    },
+                    {
+                        "name": "Meet Mobile",
+                        "logo_url": "/images/partners/meet-mobile.png",
+                        "link": "https://www.meetup.com/meet-mobile/"
+                    },
+                    {
+                        "name": "Mobile Białystok",
+                        "logo_url": "/images/partners/mobile-bialystok.png",
+                        "link": "https://www.facebook.com/mobilebialystok/"
+                    },
 //                    {
 //                        "name": "Droidcon Poland",
 //                        "logo_url": "/images/partners/droidcon.png",
