@@ -1,0 +1,77 @@
+---
+layout: 'main2017'
+---
+
+<div class="single-page">
+    <%- @partial('header-min.html', @) %>
+</div>
+
+<div id="cbx-codeofconduct" class="cbx-codeofconduct">
+    <div class="cbx-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <div class="cbx-heading">
+                        <h2 class="uppercase">
+                                    <span class="heading-serial">
+                                        <span class="heading-serial-inner">
+                                         *
+                                        </span>
+                                    </span>
+                            <span class="title">REGULAMIN WARSZTATU TDD ANDROID WORKSHOP MOBILIZATION VII</span>
+                        </h2><ol>
+                    </div>
+                </div> <!--//main COL-->
+                                    <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pl', includedLanguages: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <div class="sp-details">
+
+                    </ol><h2>I. Postanowienia ogólne</h2><ol>
+<li>  Warsztat TDD Android towarzyszący Mobilization VII, zwany w dalszej części regulaminu Wydarzeniem, odbędzie się 20.10.2017 w Hotel Tobaco ul. Kopernika 64, 90-553 Łódź 
+<li>  Organizatorem Wydarzenia jest Mobilization Spółka z o.o. z siedzibą w Łodzi, ul. Kusocińskiego 126/42, NIP 7272793047, REGON: 101812889, KRS: 0000518225 zwany dalej Organizatorem.
+</ol>
+<h2>II. Zasady uczestnictwa</h2>
+<ol>
+<li>  Aktualny Program Wydarzenia znajduje się na stronie internetowej <a href="2017.mobilization.pl/tdd-android-workshop.html">2017.mobilization.pl/tdd-android-workshop.html</a>.
+<li>  W Wydarzeniu mogą wziąć udział osoby, które dokonały rejestracji na stronie:
+<a href="https://mobilization-vii-android-tdd-workshop.konfeo.com">https://mobilization-vii-android-tdd-workshop.konfeo.com</a>
+<li>  Zarejestrowanie uczestnictwa w Wydarzeniu jest równoznaczne z zaakceptowaniem niniejszego regulaminu. 
+<li> Opłata za uczestnictwo w Wydarzeniu obejmuje: 
+<ul>
+<li>udział w Wydarzeniu</li>
+<li>obiad 3-daniowy</li>
+<li>całodniową przerwę kawową</li>
+</ul>
+</li>
+<li>  Uczestnicy Wydarzenia we własnym zakresie pokrywają koszty dojazdu na miejsce Wydarzenia oraz koszty powrotu, a także ewentualnego noclegu. 
+<li>  Informacje o opłatach i warunkach rejestracji publikowane są na stronie internetowej Wydarzenia:
+<a href="https://mobilization-vii-android-tdd-workshop.konfeo.com">https://mobilization-vii-android-tdd-workshop.konfeo.com</a>
+<li>  Warunkiem uczestnictwa jest dokonanie rejestracji drogą elektroniczną oraz wpłacenie pełnej kwoty za uczestnictwo na konto 53 2130 0004 2001 0666 9428 0001, Volkswagen Bank Direct, przelewem bankowym lub za pośrednictwem płatności internetowych w terminie 7 dni od daty zgłoszenia. 
+<li>  Organizator jest upoważniony do wystawienia faktury bez podpisu odbiorcy. 
+<li>  Zgłoszenia uczestnictwa, dokonywane za pośrednictwem strony <a href="https://mobilization-vii-android-tdd-workshop.konfeo.com">https://mobilization-vii-android-tdd-workshop.konfeo.com</a> przyjmowane są do 19.10.2017. Koszt uczestnictwa w Wydarzeniu wynosi 300 PLN brutto.
+<li> Uczestnik będący Konsumentem (osoba fizyczna o której mowa w art. 22<sup>1</sup> Kodeksu cywilnego), może w terminie 14 dni kalendarzowych odstąpić od
+Umowy zawartej na odległość bez podawania przyczyny i bez ponoszenia kosztów. Do zachowania terminu wystarczy wysłanie oświadczenia przed jego upływem na adres contact@mobilization.pl.
+<li> Opłata za uczestnictwo w Wydarzeniu wniesiona przez jednego uczestnika może zostać przeniesiona na innego, pod warunkiem, że informacja o zmianie zostanie przekazana Organizatorowi w terminie do 18.10.2017 poprzez mail <a href="mailto:contact@mobilization.pl">contact@mobilization.pl</a> wraz z informacjami niezbędnymi do identyfikacji zamówienia.
+<li> W przypadku odwołania Wydarzenia z przyczyn leżących po stronie Organizatora, uczestnikowi przysługuje prawo zwrotu 100% kosztów uczestnictwa. 
+<li> W przypadku odwołania Wydarzenia z przyczyn niezależnych od Organizatora, które uniemożliwią przeprowadzenie Wydarzenia, uczestnikowi przysługuje prawo zwrotu 100% kosztów uczestnictwa. Organizator nie ponosi odpowiedzialności za roszczenia odszkodowawcze z tego tytułu. 
+
+</ol><h2>IV. Bezpieczeństwo</h2><ol>
+
+<li>  Organizator nie ponosi odpowiedzialności za rzeczy pozostawione, zgubione lub skradzione podczas Wydarzenia. 
+<li>  Uczestnicy są zobowiązani przestrzegać zasad bezpieczeństwa, przepisów BHP i Ppoż obowiązujących na terenie obiektu, w którym organizowana jest Wydarzenie. 
+
+</ol><h2>V. Inne kwestie</h2><ol>
+<li>  Zgłaszając się do udziału w Wydarzenia uczestnik wyraża jednocześnie zgodę na przetwarzanie danych osobowych przez Organizatora na potrzeby Wydarzenia i na zasadach wynikających z ogólnie obowiązujących przepisów prawa, ze szczególnym uwzględnieniem Ustawy o Ochronie danych osobowych z dnia 29 sierpnia 1997 roku ( Dz. U. Nr 133. Poz. 833 z późniejszymi poprawkami). 
+<li>  W sprawach nieustalonych w powyższym regulaminie obowiązują przepisy kodeksu cywilnego.
+
+		        </div>
+            </div> <!--//main row-->
+        </div> <!--//container-->
+    </div> <!--//cbx-inner-->
+</div>
+<!--//.CODE OF CONDUCT END-->
+
+<%- @partial('footer.html', @) %>
