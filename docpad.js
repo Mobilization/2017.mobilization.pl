@@ -322,9 +322,19 @@ docpadConfig = {
                                 "www": "http://lopez-manas.com",
                                 "twitter": "https://twitter.com/eenriquelopez",
                                 "facebook": "",
-                                "github": "https://github.com/JensRavens",
+                                "github": "https://github.com/kikoso",
                                 "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
                                 "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                            },
+                            "speaker-kamil-pyc": {
+                                "firstname": "Kamil",
+                                "lastname": "Pyć",
+                                "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world."
+                                "www": "",
+                                "twitter": "https://twitter.com/KamilPyc",
+                                "facebook": "",
+                                "github": "https://github.com/PycKamil",
+                                "photo_url": "/images/speakers/kamil_pyc.jpg"
                             },
             /*
 
