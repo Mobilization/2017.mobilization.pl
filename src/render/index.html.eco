@@ -6,5 +6,6 @@ layout: 'main2017'
 <%- @partial('header.html', @) %>
 <!-- <%- @partial('sponsors.html.eco', @) %>-->
 <%- @partial('about.html', @) %>
+<%- @partial('speakers.html.eco', @) %>
 <%- @partial('partners.html.eco', @) %>
 <%- @partial('footer.html', @) %>
