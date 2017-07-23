@@ -314,6 +314,21 @@ docpadConfig = {
 
             },
             speakers: {
+            //1 Enrique Lopez Manas
+                    "speaker-enrique-lopez-manas": {
+                                "firstname": "Enrique",
+                                "lastname": "Lopez Manas",
+                                "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer."
+                                "www": "http://lopez-manas.com",
+                                "twitter": "https://twitter.com/eenriquelopez",
+                                "facebook": "",
+                                "github": "https://github.com/JensRavens",
+                                "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
+                                "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                            },
+            /*
+
+
                 //1
                 "speaker-jens-ravens": {
                     "firstname": "Jens",
@@ -701,6 +716,7 @@ docpadConfig = {
                     "bio_html": "ERICSSON Managers R&D",
                     "photo_url": "/images/speakers/christer-lindell.png"
                 }
+                */
             },
             talks: {
                 "talk-modularizing-your-apps-framework-oriented-programming": {//1
