@@ -257,58 +257,58 @@ docpadConfig = {
                 },
                 'slot-coffee-2': {
                     from: '11:05',
-                    to: '11:25'
+                    to: '11:20'
                 },
                 'slot-3': {
-                    from: '11:25',
-                    to: '12:10'
+                    from: '11:20',
+                    to: '12:05'
                 },
                 'slot-lunch': {
-                    from: '12:10',
-                    to: '13:15'
+                    from: '12:05',
+                    to: '13:00'
                 },
                 'slot-during-lunch': {
-                    from: '12:20',
-                    to: '13:05'
+                    from: '12:05',
+                    to: '12:50'
                 },
                 'slot-4': {
-                    from: '13:15',
-                    to: '14:00'
+                    from: '13:00',
+                    to: '13:45'
                 },
                 'slot-coffee-3': {
-                    from: '14:00',
-                    to: '14:15'
+                    from: '13:45',
+                    to: '14:00'
                 },
                 'slot-5': {
-                    from: '14:15',
-                    to: '15:00'
+                    from: '14:00',
+                    to: '14:45'
                 },
                 'slot-coffee-4': {
-                    from: '15:00',
-                    to: '15:15'
+                    from: '14:45',
+                    to: '15:00'
                 },
                 'slot-6': {
-                    from: '15:15',
-                    to: '16:00'
+                    from: '15:00',
+                    to: '15:45'
                 },
                 'slot-coffee-5': {
-                    from: '16:00',
-                    to: '16:15'
+                    from: '15:45',
+                    to: '16:00'
                 },
                 'slot-7': {
-                    from: '16:15',
-                    to: '17:00'
+                    from: '16:00',
+                    to: '16:45'
                 },
                 'slot-no-coffee-6': {
-                    from: '17:00',
-                    to: '17:10'
+                    from: '16:45',
+                    to: '16:50'
                 },
                 'slot-finally': {
-                    from: '17:10',
-                    to: '17:40  '
+                    from: '16:50',
+                    to: '17:30  '
                 },
                 'slot-afterparty': {
-                    from: '18:15',
+                    from: '18:00',
                     to: '23:59'
                 },
 
