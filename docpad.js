@@ -355,7 +355,7 @@ docpadConfig = {
                     "facebook": "",
                     "github": "https://github.com/bkraszewski",
                     "linkedin": "https://www.linkedin.com/in/bkraszewski/",
-                    "photo_url": "/images/speakers/bartosz_k.jpg"
+                    "photo_url": "/images/speakers/bartoszk_k.jpg"
                 },
 
                 "speaker-dmytro-khmelenko": { //4
@@ -369,6 +369,74 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
                     "photo_url": "/images/speakers/dmytro_khmelenko.png"
                 },
+
+                "speaker-adam-zaczek": {
+                  "firstname": "Adam",
+                  "lastname": "Żaczek",
+                  "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                  "photo_url": "/images/speakers/adam_z.jpg",
+                  "www": "https://www.netguru.co/about-us/team/adam-4828293800",
+                  "twitter": "https://twitter.com/ZaczekAdam",
+                  "github": "https://github.com/adamzaczek",
+                  "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+                },
+                "speaker-jorge-castillo" : {
+                    "firstname": "Jorge",
+                    "lastname": "Castillo",
+                    "bio_html": "Jorge Castillo is an experienced Android Engineer from Spain, currently working at GoMore, an International product company from Copenhagen.\n\nHe is currently focused on promoting functional architectures for Android apps using Kotlin. He has talked about this topic on different events. He is also very active sharing Kotlin knowledge for the community on his Medium account:\n* https://medium.com/@JorgeCastilloPr/kotlin-purity-and-function-memoization-b12ab35d70a5\n* https://medium.com/@JorgeCastilloPr/tail-recursion-and-how-to-use-it-in-kotlin-97353993e17f\n* https://medium.com/@JorgeCastilloPr/kotlin-dependency-injection-with-the-reader-monad-7d52f94a482e\n\nHe will be attending Kotlinconf San Francisco 2017 with this same talk, and has also speaked in events like the Droidcon Greece 2016 at Thessaloniki, Mobilization Poland 2016, Codemotion Madrid 2016, Google I/O Extended Madrid 2016, or DevFest events from Jaén, Granada and Códoba.\n\n\n\n\n\n\n",
+                    "photo_url": "https://avatars1.githubusercontent.com/u/6547526?v=3&u=5ca46eaf7ed977c5dec79bb76bc784749f1b2e85&s=400",
+                    "www": "https://medium.com/@jorgecastillopr",
+                    "twitter": "https://twitter.com/jorgecastillopr",
+                    "github": "https://github.com/jorgecastilloprz",
+                    "linkedin": "https://www.linkedin.com/in/jorgecastilloprz"
+                  },
+                "speaker-salomon-brys" : {
+                    "firstname": "Salomon",
+                    "lastname": "Brys",
+                    "bio_html": "Passionate about Kotlin for the last three years, I am the developper and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
+                    "photo_url": "/images/speakers/salomon_b.jpg",
+                    "www": "https://github.com/SalomonBrys/",
+                    "twitter": "https://twitter.com/",
+                    "github": "https://github.com/SalomonBrys",
+                    "linkedin": "https://www.linkedin.com/in/salomonbrys"
+                  },
+                  "speaker-sergi-martinez":{
+                      "firstname": "Sergi",
+                      "lastname": "Martinez",
+                      "bio_html": "Working as Android dev at Schibsted and Google Developer Expert for Android. He loves to share, teach, discuss, learn with the community",
+                      "photo_url": "/images/speakers/sergi_m.jpg",
+                      "www": "http://sergiandreplace.com",
+                      "twitter": "https://twitter.com/sergiandreplace",
+                      "github": "https://github.com/sergiandreplace",
+                      "linkedin": "https://www.linkedin.com/in/sergiandreplace"
+                    },
+                  "speaker-leandro-favarin": {
+                      "firstname": "Leandro",
+                      "lastname": "Favarin",
+                      "bio_html": "Leandro has been working as a software engineer for mobile devices and portable technology for 7+ years. His focus is on the Android platform and everything around it.",
+                      "photo_url": "https://pbs.twimg.com/profile_images/888083286962163714/SUFtfMw5_400x400.jpg",
+                      "www": "http://leandrofavarin.com",
+                      "twitter": "https://twitter.com/leandrofavarin",
+                      "github": "https://github.com/leandrofavarin",
+                      "linkedin": "https://www.linkedin.com/in/leandrofavarin"
+                    },
+                    "speaker-vasiliy-zukanov":{
+                        "firstname": "Vasiliy",
+                        "lastname": "Zukanov",
+                        "bio_html": "Professional software engineer and blogger (www.techyourchance.com)",
+                        "photo_url": "https://pbs.twimg.com/profile_images/845977477986037764/nHRsN6H3.jpg",
+                        "www": "http://www.techyourchance.com",
+                        "twitter": "https://twitter.com/VasiliyZukanov",
+                      },
+                    "speaker-yuliya-kaleda"
+                      :
+                      {
+                        "firstname": "Yuliya",
+                        "lastname": "Kaleda",
+                        "bio_html": "Yuliya is an Android developer at Jet.com, leading a team of 4 developers whose main focus is to build performant, scalable and cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to build the first multi-feature Instant App.",
+                        "photo_url": "/images/speakers/yuliya_k.jpg",
+                        "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
+                      },
 
             },
             talks: {
