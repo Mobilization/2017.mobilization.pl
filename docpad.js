@@ -318,8 +318,8 @@ docpadConfig = {
                 "speaker-enrique-lopez-manas": { //1
                     "firstname": "Enrique",
                     "lastname": "Lopez Manas",
-                    "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer."
-                    "www": "http://lopez-manas.com",
+                    "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                    "www" : "http://lopez-manas.com",
                     "twitter": "https://twitter.com/eenriquelopez",
                     "facebook": "",
                     "github": "https://github.com/kikoso",
@@ -329,7 +329,7 @@ docpadConfig = {
                 "speaker-kamil-pyc": { //2
                     "firstname": "Kamil",
                     "lastname": "Pyć",
-                    "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world."
+                    "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
                     "www": "",
                     "twitter": "https://twitter.com/KamilPyc",
                     "facebook": "",
@@ -344,19 +344,19 @@ docpadConfig = {
                     "twitter": "https://twitter.com/BartoszKraszew1",
                     "facebook": "",
                     "github": "https://github.com/bkraszewski",
-                    "linkedin", "https://www.linkedin.com/in/bkraszewski/"
+                    "linkedin": "https://www.linkedin.com/in/bkraszewski/",
                     "photo_url": "/images/speakers/bartosz_k.jpg"
                 },
 
                 "speaker-dmytro-khmelenko": { //4
                     "firstname": "Dmytro",
                     "lastname": " Khmelenko",
-                    "bio_html": "Software Engineer at Freeletics GmbH Area of interests: Functional Programming, Machine Learning, Internet of Things (IoT)"",
+                    "bio_html": "Software Engineer at Freeletics GmbH Area of interests: Functional Programming, Machine Learning, Internet of Things (IoT)",
                     "www": "https://dkhmelenko.github.io/",
                     "twitter": "",
                     "facebook": "",
                     "github": "https://github.com/dkhmelenko",
-                    "linkedin", "https://www.linkedin.com/in/dmytro-khmelenko-74401858/"
+                    "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
                     "photo_url": "/images/speakers/dmytro_khmelenko.png"
                 },
             /*
