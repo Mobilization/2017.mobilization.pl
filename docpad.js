@@ -314,7 +314,17 @@ docpadConfig = {
 
             },
             speakers: {
-
+                "speaker-tbd": { //0
+                    "firstname": "TBD",
+                    "lastname": "TBD",
+                    "bio_html": "",
+                    "www" : "",
+                    "twitter": "",
+                    "facebook": "",
+                    "github": "",
+                    "linkedin": "",
+                    "photo_url": "/images/speakers/mobilization-soldier.jpg"
+                },
                 "speaker-enrique-lopez-manas": { //1
                     "firstname": "Enrique",
                     "lastname": "Lopez Manas",
@@ -359,399 +369,17 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
                     "photo_url": "/images/speakers/dmytro_khmelenko.png"
                 },
-            /*
 
-
-                //1
-                "speaker-jens-ravens": {
-                    "firstname": "Jens",
-                    "lastname": "Ravens",
-                    "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
-                    "www": "http://jensravens.com/",
-                    "twitter": "https://twitter.com/jensravens",
-                    "facebook": "",
-                    "github": "https://github.com/JensRavens",
-                    "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
-                    "photo_url": "/images/speakers/jens-ravens.jpg"
-                },
-                //2
-                "speaker-pedro-buendia": {
-                    "firstname": "Pedro",
-                    "lastname": "Piñera Buendía",
-                    "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
-                    "www": "http://www.ppinera.es/",
-                    "github": "https://github.com/pepibumur",
-                    "twitter": "https://twitter.com/pepibumur",
-                    "photo_url": "/images/speakers/pedro-buendia.jpeg"
-                },
-                //3
-                "speaker-konstantin-raev": {
-                    "firstname": "Konstantin",
-                    "lastname": "Raev",
-                    "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
-                    "wwww": "",
-                    "github": "https://github.com/bestander/",
-                    "linkedin": "https://uk.linkedin.com/in/koraev",
-                    "twitter": "https://twitter.com/bestander_nz",
-                    "medium": "https://medium.com/@bestander_nz",
-                    "photo_url": "/images/speakers/konstantin-raev.jpeg"
-                },
-                //4
-                "speaker-gautier-mechling": {
-                    "firstname": "Gautier",
-                    "lastname": "Mechling",
-                    "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
-                    "wwww": "http://nilhcem.com",
-                    "github": "https://github.com/Nilhcem",
-                    "twitter": "https://twitter.com/Nilhcem",
-                    "photo_url": "/images/speakers/gautier-mechling.jpeg"
-                },
-                //5
-                "speaker-nicola-zaghini": {
-                    "firstname": "Nicola",
-                    "lastname": "Zaghini",
-                    "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
-                    "www": "",
-                    "twitter": "https://twitter.com/nzaghini",
-                    "photo_url": "/images/speakers/nicola-zaghini.jpeg"
-                },
-                //6
-                "speaker-roberto-orgiu": {
-                    "firstname": "Roberto",
-                    "lastname": "Orgiu",
-                    "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
-                    "www": "",
-                    "twitter": "https://github.com/tiwiz",
-                    "photo_url": "/images/speakers/roberto-orgiu.jpeg"
-                },
-                //7
-                "speaker-eric-kok": {
-                    "firstname": "Eric",
-                    "lastname": "Kok",
-                    "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
-                    "www": "",
-                    "twitter": "https://twitter.com/erickoknl",
-                    "photo_url": "/images/speakers/eric-kok.jpeg"
-                },
-                //8
-                "speaker-dan-cuellar": {
-                    "firstname": "Dan",
-                    "lastname": "Cuellar",
-                    "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
-                    "github": "https://github.com/penguinho",
-                    "linkedin": "https://uk.linkedin.com/in/dacuellar",
-                    "www": "",
-                    "twitter": "https://twitter.com/thedancuellar",
-                    "photo_url": "/images/speakers/dan-cuellar.jpeg"
-                },
-                //9
-                "speaker-roman-mazur": {
-                    "firstname": "Roman",
-                    "lastname": "Mazur",
-                    "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
-                    "www": "https://www.stanfy.com/",
-                    "github": "https://github.com/roman-mazur",
-                    "twitter": "https://twitter.com/roman_mazur",
-                    "photo_url": "/images/speakers/roman-mazur.jpeg"
-                },
-                //10
-                "speaker-markus-junginger": {
-                    "firstname": "Markus",
-                    "lastname": "Junginger",
-                    "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
-                    "www": "",
-                    "twitter": "https://twitter.com/greenrobot_de",
-                    "photo_url": "/images/speakers/markus-junginger.jpeg"
-                },
-                //11
-                "speaker-madis-pink": {
-                    "firstname": "Madis",
-                    "lastname": "Pink",
-                    "bio_html": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
-                    "www": "",
-                    "github": "https://github.com/madisp",
-                    "twitter": "https://twitter.com/madisp",
-                    "photo_url": "/images/speakers/madis-pink.jpeg"
-                },
-                //12
-                "speaker-pablo-guardiola": {
-                    "firstname": "Pablo",
-                    "lastname": "Guardiola",
-                    "bio_html": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @AprendiendoTDD and @theEvnt facilitating coding dojos, katas and other stuff.",
-                    "www": "http://pguardiola.com/",
-                    "github": "https://github.com/Guardiola31337",
-                    "twitter": "https://twitter.com/guardiola31337",
-                    "photo_url": "/images/speakers/pablo-guardiola.jpeg"
-                },
-                //13
-                "speaker-jorge-castillo": {
-                    "firstname": "Jorge",
-                    "lastname": "Castillo",
-                    "bio_html": "Jorge Castillo is a spanish experienced Android developer currently working as an Android Engineer at Jobandtalent, an important International product company from Madrid. Its main work is focused on Open Source projects.",
-                    "www": "http://jorgecastillo.xyz/",
-                    "twitter": "https://twitter.com/JorgeCastilloPr",
-                    "github": "https://github.com/JorgeCastilloPrz/",
-                    "photo_url": "/images/speakers/jorge-castillo.jpeg"
-                },
-                //14
-                "speaker-inaki-villar": {
-                    "firstname": "Inaki",
-                    "lastname": "Villar",
-                    "bio_html": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
-                    "www": "",
-                    "github": "https://github.com/cdsap",
-                    "twitter": "https://twitter.com/inyaki_mwc",
-                    "photo_url": "/images/speakers/inaki-villar.jpeg"
-                },
-                //15
-                "speaker-enrique-manas": {
-                    "firstname": "Enrique",
-                    "lastname": "López Mañas",
-                    "bio_html": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
-                    "www": "http://www.lopez-manas.com/",
-                    "github": "https://github.com/kikoso",
-                    "twitter": "https://twitter.com/eenriquelopez",
-                    "photo_url": "/images/speakers/enrique-manas.jpeg"
-                },
-                //16
-                "speaker-hugo-visser": {
-                    "firstname": "Hugo",
-                    "lastname": "Visser",
-                    "bio_html": "Hugo is a software engineer who has worked on enterprise, desktop and mobile software products. Since the introduction of Android he has been steadily focussing on developing for Android only, resulting in his first app in 2009. Hugo has released several open source libraries and tools to help him and other developers build better software. He’s a Google Developer Expert for Android and one of the organizers of the Dutch Android User Group. With his company Little Robots, he focuses on smart use of Android in every possible way.",
-                    "www": "http://littlerobots.nl/",
-                    "github": "https://github.com/hvisser",
-                    "twitter": "https://twitter.com/botteaap",
-                    "photo_url": "/images/speakers/hugo-visser.jpeg"
-                },
-                //17
-                "speaker-saul-diaz": {
-                    "firstname": "Saúl",
-                    "lastname": "Díaz",
-                    "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
-                    "www": "",
-                    "twitter": "https://twitter.com/sefford",
-                    "photo_url": "/images/speakers/saul-diaz.jpeg"
-                },
-                //18
-                "speaker-francisco-estevez": {
-                    "firstname": "Francisco",
-                    "lastname": "Estevez",
-                    "bio_html": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
-                    "www": "http://www.pacoworks.com",
-                    "twitter": "",
-                    "github": "https://github.com/pakoito",
-                    "photo_url": "/images/speakers/francisco-estevez.jpeg"
-                },
-                //19
-                "speaker-frederik-schweiger": {
-                    "firstname": "Frederik",
-                    "lastname": "Schweiger",
-                    "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
-                    "www": "",
-                    "twitter": "",
-                    "photo_url": "/images/speakers/frederik-schweiger.jpeg"
-                },
-                //20
-                "speaker-roy-marmelstein": {
-                    "firstname": "Roy",
-                    "lastname": "Marmelstein",
-                    "bio_html": "Creator of PhoneNumberKit, Interpolate and Localize.",
-                    "www": "http://marmelroy.github.io/",
-                    "github": "https://github.com/marmelroy",
-                    "twitter": "https://twitter.com/marmelroy",
-                    "photo_url": "/images/speakers/roy-marmelstein.jpeg"
-                },
-                //21
-                "speaker-esteban-torres": {
-                    "firstname": "Esteban",
-                    "lastname": "Torres",
-                    "bio_html": "iOS Developer for over 5 years. Big proponent of OSS and head organizer of CocoaHeads Costa Rica.",
-                    "www": "http://estebantorr.es",
-                    "github": "https://github.com/esttorhe",
-                    "twitter": "https://twitter.com/esttorhe",
-                    "photo_url": "/images/speakers/esteban-torres.png"
-                },
-                //22
-                "speaker-kostiantyn-koval": {
-                    "firstname": "Kostiantyn",
-                    "lastname": "Koval",
-                    "bio_html": "Kostiantyn Koval is in Love with Swift. He is a contributor to Swift open source, a Swift High Performance book author and just a person who loves to type some code at night :)",
-                    "www": "http://kostiakoval.github.io/",
-                    "github": "https://github.com/kostiakoval",
-                    "twitter": "https://twitter.com/KostiaKoval",
-                    "photo_url": "/images/speakers/kostiantyn-koval.png"
-                },
-                //23
-                "speaker-marius-rackwitz": {
-                    "firstname": "Marius",
-                    "lastname": "Rackwitz",
-                    "bio_html": "Marius has been developing mobile & web applications ever since he graduated from university. In more recent years, he's shifted his focus towards mobile development, especially iOS and Objective-C, and since it came out a growing portion of Swift. With his work on the CocoaPods team, he hasn't forgotten about Ruby either.",
-                    "github": "https://github.com/mrackwitz",
-                    "twitter": "https://twitter.com/mrackwitz",
-                    "photo_url": "/images/speakers/marius-rackwitz.png"
-                },
-                //24"
-                "speaker-tomasz-gebarowski": {
-                    "firstname": "Tomasz",
-                    "lastname": "Gebarowski",
-                    "bio_html": "Software Engineer, currently working as an iOS Developer at mBank. Working full time in Swift. Switched to Mobile apps development after +4 years of C/C++ and writing distributed VoIP servers. Experienced in maintaining large and long term projects.",
-                    "photo_url": "/images/speakers/tomasz-gebarowski.png"
-                },
-                //24.5
-                "speaker-wojciech-lukaszuk": {
-                    "firstname": "Wojciech",
-                    "lastname": "Łukaszuk",
-                    "bio_html": "Software engineer at mBank. Lifelong learner. Can’t stand workarounds and spaghetti code.",
-                    "twitter": "https://twitter.com/wojteklu",
-                    "www": "http://wojteklu.com/",
-                    "photo_url": "/images/speakers/wojciech-lukaszuk.png"
-                },
-                //25
-                "speaker-michal-kucharski": {
-                    "firstname": "Michał",
-                    "lastname": "Kucharski",
-                    "bio_html": "Fan of technological solutions that makes life easier. From own proof-of-concept hardware, to designed IoT devices or ConnectedCar solution. Carpenter with love and passion, claiming that the best way to relax is a chisel, plane and a piece of wood. With testing and security connected from childhood - Everything can be breached and everything can be automated :)",
-                    "photo_url": "/images/speakers/michal-kucharski.png"
-                },
-                //26
-                "speaker-agnieszka-czyzak": {
-                    "firstname": "Agnieszka",
-                    "lastname": "Czyżak",
-                    "bio_html": "Agnieszka is currently working as a UI Designer at Polidea. She graduated from the Warsaw Academy of Arts in 2016. Her bottomless passion for humans beings developed her constant question-asking attitude, and her love for design and design thinking lead her career path toward Service and Experience Design. It is during a Summer School at the Copenhagen Institute of Interactive Design that she polished her skills in user research, prototyping, design thinking, basic programming, workability and teamwork",
-                    "photo_url": "/images/speakers/agnieszka-czyzak.png"
-                },
-                //26.5
-                "speaker-rafal-tulwin": {
-                    "firstname": "Rafał",
-                    "lastname": "Tulwin",
-                    "bio_html": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
-                    "photo_url": "/images/speakers/rafal-tulwin.png"
-                },
-                //27
-                "speaker-lukasz-mroz": {
-                    "firstname": "Łukasz",
-                    "lastname": "Mróz",
-                    "bio_html": "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
-                    "photo_url": "/images/speakers/lukasz-mroz.png"
-                },
-                //28
-                "speaker-anton-minashkin": {
-                    "firstname": "Anton",
-                    "lastname": "Minashkin",
-                    "bio_html": "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
-                    "photo_url": "/images/speakers/anton-minashkin.png"
-                },
-                //29
-                "speaker-cybercom-mastercorder": {
-                    "firstname": "Master",
-                    "lastname": "Coder",
-                    "bio_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
-                    "photo_url": "/images/speakers/master-coder.png"
-                },
-                //30
-                "speaker-krzysztof-kudrynski": {
-                    "firstname": "Krzysztof",
-                    "lastname": "Kudryński",
-                    "bio_html": "Passionate problem solver with experience in algorithms prototyping, software design and optimization for mobile platforms. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror",
-                    "photo_url": "/images/speakers/krzysztof-kudrynski.png"
-                },
-                //30.5
-                "speaker-blazej-kubiak": {
-                    "firstname": "Błażej",
-                    "lastname": "Kubiak",
-                    "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
-                    "photo_url": "/images/speakers/blazej-kubiak.png"
-                },
-                //31
-                "speaker-michal-mela": {
-                    "firstname": "Michał",
-                    "lastname": "Mela",
-                    "bio_html": "",
-                    "photo_url": "/images/speakers/michal-mela.png"
-                },//31.5
-                "speaker-michal-kaminski": {
-                    "firstname": "Michał",
-                    "lastname": "Kamiński",
-                    "bio_html": "",
-                    "photo_url": "/images/speakers/michal-kaminski.png"
-                },
-                //32
-                "speaker-jacek-rondio": {
-                    "firstname": "Jacek",
-                    "lastname": "Rondio",
-                    "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Team leader in the project dedicated to advanced head unit software development for Mercedes cars.",
-                    "photo_url": "/images/speakers/jacek-rondio.png"
-                },
-                //32.25
-                "speaker-krzysztof-sasiak": {
-                    "firstname": "Krzysztof",
-                    "lastname": "Sasiak",
-                    "bio_html": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
-                    "photo_url": "/images/speakers/krzysztof-sasiak.png"
-                },
-                //32.5
-                "speaker-lukasz-kwiecinski": {
-                    "firstname": "Łukasz",
-                    "lastname": "Kwieciński",
-                    "bio_html": "Software engineer at Harman Connected Services department. Strongly interested in c/c++ programming in Unix-like systems. Works on the project where implements the solutions, which integrate mobile applications together with cars’ head units.",
-                    "photo_url": "/images/speakers/lukasz-kwiecinski.png"
-                },
-                //32.75
-                "speaker-mariusz-kazmierczak": {
-                    "firstname": "Mariusz",
-                    "lastname": "Kaźmierczak",
-                    "bio_html": "Software engineer working at Harman Connected Services. Strongly interested in c++ programming in Unix-like systems. Works on the project where implements the solutions allowing to integrate mobile applications together with cars' head units.",
-                    "photo_url": "/images/speakers/mariusz-kazmierczak.png"
-                },
-                //33
-                "speaker-ola-rosinska": {
-                    "firstname": "Ola",
-                    "lastname": "Rosińska",
-                    "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
-                    "linkedin": "https://www.linkedin.com/in/ola-rosi%C5%84ska-87b352104/en",
-                    "photo_url": "/images/speakers/ola-rosinska.png"
-                },
-                //33.5
-                "speaker-piotrek-stanislawski": {
-                    "firstname": "Piotrek",
-                    "lastname": "Stanisławski",
-                    "bio_html": "UX designer with strong believe that in order to carry out the project perfectly you simply need pencil, open mind and aroused empathy. He always combines user needs with clients’ business objectives using available UX techniques. Not so secretly addicted to the post-it notes.",
-                    "linkedin": "https://www.linkedin.com/in/stanislawskipiotr/en",
-                    "photo_url": "/images/speakers/piotrek-stanislawski.png"
-                },
-                //34
-                "speaker-bartek-swiercz": {
-                    "firstname": "Bartek",
-                    "lastname": "Świercz",
-                    "bio_html": "Addicted to speed, challenges and technology, constantly using his passion to design and develop challenging projects. Bartek has been involved in mobile technologies ever since first smartphones, always looking for the best tech mixes that deliver highest performance possible.",
-                    "linkedin": "https://www.linkedin.com/in/swierczu",
-                    "twitter": "https://twitter.com/BartekSwiercz",
-                    "photo_url": "/images/speakers/bartek-swiercz.png"
-                },
-                //34.5
-                "speaker-pawel-czapnik": {
-                    "firstname": "Paweł",
-                    "lastname": "Czapnik",
-                    "bio_html": "Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
-                    "photo_url": "/images/speakers/pawel-czapnik.png"
-                },
-                //35
-                "speaker-marek-wyrwicki": {
-                    "firstname": "Marek",
-                    "lastname": "Wyrwicki",
-                    "bio_html": "ERICSSON Managers R&D",
-                    "photo_url": "/images/speakers/marek-wyrwicki.png"
-                },
-                //35.5
-                "speaker-christer-lindell": {
-                    "firstname": "Christer",
-                    "lastname": "Lindell",
-                    "bio_html": "ERICSSON Managers R&D",
-                    "photo_url": "/images/speakers/christer-lindell.png"
-                }
-                */
             },
             talks: {
+                "talk-tbd": {
+                    "title": "TBD",
+                    "description_html": "TBD",
+                    "speakers_keys": [
+                         "speaker-tbd"
+                    ],
+                    "language": "EN"
+                },
                 "talk-att-video-opt": {//1
                     "title": "Optimizing Android App performance with AT&T Video Optimizer",
                     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, Ill introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
@@ -770,14 +398,6 @@ docpadConfig = {
                                     "language": "EN"
                                 },
 
-//                "talk-template": {//2
-//                    "title": "",
-//                    "description_html": "",
-//                    "speakers_keys": [
-//                        "speaker-"
-//                    ],
-//                    "language": "EN"
-//                },
                 "talk-cebulowe-testy": {//3
                     "title": "Cebulowe testy na iOS",
                     "description_html": "Jesteście ciekawi jak testujemy w Allegro aplikacje mobilne na system iOS? Począwszy od momentu otworzenia Xcode’a, poprzez stworzenie interfejsu użytkownika, skończywszy na finalnej implementacji, robimy to inaczej i za pomocą różnych narzędzi. Każdy z etapów rozwoju aplikacji, pozwala na sprawdzenie jej pod innym kątem. Poznajcie naszą historię na temat kolejnych warstw testów: jednostkowych, integracyjnych, snapshotowych i funkcjonalnych. Historia oparta na faktach, opowiedziana ze strony testera i dewelopera.",
@@ -794,6 +414,7 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
+
 
             },
             breaks: {
@@ -848,132 +469,132 @@ docpadConfig = {
                 "slot-hello-world": {"break_key": "break-hello-world"},
                 "slot-1": {
                     "venue-rndity": {
-                        "talk_key": "talk-mvp-business"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-networked-society"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-mobile-and-application-security-based-on-man-in-the-middle-MITM-vectors"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-flying-services-using-mobile-phone-paired-with-drone"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
                     "venue-rndity": {
-                        "talk_key": "talk-android-high-performance"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-swift-at-scale"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-modularizing-your-apps-framework-oriented-programming"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-revisiting-types-in-kotlin"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-taming-node-modules-at-facebook"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
                     "venue-rndity": {
-                        "talk_key": "talk-rx-java-for-the-rest-of-us"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-make-your-mobile-more-mobile"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-security-at-your-fingertips"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-mvvm-with-coordinators-and-rx-swift"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-green-dao-3-and-beyond"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},
                 "slot-during-lunch": {
                     "venue-tomtom": {
-                        "talk_key": "talk-master-coder-eliminations"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-4": {
                     "venue-rndity": {
-                        "talk_key": "talk-functional-on-android-lambdas-rx-and-streams-in-your-app"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-reactive-programming-for-ios-with-interstellar-2"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-espresso-beyond-the-basics"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-bonjour-android-it-is-zeroconf"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-hacking-siri-kit"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-3": {"break_key": "break-coffee"},
                 "slot-5": {
                     "venue-rndity": {
-                        "talk_key": "talk-the-2016-android-developer-toolbox"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-how-jrebel-for-android-does-performance-testing"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-interacting-with-your-app-through-command-line"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-custom-annotation-processors-for-your-production-code"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-the-objective-c-runtime-and-swift-dynamism-a-2016-perspective"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-6": {
                     "venue-rndity": {
-                        "talk_key": "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-design-that-breaks-down-barriers"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-beacon-idea"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-break-the-monolith-with-b-viper-modules"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-getting-down-to-business-with-firebase"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-7": {
                     "venue-rndity": {
-                        "talk_key": "talk-elegant-unit-testing"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-crafting-reactive-apps-with-realm"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-swift-revolution"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-appium-automation-for-apps"
+                        "talk_key": "talk-tbd"
                     },
                     "venue-tomtom": {
-                        "talk_key": "talk-master-coder-final"
+                        "talk_key": "talk-tbd"
                     }
                 },
                 "slot-no-coffee-6": {"break_key": "break-no-coffee"},
