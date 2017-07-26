@@ -6,7 +6,7 @@
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<div class="cbx-heading">
-							<h2 class="uppercase wow fadeInUp" data-wow-delay=".1s">
+							<h2 class="uppercase">
                                     <span class="heading-serial">
                                         <span class="heading-serial-inner">
                                           02
@@ -14,7 +14,7 @@
                                     </span>
 								<span class="title">Sponsors</span>
 							</h2>
-							<p class="heading-text-p wow fadeInUp" data-wow-delay=".2s">
+							<p class="heading-text-p"
 								We could not have made it happen without support from our great sponsors!
 							</p>
 						</div>
@@ -22,21 +22,21 @@
 				</div> <!--//main row-->
 				<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
 				<% if sponsor_category.length > 0: %>
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="sponsored-heading text-center">
-								<h4 class="uppercase"><span class="span-ash-light"><%= sponsor_category_key %></span> <span class="span-light">Sponsors</span></h4>
-							</div>
-							<div class="row text-center">
-					<% for sponsor_key, sponsor of sponsor_category: %>
-								<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo-adblock">
-									<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
-								</a>
-					<% end %>
-							</div>
-							<hr/>
-						</div> <!--//col-->
-					</div> <!--//row-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="sponsored-heading text-center">
+							<h3 class="uppercase"><span class="span-ash-light"><%= sponsor_category_key %></span> <span class="span-light">Sponsors</span></h3>
+						</div>
+						<div class="row text-center">
+							<% for sponsor_key, sponsor of sponsor_category: %>
+							<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo-adblock">
+								<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
+							</a>
+							<% end %>
+						</div>
+						<hr/>
+					</div> <!--//col-->
+				</div> <!--//row-->
 				<% end %>
 				<% end %>
 			</div> <!--//container-->
