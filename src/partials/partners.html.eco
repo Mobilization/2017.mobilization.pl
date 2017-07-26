@@ -3,6 +3,19 @@
     <div id="cbx-partners" class="cbx-partners">
         <div class="cbx-inner">
             <div class="container partners-container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="cbx-heading">
+                            <h2 class="uppercase">
+                                    <span class="heading-serial">
+                                        <span class="heading-serial-inner">
+                                          03
+                                        </span>
+                                    </span>
+                                <span class="title">Partners</span>
+                        </div>
+                    </div> <!--//main COL-->
+                </div> <!--//main row-->
                 <% for partner_category_key, partner_category of @site.partners: %>
                 <% if partner_category.length > 0: %>
                 <div class="row">

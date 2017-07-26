@@ -6,78 +6,39 @@
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<div class="cbx-heading">
-							<h2 class="uppercase wow fadeInUp" data-wow-delay=".1s">
+							<h2 class="uppercase">
                                     <span class="heading-serial">
                                         <span class="heading-serial-inner">
-                                          03
+                                          02
                                         </span>
                                     </span>
 								<span class="title">Sponsors</span>
 							</h2>
-							<p class="heading-text-p wow fadeInUp" data-wow-delay=".2s">
-								We are a team of events and conferences dedicated to building remarkable events. Working with us gets you access to our full suite of conference and events.
+							<p class="heading-text-p"
+								We could not have made it happen without support from our great sponsors!
 							</p>
 						</div>
 					</div> <!--//main COL-->
 				</div> <!--//main row-->
+				<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
+				<% if sponsor_category.length > 0: %>
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="sponsored-heading text-center">
-							<h4 class="uppercase"><span class="span-ash-light">Diamond</span> <span class="span-light">Sponsor</span></h4>
+							<h3 class="uppercase"><span class="span-ash-light"><%= sponsor_category_key %></span> <span class="span-light">Sponsors</span></h3>
 						</div>
+						<div class="row text-center">
+							<% for sponsor_key, sponsor of sponsor_category: %>
+							<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo-adblock">
+								<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
+							</a>
+							<% end %>
+						</div>
+						<hr/>
 					</div> <!--//col-->
 				</div> <!--//row-->
-
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="sponsored-heading text-center">
-							<h4 class="uppercase"><span class="span-ash-light">Platinum</span> <span class="span-light">Sponsors</span></h4>
-						</div>
-						<div class="row">
-							<div class="col-xs-6 col-sm-3">
-								<div class="single-sponsored">
-								<a href="http://www.mobica.com">
-									<img src="/images/sponsors/mobica.png" alt=""/>
-								</a>
-								</div>
-							</div>
-						</div>
-					</div> <!--//col-->
-				</div> <!--//row-->
-
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="sponsored-heading text-center">
-							<h4 class="uppercase"><span class="span-ash-light">Gold</span> <span class="span-light">Sponsors</span></h4>
-						</div>
-						<div class="row">
-							<div class="col-xs-6 col-sm-3">
-								<div class="single-sponsored">
-								<a href="https://exaco.pl/?lang=en_EN">
-									<img src="/images/sponsors/exaco.png" alt=""/>
-								</a>
-								</div>
-							</div>
-						</div>
-					</div> <!--//col-->
-				</div> <!--//row-->
-
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="sponsored-heading text-center">
-							<h4 class="uppercase"><span class="span-ash-light">Silver</span> <span class="span-light">Sponsor</span></h4>
-						</div>
-						<div class="row">
-							<div class="col-xs-6 col-sm-3">
-								<div class="single-sponsored">
-								<a href="https://appyourself.net/en/">
-									<img src="/images/sponsors/appyourself.png" alt=""/>
-								</a>
-								</div>
-							</div>
-						</div>
-					</div> <!--//col-->
-				</div> <!--//row-->
+				<% end %>
+				<% end %>
 			</div> <!--//container-->
 		</div> <!--//cbx-inner-->
 	</div>
