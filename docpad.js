@@ -178,11 +178,16 @@ docpadConfig = {
                         "logo_url": "/images/partners/mobile-bialystok.png",
                         "link": "https://www.facebook.com/mobilebialystok/"
                     },
-//                    {
-//                        "name": "Droidcon Poland",
-//                        "logo_url": "/images/partners/droidcon.png",
-//                        "link": "http://droidcon.pl/"
-//                    },
+                    {
+                        "name": "GDG Rzeszów`",
+                        "logo_url": "/images/partners/gdg-rzeszow.png",
+                        "link": "http://devfest.pl/"
+                    },
+                    {
+                        "name": "Droidcon Poland",
+                        "logo_url": "/images/partners/droidcon.png",
+                        "link": "http://droidcon.pl/"
+                    },
                 ],
                 media: [
 
