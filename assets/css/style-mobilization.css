@@ -1063,8 +1063,9 @@ iframe {
   color: #fff;
   padding: 10px 20px 20px;
   text-align: center;
+  border: none;
 }
-.cbx-view a.info {
+.cbx-view button.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
@@ -1073,7 +1074,7 @@ iframe {
   text-transform: uppercase;
   border-radius: 4px;
 }
-.cbx-view a.info:hover {
+.cbx-view button.info:hover {
   background: #559137;
 }
 .cbx-view-inner img {
@@ -2484,6 +2485,11 @@ iframe {
   padding: 8rem 0 2rem !important;
 }
 
+#cbx-speakers .cbx-inner {
+  background: #f1f1f1;
+  padding: 8rem 0 2rem !important;
+}
+
 .cbx-footer p {
   font-size: 12px !important;
 }
@@ -2495,7 +2501,8 @@ iframe {
 }
 
 .partner-logo-adblock img {
-  height: 120px;
+  max-height: 120px;
+  max-width: 250px;
 }
 
 .partners-container > .row {
@@ -2521,3 +2528,31 @@ iframe {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.speaker-info-box {
+  display: none;
+}
+
+.speaker-info-box-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.speaker-info-box-content text-center {
+  text-align: center;
+}
+
+.speaker-info-box-content h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+.speaker-info-box-content .bio {
+  font-size: 14px;
+}
+
+.cbx-view figure img {
+  display: inline !important;
+}
+
+button { border: none !important; }
