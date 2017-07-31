@@ -1,86 +1,125 @@
-<!--SPEAKERS-->
-<section class="team text-center section-padding" id="speakers">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 wow animated fadeInUp align-center" data-wow-duration="1s" data-wow-delay="1s">
-				<h1 class="arrow">Speakers</h1>
-				<hr>
-			</div>
-		</div>
-		<div class="row">
-			<div class="speakers-wrap">
-				<ul>
-					<% iter = 0 %>
+<!--SPEAKERS START-->
+<section>
+	<div id="cbx-speakers" class="cbx-header">
+		<div class="cbx-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="cbx-heading">
+							<h2 class="uppercase">
+                                    <span class="heading-serial">
+                                        <span class="heading-serial-inner">
+                                          02
+                                        </span>
+                                    </span>
+								<span class="title">Speakers</span>
+							</h2>
+						</div>
+					</div> <!--//main COL-->
+				</div> <!--//main row-->
+
+				<div class="row">
 					<% for speaker_key, speaker of @site.speakers: %>
-					<% if iter % 4 == 0: %><li><% end %>
-						<div class="col-md-3 wow animated fadeInUp" data-wow-duration="1s"
-							 data-wow-delay="0.5s">
-							<div class="effects clearfix">
-								<div class="img">
-									<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"
-										 class="md-trigger" data-modal="speaker-<%= speaker_key %>">
-									<button class="md-trigger" data-modal="speaker-<%= speaker_key %>">
-										<h2 style="height: 50px; vertical-align: top;"><%= speaker.firstname %> <%= speaker.lastname %></h2>
-									</button>
-								</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
+						<div class="sp-single-are">
+							<div class="cbx-view cbx-view-inner">
+								<figure>
+									<div class="text-center">
+									<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
+									</div>
+									<figcaption class="cbx-figcaption">
+										<div class="cbx-hover-link">
+											<div class="cbx-vertical">
+												<div class="cbx-effect-one sp-social-icon">
+													<% if 'www' of speaker and speaker.www.length > 0: %>
+													<a class="sp-www" href="<%= speaker.www %>"><i class="fa fa-globe"></i></a>
+													<% end %>
+
+													<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
+													<a class="sp-tw" href="<%= speaker.twitter %>"><i class="fa fa-twitter"></i></a>
+													<% end %>
+
+													<% if 'facebook' of speaker and speaker.facebook.length > 0: %>
+													<a class="sp-fb" href="<%= speaker.facebook %>"><i class="fa fa-facebook"></i></a>
+													<% end %>
+
+													<% if 'github' of speaker and speaker.github.length > 0: %>
+													<a class="sp-gh" href="<%= speaker.github %>"><i class="fa fa-github"></i></a>
+													<% end %>
+
+													<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
+													<a class="sp-in" href="<%= speaker.linkedin %>"><i class="fa fa-linkedin"></i></a>
+													<% end %>
+
+													<% if 'medium' of speaker and speaker.medium.length > 0: %>
+													<a class="sp-mm" href="<%= speaker.medium %>"><i class="fa fa-medium"></i></a>
+													<% end %>
+												</div>
+												<button class="info speaker-more-info">More Info</button>
+												<div class="speaker-info-box">
+													<div class="speaker-info-box-content">
+														<div class="text-center">
+															<img src="<%= speaker.photo_url %>"
+																 alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
+															<h1><%= speaker.firstname %> <%= speaker.lastname %></h1>
+														</div>
+														<div class="bio">
+															<%- speaker.bio_html %>
+														</div>
+														<hr/>
+														<div>
+															<% if 'www' of speaker and speaker.www.length > 0: %>
+															<a class="sp-www" href="<%= speaker.www %>"><i
+																	class="fa fa-globe fa-2x"></i></a>
+															<% end %>
+
+															<% if 'twitter' of speaker and speaker.twitter.length > 0:
+															%>
+															<a class="sp-tw" href="<%= speaker.twitter %>"><i
+																	class="fa fa-twitter fa-2x"></i></a>
+															<% end %>
+
+															<% if 'facebook' of speaker and speaker.facebook.length > 0:
+															%>
+															<a class="sp-fb" href="<%= speaker.facebook %>"><i
+																	class="fa fa-facebook fa-2x"></i></a>
+															<% end %>
+
+															<% if 'github' of speaker and speaker.github.length > 0: %>
+															<a class="sp-gh" href="<%= speaker.github %>"><i
+																	class="fa fa-github fa-2x"></i></a>
+															<% end %>
+
+															<% if 'linkedin' of speaker and speaker.linkedin.length > 0:
+															%>
+															<a class="sp-in" href="<%= speaker.linkedin %>"><i
+																	class="fa fa-linkedin fa-2x"></i></a>
+															<% end %>
+
+															<% if 'medium' of speaker and speaker.medium.length > 0: %>
+															<a class="sp-mm" href="<%= speaker.medium %>"><i
+																	class="fa fa-medium fa-2x"></i></a>
+															<% end %>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</figcaption>
+
+								</figure>
+							</div>
+							<div class="cbx-name-info">
+								<h3><%= speaker.firstname %> <%= speaker.lastname %></h3>
+								<!--<h4></h4>-->
 							</div>
 						</div>
-					<% iter++ %>
-					<% if iter % 4 == 0 || iter == @site.speakers.length: %></li><% end %>
+					</div>
 					<% end %>
-				</ul>
+				</div>
 
-			</div>
-		</div> <!--Row Ends Here-->
+			</div> <!--//container-->
+
+		</div> <!--//cbx-inner-->
 	</div>
-	<% for speaker_key, speaker of @site.speakers: %>
-
-							<div class="md-modal md-effect-9" id="speaker-<%= speaker_key %>">
-								<div class="md-content">
-									<div class="folio">
-										<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
-										<div class="sp-name"><strong><%= speaker.firstname %> <%= speaker.lastname %></strong><br/><!-- desc --></div>
-										<div class="sp-dsc">
-											<%- speaker.bio_html %>
-
-												<% speaker_talk_keys = Array() %>
-												<% for talk_key, talk of @site.talks: %>
-												<% if speaker_key in talk.speakers_keys: %>
-												<% speaker_talk_keys.push(talk_key) %>
-												<span style="display: block; padding-top: 20px;">
-												<small>Talk:</small><br/><strong><%= talk.title %></strong>
-												</span>
-												<% end %>
-												<% end %>
-
-										</div>
-										<div class="sp-social">
-											<ul>
-												<% if 'www' of speaker and speaker.www.length > 0: %>
-												<li><a href="<%= speaker.www %>" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
-												<% end %>
-												<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
-												<li><a href="<%= speaker.twitter %>" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
-												<% end %>
-												<% if 'facebook' of speaker and speaker.facebook.length > 0: %>
-												<li><a href="<%= speaker.facebook %>" class="social-btn" target="_blank"><i class="fa fa-facebook"></i></a></li>
-												<% end %>
-												<% if 'github' of speaker and speaker.github.length > 0: %>
-												<li><a href="<%= speaker.github %>" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
-												<% end %>
-												<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
-												<li><a href="<%= speaker.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-												<% end %>
-												<% if 'medium' of speaker and speaker.medium.length > 0: %>
-												<li><a href="<%= speaker.medium %>" class="social-btn" target="_blank"><i class="fa fa-medium"></i></a></li>
-												<% end %>
-											</ul>
-										</div>
-										<button class="md-close"><i class="fa fa-times"></i></button>
-									</div>
-								</div>
-							</div>
-	<% end %>
-	<div class="md-overlay"></div>
-</section>
-<!--/SPEAKER-->
+</section> <!--SPEAKERS END-->

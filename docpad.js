@@ -322,7 +322,7 @@ docpadConfig = {
                 "speaker-tbd": { //0
                     "firstname": "TBD",
                     "lastname": "TBD",
-                    "bio_html": "",
+                    "bio_html": "<a href='https://bit.ly/mobilization7-c4p'>Mobilize for mobilization!</a>",
                     "www" : "",
                     "twitter": "",
                     "facebook": "",
@@ -330,61 +330,61 @@ docpadConfig = {
                     "linkedin": "",
                     "photo_url": "/images/speakers/mobilization-soldier.jpg"
                 },
-                "speaker-enrique-lopez-manas": { //1
-                    "firstname": "Enrique",
-                    "lastname": "Lopez Manas",
-                    "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
-                    "www" : "http://lopez-manas.com",
-                    "twitter": "https://twitter.com/eenriquelopez",
-                    "facebook": "",
-                    "github": "https://github.com/kikoso",
-                    "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
-                    "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
-                },
-                "speaker-kamil-pyc": { //2
-                    "firstname": "Kamil",
-                    "lastname": "Pyć",
-                    "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
-                    "www": "",
-                    "twitter": "https://twitter.com/KamilPyc",
-                    "facebook": "",
-                    "github": "https://github.com/PycKamil",
-                    "photo_url": "/images/speakers/kamil_pyc.jpg"
-                },
-                "speaker-bartosz-kraszewski": { //3
-                    "firstname": "Bartosz",
-                    "lastname": "Kraszewski",
-                    "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
-                    "www": "http://about.me/bartoszk",
-                    "twitter": "https://twitter.com/BartoszKraszew1",
-                    "facebook": "",
-                    "github": "https://github.com/bkraszewski",
-                    "linkedin": "https://www.linkedin.com/in/bkraszewski/",
-                    "photo_url": "/images/speakers/bartoszk_k.jpg"
-                },
+                // "speaker-enrique-lopez-manas": { //1
+                //     "firstname": "Enrique",
+                //     "lastname": "Lopez Manas",
+                //     "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                //     "www" : "http://lopez-manas.com",
+                //     "twitter": "https://twitter.com/eenriquelopez",
+                //     "facebook": "",
+                //     "github": "https://github.com/kikoso",
+                //     "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
+                //     "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                // },
+                // "speaker-kamil-pyc": { //2
+                //     "firstname": "Kamil",
+                //     "lastname": "Pyć",
+                //     "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
+                //     "www": "",
+                //     "twitter": "https://twitter.com/KamilPyc",
+                //     "facebook": "",
+                //     "github": "https://github.com/PycKamil",
+                //     "photo_url": "/images/speakers/kamil_pyc.jpg"
+                // },
+                // "speaker-bartosz-kraszewski": { //3
+                //     "firstname": "Bartosz",
+                //     "lastname": "Kraszewski",
+                //     "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+                //     "www": "http://about.me/bartoszk",
+                //     "twitter": "https://twitter.com/BartoszKraszew1",
+                //     "facebook": "",
+                //     "github": "https://github.com/bkraszewski",
+                //     "linkedin": "https://www.linkedin.com/in/bkraszewski/",
+                //     "photo_url": "/images/speakers/bartoszk_k.jpg"
+                // },
 
-                "speaker-dmytro-khmelenko": { //4
-                    "firstname": "Dmytro",
-                    "lastname": " Khmelenko",
-                    "bio_html": "Software Engineer at Freeletics GmbH Area of interests: Functional Programming, Machine Learning, Internet of Things (IoT)",
-                    "www": "https://dkhmelenko.github.io/",
-                    "twitter": "",
-                    "facebook": "",
-                    "github": "https://github.com/dkhmelenko",
-                    "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
-                    "photo_url": "/images/speakers/dmytro_khmelenko.png"
-                },
+                // "speaker-dmytro-khmelenko": { //4
+                //     "firstname": "Dmytro",
+                //     "lastname": " Khmelenko",
+                //     "bio_html": "Software Engineer at Freeletics GmbH Area of interests: Functional Programming, Machine Learning, Internet of Things (IoT)",
+                //     "www": "https://dkhmelenko.github.io/",
+                //     "twitter": "",
+                //     "facebook": "",
+                //     "github": "https://github.com/dkhmelenko",
+                //     "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
+                //     "photo_url": "/images/speakers/dmytro_khmelenko.png"
+                // },
 
-                "speaker-adam-zaczek": {
-                  "firstname": "Adam",
-                  "lastname": "Żaczek",
-                  "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
-                  "photo_url": "/images/speakers/adam_z.jpg",
-                  "www": "https://www.netguru.co/about-us/team/adam-4828293800",
-                  "twitter": "https://twitter.com/ZaczekAdam",
-                  "github": "https://github.com/adamzaczek",
-                  "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
-                },
+                // "speaker-adam-zaczek": {
+                //   "firstname": "Adam",
+                //   "lastname": "Żaczek",
+                //   "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                //   "photo_url": "/images/speakers/adam_z.jpg",
+                //   "www": "https://www.netguru.co/about-us/team/adam-4828293800",
+                //   "twitter": "https://twitter.com/ZaczekAdam",
+                //   "github": "https://github.com/adamzaczek",
+                //   "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+                // },
                 "speaker-jorge-castillo" : {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
@@ -442,7 +442,6 @@ docpadConfig = {
                         "photo_url": "/images/speakers/yuliya_k.jpg",
                         "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
                       },
-
             },
             talks: {
                 "talk-tbd": {
