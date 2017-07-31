@@ -375,63 +375,380 @@ docpadConfig = {
                 //   "github": "https://github.com/adamzaczek",
                 //   "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
                 // },
-                "speaker-jorge-castillo" : {
-                    "firstname": "Jorge",
-                    "lastname": "Castillo",
-                    "bio_html": "Jorge Castillo is an experienced Android Engineer from Spain, currently working at GoMore, an International product company from Copenhagen.\n\nHe is currently focused on promoting functional architectures for Android apps using Kotlin. He has talked about this topic on different events. He is also very active sharing Kotlin knowledge for the community on his Medium account:\n* https://medium.com/@JorgeCastilloPr/kotlin-purity-and-function-memoization-b12ab35d70a5\n* https://medium.com/@JorgeCastilloPr/tail-recursion-and-how-to-use-it-in-kotlin-97353993e17f\n* https://medium.com/@JorgeCastilloPr/kotlin-dependency-injection-with-the-reader-monad-7d52f94a482e\n\nHe will be attending Kotlinconf San Francisco 2017 with this same talk, and has also speaked in events like the Droidcon Greece 2016 at Thessaloniki, Mobilization Poland 2016, Codemotion Madrid 2016, Google I/O Extended Madrid 2016, or DevFest events from Jaén, Granada and Códoba.\n\n\n\n\n\n\n",
-                    "photo_url": "https://avatars1.githubusercontent.com/u/6547526?v=3&u=5ca46eaf7ed977c5dec79bb76bc784749f1b2e85&s=400",
-                    "www": "https://medium.com/@jorgecastillopr",
-                    "twitter": "https://twitter.com/jorgecastillopr",
-                    "github": "https://github.com/jorgecastilloprz",
-                    "linkedin": "https://www.linkedin.com/in/jorgecastilloprz"
+
+                    "krzysztof-kudrynski": {
+                      "name": "Krzysztof",
+                      "surname": "Kudrynski",
+                      "bio_html": "08 AM - 05 PM: Passionate problem solver with 10+ years experience in software design, currently involved in projects related to self-driving cars in TomTom.\n05 PM - 10 PM: Loving husband and father of three \n10 PM - 01 AM: Enthusiast of technologies of the future including artificial intelligence, robotics and virtual reality. \n01 AM - 08 AM: Sleepwalker",
+                      "webpage": "https://www.linkedin.com/in/krzysztof-kudrynski-b49a8344/",
+                      "photo_url": "/images/speakers/krzysztof-kudrynski.jpg",
+                      "twitter": "https://twitter.com/kriskudrynski",
+                      "linkedin": "https://www.linkedin.com/in/krzysztof-kudrynski-b49a8344/"
+                    },
+
+
+                    "gautier-mechling": {
+                      "name": "Gautier",
+                      "surname": "Mechling",
+                      "bio_html": "Software Developer",
+                      "webpage": "http://nilhcem.com",
+                      "photo_url": "/images/speakers/gautier-mechling.jpg",
+                      "github": "https://github.com/Nilhcem",
+                      "linkedin": "https://www.linkedin.com/in/gautier-mechling-9a0a7236/"
+
                   },
-                "speaker-salomon-brys" : {
-                    "firstname": "Salomon",
-                    "lastname": "Brys",
-                    "bio_html": "Passionate about Kotlin for the last three years, I am the developper and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
-                    "photo_url": "/images/speakers/salomon_b.jpg",
-                    "www": "https://github.com/SalomonBrys/",
-                    "twitter": "https://twitter.com/",
-                    "github": "https://github.com/SalomonBrys",
-                    "linkedin": "https://www.linkedin.com/in/salomonbrys"
+
+                    "bartosz-kraszewski": {
+                      "name": "Bartosz",
+                      "surname": "Kraszewski",
+                      "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. \n\nCo-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+                      "webpage": "http://about.me/bartoszk",
+                      "photo_url": "/images/speakers/bartosz-kraszewski.jpg",
+                      "twitter": "https://twitter.com/BartoszKraszew1",
+                      "github": "https://github.com/bkraszewski",
+                      "linkedin": "https://www.linkedin.com/in/bkraszewski/"
+
                   },
-                  "speaker-sergi-martinez":{
-                      "firstname": "Sergi",
-                      "lastname": "Martinez",
+
+                    "tomasz-gebarowski": {
+                      "name": "Tomasz",
+                      "surname": "Gebarowski",
+                      "bio_html": "Software Engineer, currently working as an iOS Architect at mBank. Working full time in Swift. Having background in C/C++ and distributed VoIP servers. Experienced in maintaining large and long term projects. Privately father of two kids and LEGO enthusiast.",
+                      "webpage": "http://www.codica.pl",
+                      "photo_url": "/images/speakers/tomasz-gebarowski.jpg",
+                      "github": "https://github.com/tgebarowski",
+                      "linkedin": "https://www.linkedin.com/in/tomaszgebarowski"
+
+                  },
+
+                    "enrique-lopez-manas": {
+                      "name": "Enrique Lopez",
+                      "surname": "Manas",
+                      "bio_html": "bit.ly/EnriqueLopezManas \n\nGDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                      "webpage": "http://lopez-manas.com",
+                      "photo_url": "/images/speakers/enrique-lopez-manas.jpg",
+                      "twitter": "https://twitter.com/eenriquelopez",
+                      "github": "https://github.com/kikoso",
+                      "linkedin": "https://www.linkedin.com/in/bit.ly/EnriqueLopezManas"
+
+                  },
+
+                    "enrique-aguilar-vargas": {
+                      "name": "Enrique Aguilar",
+                      "surname": "Vargas",
+                      "bio_html": "First Latin America Xamarin MVP (Most Valuable Professional) and Microsoft MVP 2017 in Award Category Visual Studio and Development Technologies",
+                      "webpage": "http://enriqueaguilarvargas.com",
+                      "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                      "twitter": "https://twitter.com/enriqueaguilar",
+                      "github": "https://github.com/enriqueaguilarvargas",
+                      "linkedin": "https://www.linkedin.com/in/enriqueaguilarvargas/"
+
+                  },
+
+                    "roberto-orgiu": {
+                      "name": "Roberto",
+                      "surname": "Orgiu",
+                      "bio_html": "Born in Italy in 1987, passionate for everything that switches on and off and particularly for handheld and wearable devices.\nI love to learn new languages, patterns and everything Android-related.\nLately I have helping with the DroidCon Italy event and the release of the related app.",
+                      "photo_url": "/images/speakers/roberto-orgiu.png",
+                      "twitter": "https://twitter.com/_tiwiz",
+                      "github": "https://github.com/tiwiz"
+
+                  },
+
+                    "jorge-castillo": {
+                      "name": "Jorge",
+                      "surname": "Castillo",
+                      "bio_html": "Jorge Castillo is an experienced Android Engineer from Spain, currently working at GoMore, an International product company from Copenhagen.\n\nHe is currently focused on promoting functional architectures for Android apps using Kotlin. He has talked about this topic on different events. He is also very active sharing Kotlin knowledge for the community on his Medium account:\n* https://medium.com/@JorgeCastilloPr/kotlin-purity-and-function-memoization-b12ab35d70a5\n* https://medium.com/@JorgeCastilloPr/tail-recursion-and-how-to-use-it-in-kotlin-97353993e17f\n* https://medium.com/@JorgeCastilloPr/kotlin-dependency-injection-with-the-reader-monad-7d52f94a482e\n\nHe will be attending Kotlinconf San Francisco 2017 with this same talk, and has also speaked in events like the Droidcon Greece 2016 at Thessaloniki, Mobilization Poland 2016, Codemotion Madrid 2016, Google I/O Extended Madrid 2016, or DevFest events from Jaén, Granada and Códoba.\n\n\n\n\n\n\n",
+                      "webpage": "http://medium.com/@jorgecastillopr",
+                      "photo_url": "/images/speakers/jorge-castillo.jpg",
+                      "twitter": "https://twitter.com/jorgecastillopr",
+                      "github": "https://github.com/jorgecastilloprz",
+                      "linkedin": "https://www.linkedin.com/in/jorgecastilloprz"
+
+                  },
+
+                    "kamil-pyc": {
+                      "name": "Kamil",
+                      "surname": "Pyć",
+                      "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
+                      "photo_url": "/images/speakers/kamil-pyc.jpg",
+                      "github": "https://github.com/PycKamil"
+
+                  },
+
+                    "nitish-bhatt": {
+                      "name": "Nitish",
+                      "surname": "Bhatt",
+                      "bio_html": "I am Android Developer at Fueled and was previously Software Engineer at Larsen \u0026 Toubro Technology Services. I am passionate about using technology to help better the lives of individuals.",
+                      "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                      "twitter": "https://twitter.com/initishbhatt",
+                      "github": "https://github.com/ https://github.com/codeofknaish",
+                      "linkedin": "https://www.linkedin.com/in/iamnitishbhatt/"
+
+                  },
+
+                    "adam-zaczek": {
+                      "name": "Adam",
+                      "surname": "Żaczek",
+                      "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                      "webpage": "https://www.netguru.co/about-us/team/adam-4828293800",
+                      "photo_url": "/images/speakers/adam-zaczek.jpg",
+                      "github": "https://github.com/adamzaczek",
+                      "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+
+                  },
+
+                    "stuart-kent": {
+                      "name": "Stuart",
+                      "surname": "Kent",
+                      "bio_html": "Hello! I\u0027m a software developer with 3 years\u0027 mobile experience. I currently work at Detroit Labs creating native Android and iOS apps for national and international brands in the utilities, QSR, automotive, and pro audio industries. Before becoming a developer, I taught college and earned a Ph.D. in Applied Math. Likes: Enums. Dislikes: dogmatism.",
+                      "webpage": "http://www.stkent.com",
+                      "photo_url": "/images/speakers/stuart-kent.jpg",
+                      "github": "https://github.com/stkent",
+                      "linkedin": "https://www.linkedin.com/in/skentphd"
+
+                  },
+
+                    "miguel-quinones": {
+                      "name": "Miguel",
+                      "surname": "Quinones",
+                      "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
+                      "webpage": "https://miqu.me",
+                      "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                      "github": "https://github.com/DarthMike",
+                      "linkedin": "https://www.linkedin.com/in/miguelquinon"
+
+                  },
+
+                    "dmytro-khmelenko": {
+                      "name": "Dmytro",
+                      "surname": "Khmelenko",
+                      "bio_html": "Software Engineer at Freeletics GmbH\nArea of interests: Functional Programming, Machine Learning, Internet of Things (IoT)",
+                      "webpage": "https://dkhmelenko.github.io/",
+                      "photo_url": "/images/speakers/dmytro_khmelenko.png",
+                      "github": "https://github.com/dkhmelenko",
+                      "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858"
+
+                  },
+
+                    "aliaksandr-zhukovich": {
+                      "name": "Aliaksandr",
+                      "surname": "Zhukovich",
+                      "bio_html": "Fan of Android development and testing. ",
+                      "webpage": "http://alexzh.com/",
+                      "photo_url": "/images/speakers/aliaksandr-zhukovich.jpg",
+                      "twitter": "https://twitter.com/Alex_Zhukovich",
+                      "github": "https://github.com/AlexZhukovich"
+
+                  },
+
+                    "raul-portales": {
+                      "name": "Raul",
+                      "surname": "Portales",
+                      "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
+                      "webpage": "http://plattysoft.com",
+                      "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                      "github": "https://github.com/plattysoft",
+                      "linkedin": "https://www.linkedin.com/in/raul.portales"
+
+                  },
+
+                    "yuliya-kaleda": {
+                      "name": "Yuliya",
+                      "surname": "Kaleda",
+                      "bio_html": "Yuliya is an Android developer at Jet.com, leading a team of 4 developers whose main focus is to build performant, scalable and cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to build the first multi-feature Instant App.",
+                      "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                      "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
+
+                  },
+
+                    "saket-narayan": {
+                      "name": "Saket",
+                      "surname": "Narayan",
+                      "bio_html": "Saket is passionate about building personal, contextual software that is always aware of the user’s intentions. He started developing Android applications 4 years ago, when Ice Cream Sandwich was still the shiny new thing. He strives for perfection, especially when it comes to user experience. He will often tweak animations down to the millisecond to make them feel more natural.",
+                      "webpage": "http://saket.me",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
+                      "twitter": "https://twitter.com/saketme",
+                      "github": "https://github.com/saketme/"
+
+                  },
+
+                    "olmo-gallegos": {
+                      "name": "Olmo",
+                      "surname": "Gallegos",
+                      "bio_html": "IT Engineer (University of Granada), Mobile Dev. since 2011. Open Source creator and contributor. Interested in Clean Code, good practices in programming, Patterns, Testing and sharing with the community.",
+                      "photo_url": "/images/speakers/olmo-gallegos.jpg",
+                      "twitter": "https://twitter.com/voghDev",
+                      "github": "https://github.com/voghDev",
+                      "linkedin": "https://www.linkedin.com/in/www.linkedin.com/in/voghdev"
+
+                  },
+
+                    "salomon-brys": {
+                      "name": "Salomon",
+                      "surname": "BRYS",
+                      "bio_html": "Passionate about Kotlin for the last three years, I am the developper and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
+                      "webpage": "https://github.com/SalomonBrys/",
+                      "photo_url": "/images/speakers/salomon-brys.jpg",
+                      "github": "https://github.com/SalomonBrys",
+                      "linkedin": "https://www.linkedin.com/in/salomonbrys"
+
+                  },
+
+                    "ellen-mey": {
+                      "name": "Ellen",
+                      "surname": "Mey",
+                      "bio_html": "An educator turned developer, Ellen discovered her passion for programming while teaching her students how to code. In 2016, she took the plunge and decided to follow her passion by becoming an apprentice at Detroit Labs. Now an iOS developer, Ellen works on apps for a wide range of clients from financial institutions to the auto industry. Ellen often shares her laptop with her four cats. When she’s not in front of a computer Ellen can be found gallivanting the globe in search of new beers. \n",
+                      "photo_url": "/images/speakers/ellen-mey.jpg",
+                      "github": "https://github.com/eisforellen",
+                      "linkedin": "https://www.linkedin.com/in/eisforellen"
+
+                  },
+
+                    "crystal-yan": {
+                      "name": "Crystal",
+                      "surname": "Yan",
+                      "bio_html": "Crystal Yan is a product and design leader with international experience in emerging markets, committed to transforming organizations to be more customer centric, and with experience using behavioral design and artificial intelligence to create meaningful user experiences.\n\nCurrently, Crystal is a freelance product consultant and experience researcher/designer for clients in the technology, nonprofit, healthcare, education and travel industries. Clients include MyHealthEd\u0027s Real Talk, a storytelling-driven health education app for teens, and Rise, an international grassroots movement to pass civil rights legislation for survivors of sexual assault in the US, Canada, and Japan. Crystal also is a Product Manager and Design Lead at FiscalNote, an enterprise SaaS startup transforming how organizations interact with government. Crystal holds a degree in Economics from Amherst College and has worked in the US, India, China, and Cambodia.",
+                      "webpage": "http://crystalcyan.github.io/",
+                      "photo_url": "/images/speakers/crystal-yan.jpg",
+                      "twitter": "https://twitter.com/crystalcy",
+                      "github": "http://crystalcyan.github.io/",
+                      "linkedin": "https://www.linkedin.com/in/crystalcyan/"
+
+                  },
+
+                    "sam-bellen": {
+                      "name": "Sam",
+                      "surname": "Bellen",
+                      "bio_html": "I\u0027m a front-end developer at madewithlove, a small app development company based in Belgium, but with employees all over the world. \n\nFor my day to day job I\u0027m in charge of creating challenging user interfaces and make applications nice to work with. \nAfter office hours I like to play around with the web-audio API, and other \"exotic\" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.\n\nWhen I\u0027m not behind a computer, you can find me playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
+                      "webpage": "https://blog.sambego.be/",
+                      "photo_url": "/images/speakers/sam-bellen.jpg",
+                      "twitter": "https://twitter.com/sambego",
+                      "github": "https://github.com/sambego"
+
+                  },
+
+                    "ryszard-sulkowski": {
+                      "name": "Ryszard",
+                      "surname": "Sułkowski",
+                      "bio_html": "Android Developer for several years with short stop on Spring/GWT and web development. Enthusiast of new technologies and languages. I\u0027m programming in Java and Kotlin and sometimes in Groovy. Personally, I\u0027m looking forward to see a grow and explosion of VR related games and technologies.",
+                      "photo_url": "/images/speakers/ryszard-sulkowski.jpg"
+
+                  },
+
+                    "travis-himes": {
+                      "name": "Travis",
+                      "surname": "Himes",
+                      "bio_html": "Travis Himes is a Senior Software Engineer specializing in Android development with more than 12 years of experience. Travis has given talks at the Philadelphia Android Alliance (Google Developer Group), and has taught fellow developers and developers-in-training the basics of Android development. Travis is a fan of keyboard shortcuts, and really anything that saves time and increases repeatability. If there is an opportunity for trying or learning something new, he\u0027s likely to be involved.",
+                      "photo_url": "/images/speakers/travis-himes.jpg",
+                      "twitter": "https://twitter.com/travis_himes",
+                      "github": "https://github.com/thimes",
+                      "linkedin": "https://www.linkedin.com/in/travishimes/"
+
+                  },
+
+                    "rowdy-rabouw": {
+                      "name": "Rowdy",
+                      "surname": "Rabouw",
+                      "bio_html": "Rowdy Rabouw is a webdeveloper with over 20 years’ experience in HTML, CSS, JavaScript and PHP.\n\nHe\u0027s been working as a freelancer since 2004 and has been employed by the Dutch insurance company Nationale-Nederlanden since 1992. Currently he is working on various JavaScript and NativeScript projects as Senior Engineer. \n\nRowdy started developing NativeScript apps with Angular in 2016 and running the NativeScript NL website; a curated list of courses, tools and tips to help people code awesome apps with NativeScript. \n\nSince 2017 he is a Telerik Developer Expert for NativeScript and spreading his love for {N}.",
+                      "webpage": "http://double-r.nl / nativescript.nl",
+                      "photo_url": "/images/speakers/rowdy-rabouw.jpg",
+                      "github": "https://github.com/nativescriptnl",
+                      "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
+
+                  },
+
+                    "piotr-tuszynski": {
+                      "name": "Piotr",
+                      "surname": "Tuszyński",
+                      "bio_html": "Peter is a developer turned entrepreneur turned CTO. He currently works at inFullMobile delivering delightful mobile products.",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
+                      "webpage": "http://dusker.me",
+                      "github": "https://github.com/dusker"
+
+                  },
+
+                    "sergi-martinez": {
+                      "name": "Sergi",
+                      "surname": "Martinez",
                       "bio_html": "Working as Android dev at Schibsted and Google Developer Expert for Android. He loves to share, teach, discuss, learn with the community",
-                      "photo_url": "/images/speakers/sergi_m.jpg",
-                      "www": "http://sergiandreplace.com",
-                      "twitter": "https://twitter.com/sergiandreplace",
+                      "webpage": "http://sergiandreplace.com",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
                       "github": "https://github.com/sergiandreplace",
                       "linkedin": "https://www.linkedin.com/in/sergiandreplace"
-                    },
-                  "speaker-leandro-favarin": {
-                      "firstname": "Leandro",
-                      "lastname": "Favarin",
+
+                  },
+
+                    "dhiwakar-mani": {
+                      "name": "Dhiwakar",
+                      "surname": "Mani",
+                      "bio_html": "Sr Mobile Application Developer @ Title Source, Detroit. I have been developing and architecting native Android apps with passion for last 8+ years. I am passionate about technology, mobile and helping people become their best. I decided the only way to race up with technology and potential of becoming an effective programmer can only be achieved by taking Computer Science as my undergraduate specialization. I gained in-depth knowledge in Java and Android and this laid the base for a strong foundation for my liking towards Mobile Tech space. Completed my MS in Software @ San Jose State. Started my Android world back at 2008 by implementing Android-based Mobile Social Networking Application Platform (Multiplayer Gaming Platform). ",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
+                      "twitter": "https://twitter.com/dhiwakarmani"
+
+                  },
+
+                    "cristian-serje": {
+                      "name": "Cristian",
+                      "surname": "Serje",
+                      "bio_html": "Cristian is a Software Engineer, with experience getting his hands dirty with Android and the backend architecture. Currently working at Check24 GmbH as a Senior Android Developer, having a passion for develop productive and well architectured code. When not coding crazy ideas in his projects you might find him playing guitar or doing sports.",
+                      "photo_url": "/images/speakers/cristian-serje.jpg",
+                      "github": "https://github.com/serjec",
+                      "linkedin": "https://www.linkedin.com/in/serjec"
+
+                  },
+
+                    "marcin-moskala": {
+                      "name": "Marcin",
+                      "surname": "Moskała",
+                      "bio_html": " Kotlin developer and passionate for over 2 years. Making open-source libraries (ActivityStarter, PreferenceHolder, KotlinDiscreteMathToolkit) and applications both for GameKit and as a freelancer. Also writing articles for programming magazines and making speeches on different events. ",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
+                      "webpage": "http://marcinmoskala.com/",
+                      "github": "https://github.com/MarcinMoskala"
+
+                  },
+
+                    "marcus-finley": {
+                      "name": "Marcus",
+                      "surname": "Finley",
+                      "photo_url": "/images/speakers/saket-narayan.jpg",
+                      "bio_html": "Marcus Finley is the CEO and Founder of FIN Digital, a full service digital application and innovation development firm. Marcus graduated from Florida State University where he majored in Mechanical Engineering and Public Administration"
+
+                  },
+
+                    "leandro-favarin": {
+                      "name": "Leandro",
+                      "surname": "Favarin",
                       "bio_html": "Leandro has been working as a software engineer for mobile devices and portable technology for 7+ years. His focus is on the Android platform and everything around it.",
-                      "photo_url": "https://pbs.twimg.com/profile_images/888083286962163714/SUFtfMw5_400x400.jpg",
-                      "www": "http://leandrofavarin.com",
+                      "webpage": "http://leandrofavarin.com",
+                      "photo_url": "/images/speakers/leandro-favarin.jpg",
                       "twitter": "https://twitter.com/leandrofavarin",
                       "github": "https://github.com/leandrofavarin",
                       "linkedin": "https://www.linkedin.com/in/leandrofavarin"
-                    },
-                    "speaker-vasiliy-zukanov":{
-                        "firstname": "Vasiliy",
-                        "lastname": "Zukanov",
-                        "bio_html": "Professional software engineer and blogger (www.techyourchance.com)",
-                        "photo_url": "https://pbs.twimg.com/profile_images/845977477986037764/nHRsN6H3.jpg",
-                        "www": "http://www.techyourchance.com",
-                        "twitter": "https://twitter.com/VasiliyZukanov",
-                      },
-                    "speaker-yuliya-kaleda"
-                      :
-                      {
-                        "firstname": "Yuliya",
-                        "lastname": "Kaleda",
-                        "bio_html": "Yuliya is an Android developer at Jet.com, leading a team of 4 developers whose main focus is to build performant, scalable and cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to build the first multi-feature Instant App.",
-                        "photo_url": "/images/speakers/yuliya_k.jpg",
-                        "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
-                      },
+
+                  },
+
+                    "vasiliy-zukanov": {
+                      "name": "Vasiliy",
+                      "surname": "Zukanov",
+                      "bio_html": "Professional software engineer and blogger (www.techyourchance.com)",
+                      "webpage": "http://www.techyourchance.com",
+                      "photo_url": "/images/speakers/vasiliy-zukanov.jpg",
+                      "twitter": "https://twitter.com/VasiliyZukanov"
+
+                  },
+
+
+
+                    "shem-magnezi": {
+                      "name": "Shem",
+                      "surname": "Magnezi",
+                      "bio_html": "Shem has almost a decade of experience in developing in various domains: client and server side, real-time systems, Big Data and mobile. In the last 5 years he has been playing with mobile and in the past year he\u0027s been trying to figure out what it means to be a web developer. He was the first employee in MyRoll (acquired by AVG), where he designed and developed the platform for the app in both iOS and Android. Currently, Shem is doing what he loves at WeWork.",
+                      "webpage": "http://shem8.github.com",
+                      "photo_url": "/images/speakers/shemag8.png",
+                      "twitter": "https://twitter.com/shemag8"
+
+                  },
                       "speaker-tbd": { //last
                                           "firstname": "And ",
                                           "lastname": "more",
