@@ -379,7 +379,7 @@ docpadConfig = {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
                     "bio_html": "Jorge Castillo is an experienced Android Engineer from Spain, currently working at GoMore, an International product company from Copenhagen.\n\nHe is currently focused on promoting functional architectures for Android apps using Kotlin. He has talked about this topic on different events. He is also very active sharing Kotlin knowledge for the community on his Medium account:\n* https://medium.com/@JorgeCastilloPr/kotlin-purity-and-function-memoization-b12ab35d70a5\n* https://medium.com/@JorgeCastilloPr/tail-recursion-and-how-to-use-it-in-kotlin-97353993e17f\n* https://medium.com/@JorgeCastilloPr/kotlin-dependency-injection-with-the-reader-monad-7d52f94a482e\n\nHe will be attending Kotlinconf San Francisco 2017 with this same talk, and has also speaked in events like the Droidcon Greece 2016 at Thessaloniki, Mobilization Poland 2016, Codemotion Madrid 2016, Google I/O Extended Madrid 2016, or DevFest events from Jaén, Granada and Códoba.\n\n\n\n\n\n\n",
-                    "photo_url": "https://avatars1.githubusercontent.com/u/6547526?v=3&u=5ca46eaf7ed977c5dec79bb76bc784749f1b2e85&s=400",
+                    "photo_url": "/images/speakers/jorge-castillo.jpg",
                     "www": "https://medium.com/@jorgecastillopr",
                     "twitter": "https://twitter.com/jorgecastillopr",
                     "github": "https://github.com/jorgecastilloprz",
@@ -423,26 +423,23 @@ docpadConfig = {
                         "www": "http://www.techyourchance.com",
                         "twitter": "https://twitter.com/VasiliyZukanov",
                       },
-                    "speaker-yuliya-kaleda"
-                      :
-                      {
+                "miguel-quinones": {
+                    "firstname": "Miguel",
+                    "lastname": "Quinones",
+                    "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
+                    "webpage": "https://miqu.me",
+                    "photo_url": "/images/speakers/miguel-quinones.jpg",
+                    "github": "https://github.com/DarthMike",
+                    "linkedin": "https://www.linkedin.com/in/miguelquinon"
+
+                },
+                    "speaker-yuliya-kaleda":{
                         "firstname": "Yuliya",
                         "lastname": "Kaleda",
                         "bio_html": "Yuliya is an Android developer at Jet.com, leading a team of 4 developers whose main focus is to build performant, scalable and cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to build the first multi-feature Instant App.",
                         "photo_url": "/images/speakers/yuliya_k.jpg",
                         "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
-                      },
-                      "speaker-tbd": { //last
-                                          "firstname": "And ",
-                                          "lastname": "more",
-                                          "bio_html": "<a href='https://bit.ly/mobilization7-c4p'>Mobilize for mobilization!</a>",
-                                          "www" : "",
-                                          "twitter": "",
-                                          "facebook": "",
-                                          "github": "",
-                                          "linkedin": "",
-                                          "photo_url": "/images/speakers/mobilization-soldier.jpg"
-                                      },
+                      }
             },
             talks: {
                 "talk-tbd": {

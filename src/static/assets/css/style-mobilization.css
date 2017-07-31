@@ -2485,6 +2485,11 @@ iframe {
   padding: 8rem 0 2rem !important;
 }
 
+#cbx-speakers .cbx-inner {
+  background: #f1f1f1;
+  padding: 8rem 0 2rem !important;
+}
+
 .cbx-footer p {
   font-size: 12px !important;
 }
@@ -2496,7 +2501,8 @@ iframe {
 }
 
 .partner-logo-adblock img {
-  height: 120px;
+  max-height: 120px;
+  max-width: 250px;
 }
 
 .partners-container > .row {
