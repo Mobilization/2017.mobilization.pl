@@ -319,17 +319,7 @@ docpadConfig = {
 
             },
             speakers: {
-                "speaker-tbd": { //0
-                    "firstname": "TBD",
-                    "lastname": "TBD",
-                    "bio_html": "<a href='https://bit.ly/mobilization7-c4p'>Mobilize for mobilization!</a>",
-                    "www" : "",
-                    "twitter": "",
-                    "facebook": "",
-                    "github": "",
-                    "linkedin": "",
-                    "photo_url": "/images/speakers/mobilization-soldier.jpg"
-                },
+
                 // "speaker-enrique-lopez-manas": { //1
                 //     "firstname": "Enrique",
                 //     "lastname": "Lopez Manas",
@@ -442,6 +432,17 @@ docpadConfig = {
                         "photo_url": "/images/speakers/yuliya_k.jpg",
                         "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
                       },
+                      "speaker-tbd": { //last
+                                          "firstname": "And ",
+                                          "lastname": "more",
+                                          "bio_html": "<a href='https://bit.ly/mobilization7-c4p'>Mobilize for mobilization!</a>",
+                                          "www" : "",
+                                          "twitter": "",
+                                          "facebook": "",
+                                          "github": "",
+                                          "linkedin": "",
+                                          "photo_url": "/images/speakers/mobilization-soldier.jpg"
+                                      },
             },
             talks: {
                 "talk-tbd": {
