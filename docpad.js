@@ -52,7 +52,8 @@ docpadConfig = {
 
                     {
                         "name": "Mobica",
-                        "logo_url": "/images/sponsors/mobica.png"
+                        "logo_url": "/images/sponsors/mobica.png",
+                        "link": "http://www.mobica.com/"
                     },
                     // {
                     //     "name": "Oberthur Technologies R&D Poland",
