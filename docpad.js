@@ -55,11 +55,6 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/mobica.png",
                         "link": "http://www.mobica.com/"
                     },
-                    // {
-                    //     "name": "Oberthur Technologies R&D Poland",
-                    //     "logo_url": "/images/sponsors/oberthur.png",
-                    //     "link": "http://www.oberthur.com/"
-                    // },
                     // {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                     // {
                     //     "name": "TomTom",
@@ -78,6 +73,11 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/exaco.png",
                         "link": "http://exaco.pl"
                     },
+                    {
+                        "name": "Oberthur Technologies R&D Poland",
+                        "logo_url": "/images/sponsors/oberthur.png",
+                        "link": "http://www.oberthur.com/"
+                    },                    
                     // {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                     // {"name": "Pracuj.pl", "logo_url": "/images/sponsors/pracujpl.png", "link": "http://www.pracuj.pl/"},
                 ],
@@ -87,11 +87,11 @@ docpadConfig = {
                       "logo_url": "/images/sponsors/appyourself.png",
                       "link": "https://appyourself.net/en/"
                   },
-                  // {
-                  //     "name": "Cybercom",
-                  //     "logo_url": "/images/sponsors/cybercom.png",
-                  //     "link": "http://www.cybercom.com/pl/Poland/"
-                  // },
+                  {
+                      "name": "Cybercom",
+                      "logo_url": "/images/sponsors/cybercom.png",
+                      "link": "http://www.cybercom.com/pl/Poland/"
+                  },
                   //   {
                   //       "name": "ITKontrakt",
                   //       "logo_url": "/images/sponsors/itkontrakt.png",
