@@ -377,24 +377,20 @@ jQuery(document).ready(function($){
     });
     /*Menu Scroll end*/
 
-
-
-    //magnific popup
-    $('#cbx-memorisinner').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-        image: {
-            titleSrc: 'title'
-        }
-        // other options
+    /* popup */
+    $('.speaker-more-info').click(function(event){
+        var modal = new tingle.modal({
+            footer: true,
+            stickyFooter: false,
+            closeMethods: ['overlay', 'button', 'escape'],
+            closeLabel: "Close",
+            cssClass: [],
+            beforeClose: function() {
+                return true; // close the modal
+            }
+        });
+        modal.setContent($(event.target).next().html());
+        modal.open();
     });
-
-    /*FOR DEMO MODE*/
-
-    //disable this in productions
-    /*$( '.switcher-loader').SwitcherLoader();*/
 
 });//jQuery DOM READY END
