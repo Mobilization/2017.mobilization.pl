@@ -45,7 +45,7 @@ docpadConfig = {
             },
             sponsors: {
                 diamond: [
-                    // {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white.png", "link": "https://www.tomtom.com/pl_pl/"},
+                     {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white.png", "link": "https://www.tomtom.com/pl_pl/"},
                 ],
                 platinum: [
                     // {"name": "Ericpol", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
