@@ -190,6 +190,11 @@ docpadConfig = {
                         "link": "http://stacja.it/"
                     },
                     {
+                        "name": "Realm.io",
+                        "logo_url": "/images/partners/realm.png",
+                        "link": "http://realm.io/"
+                    },
+                    {
                         "name": "Droidcon Poland",
                         "logo_url": "/images/partners/droidcon.png",
                         "link": "http://droidcon.pl/"
