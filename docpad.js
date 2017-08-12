@@ -180,9 +180,14 @@ docpadConfig = {
                         "link": "https://www.facebook.com/mobilebialystok/"
                     },
                     {
-                        "name": "GDG Rzeszów`",
+                        "name": "GDG Rzeszów",
                         "logo_url": "/images/partners/gdg-rzeszow.png",
                         "link": "http://devfest.pl/"
+                    },
+                    {
+                        "name": "Stacja IT",
+                        "logo_url": "/images/partners/logo_stacja_it.png",
+                        "link": "http://stacja.it/"
                     },
                     {
                         "name": "Droidcon Poland",
