@@ -63,11 +63,11 @@ docpadConfig = {
                     // },
                 ],
                 gold: [
-                  // {
-                  //     "name": "Harman",
-                  //     "logo_url": "/images/sponsors/harman.jpeg",
-                  //     "link": "http://services.harman.com/"
-                  // },
+                  {
+                      "name": "Harman",
+                      "logo_url": "/images/sponsors/harman.jpeg",
+                      "link": "http://services.harman.com/"
+                  },
                     {
                         "name": "Exaco",
                         "logo_url": "/images/sponsors/exaco.png",
@@ -78,7 +78,7 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/oberthur.png",
                         "link": "http://www.oberthur.com/"
                     },                    
-                    // {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
+                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                     // {"name": "Pracuj.pl", "logo_url": "/images/sponsors/pracujpl.png", "link": "http://www.pracuj.pl/"},
                 ],
                 silver: [
