@@ -157,8 +157,10 @@ docpadConfig = {
 //                        "logo_url": "/images/partners/letswift.png",
 //                        "link": "https://www.facebook.com/letswiftwroclaw/"
 //                    },
-                    // {"name":"Dev Day 2015","logo_url":"/images/partners/abb-dev-day.png","link":"http://devday.pl"},
-                    // {"name":"Codepot.pl","logo_url":"/images/partners/codepot-logo.png","link":"http://codepot.pl"},
+                    {
+                    	"name":"Firmao",
+                    	"logo_url":"/images/partners/firmao.png","link":"http://firmao.pl"},
+                    {"name":"Challenge Rocket","logo_url":"/images/partners/challenge-rocket.png","link":"http://ChallengeRocket.com"},
 //                    {
 //                        "name": "Zwinna Łódź",
 //                        "logo_url": "/images/partners/zwinna_lodz.jpeg",
