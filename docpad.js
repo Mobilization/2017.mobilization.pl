@@ -48,19 +48,18 @@ docpadConfig = {
                      {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white.png", "link": "https://www.tomtom.com/pl_pl/"},
                 ],
                 platinum: [
-                    // {"name": "Ericpol", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
-
+                    // {"name": "HTD", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
                     {
                         "name": "Mobica",
                         "logo_url": "/images/sponsors/mobica.png",
                         "link": "http://www.mobica.com/"
                     },
-                    // {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                     // {
                     //     "name": "TomTom",
                     //     "logo_url": "/images/sponsors/tomtom-on-white.png",
                     //     "link": "http://www.tomtom.com/pl_pl/"
                     // },
+                    {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                 ],
                 gold: [
                   {
@@ -275,19 +274,15 @@ docpadConfig = {
                 },
                 'slot-coffee-2': {
                     from: '11:05',
-                    to: '11:20'
+                    to: '11:25'
                 },
                 'slot-3': {
-                    from: '11:20',
-                    to: '12:05'
+                    from: '11:25',
+                    to: '12:10'
                 },
                 'slot-lunch': {
-                    from: '12:05',
+                    from: '12:10',
                     to: '13:00'
-                },
-                'slot-during-lunch': {
-                    from: '12:05',
-                    to: '12:50'
                 },
                 'slot-4': {
                     from: '13:00',
@@ -323,7 +318,7 @@ docpadConfig = {
                 },
                 'slot-finally': {
                     from: '16:50',
-                    to: '17:30  '
+                    to: '17:00  '
                 },
                 'slot-afterparty': {
                     from: '18:00',
@@ -531,75 +526,75 @@ docpadConfig = {
                 }
             },
             venues: {
-                "venue-rndity": {
-                    "title": "Rndity"
+                "venue-tomtom": {
+                    "title": "TomTom"
                 },
-                "venue-ericpol": {
-                    "title": "Ericpol"
+                "venue-htd": {
+                    "title": "HTD"
                 },
                 "venue-mobica": {
                     "title": "Mobica"
                 },
+                "venue-rndity": {
+                    "title": "Rndity"
+                },
                 "venue-seqr": {
                     "title": "SEQR"
                 },
-                "venue-tomtom": {
-                    "title": "TomTom"
-                }
             },
             schedule: {
                 "slot-registration": {"break_key": "break-registration"},
                 "slot-hello-world": {"break_key": "break-hello-world"},
                 "slot-1": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
@@ -610,73 +605,73 @@ docpadConfig = {
                     }
                 },
                 "slot-4": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-3": {"break_key": "break-coffee"},
                 "slot-5": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-6": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-7": {
-                    "venue-rndity": {
+                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     },
-                    "venue-ericpol": {
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-tbd"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
-                    },
-                    "venue-tomtom": {
                         "talk_key": "talk-tbd"
                     }
                 },
