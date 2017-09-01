@@ -158,8 +158,14 @@ docpadConfig = {
 //                    },
                     {
                     	"name":"Firmao",
-                    	"logo_url":"/images/partners/firmao.png","link":"http://firmao.pl"},
-                    {"name":"Challenge Rocket","logo_url":"/images/partners/challenge-rocket.png","link":"http://ChallengeRocket.com"},
+                    	"logo_url":"/images/partners/firmao.png",
+                        "link":"https://firmao.pl"
+                    },
+                    {
+                        "name":"Challenge Rocket",
+                        "logo_url":"/images/partners/challenge-rocket.png",
+                        "link":"http://ChallengeRocket.com"
+                    },
 //                    {
 //                        "name": "Zwinna Łódź",
 //                        "logo_url": "/images/partners/zwinna_lodz.jpeg",
