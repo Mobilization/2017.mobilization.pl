@@ -55,9 +55,9 @@ docpadConfig = {
                         "link": "http://www.mobica.com/"
                     },
                     // {
-                    //     "name": "TomTom",
-                    //     "logo_url": "/images/sponsors/tomtom-on-white.png",
-                    //     "link": "http://www.tomtom.com/pl_pl/"
+                    //     "name": "Rndity",
+                    //     "logo_url": "/images/sponsors/rndity.png",
+                    //     "link": "http://rndity.com/"
                     // },
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                 ],
@@ -78,7 +78,7 @@ docpadConfig = {
                         "link": "http://www.oberthur.com/"
                     },                    
                     {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
-                    // {"name": "Pracuj.pl", "logo_url": "/images/sponsors/pracujpl.png", "link": "http://www.pracuj.pl/"},
+                    {"name": "Comarch", "logo_url": "/images/sponsors/comarch.png", "link": "http://www.comarch.pl/"},
                 ],
                 silver: [
                   {
