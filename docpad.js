@@ -553,7 +553,12 @@ docpadConfig = {
                       "twitter": "https://twitter.com/@pawegio",
                       "github": "https://github.com/pawegio",
                 },
-
+                "speaker-kamil-czopek": {
+                      "firstname": "Kamil",
+                      "lastname": "Czopek",
+                      "bio_html": "iOS developer, consultant, manager, online marketer. ",
+                      "photo_url": "/images/speakers/czopek.jpg"
+                },
 
 
             },
@@ -725,6 +730,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-pawel-gajda"
+                      ]
+                },
+                "talk-augmented-reality": {
+                      "title": "Augmented Reality in the iOS World. What's in there for us?",
+                      "description_html": "Augmented Reality in the iOS world (what's there for us, not only from Apple)",
+                      "audience_level": "Beginner",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-kamil-czopek"
                       ]
                 },
 
