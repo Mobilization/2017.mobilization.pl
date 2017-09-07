@@ -544,8 +544,16 @@ docpadConfig = {
                   "github": "https://github.com/Nilhcem",
                   "linkedin": "https://www.linkedin.com/in/gautier-mechling-9a0a7236/"
                 },
+                "speaker-pawel-gajda": {
+                      "firstname": "Paweł",
+                      "lastname": "Gajda",
+                      "bio_html": "Associated with Android since 2010, when platform was taking its first steps in the global market. Enthusiast of JetBrains products such as IntelliJ IDEA and Kotlin. Laureate of the national finals of Microsoft Imagine Cup 2013. Focuses on lifehacking and improving his productivity. Speaker at mobile conferences. After-hours open source contributor (author of KAndroid - a kotlin library for Android), amateur runner and guitar player.",
+                      "photo_url": "/images/speakers/pawel-gajda.jpg",
+                      "www": "http://www.pawegio.com/",
+                      "twitter": "https://twitter.com/@pawegio",
+                      "github": "https://github.com/pawegio",
+                },
 
-                
 
 
             },
@@ -710,7 +718,15 @@ docpadConfig = {
                         "speaker-gautier-mechling"
                       ]
                 },
-
+                "talk-building-ci-pipeline": {
+                      "title": "Building CI pipeline based on TeamCity & Docker in Android Team",
+                      "description_html": "Nowadays, there are a lot of hosted CI solutions that offer quick integration with our repositories and need just few clicks to finish initial setup. Other services, coming with enhanced functionality, but requiring a server to maintain are often not given a try. First problems occur when we start coping with long compilation time and limited resources, especially during instrumented tests running on the Android Emulator. Here TeamCity comes with a rescue. With simplified setup (using Docker) and few tricks, reducing time for possible management, we do not need to hire a DevOps engineer.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-pawel-gajda"
+                      ]
+                },
 
             },
             breaks: {
