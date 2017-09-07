@@ -575,7 +575,16 @@ docpadConfig = {
                         "speaker-salomon-brys"
                       ]
                 },
-
+                "talk-database-handling-with-room": {
+                      "title": "Database handling with Room",
+                      "description_html": "Room is the new library from Google to speed up the database work and remove a lot of boilerplate. We will see and introduction to this library and how to structure your application to get the most of it.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-sergi-martinez"
+                      ]
+                },
+                
 
 
             },
