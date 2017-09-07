@@ -45,7 +45,7 @@ docpadConfig = {
             },
             sponsors: {
                 diamond: [
-                     {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white.png", "link": "https://www.tomtom.com/pl_pl/"},
+                     {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white2.png", "link": "https://www.tomtom.com/pl_pl/"},
                 ],
                 platinum: [
                     // {"name": "HTD", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
@@ -465,6 +465,16 @@ docpadConfig = {
                           ,"github": "https://github.com/martinmitrevski"
                           ,"linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/"
                       },
+                "speaker-elviro-rocca": {
+                          "firstname":"Elviro",
+                          "lastname":"Rocca"
+                          ,"bio_html":"Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer @Facile.it and his main field of interest is applying functional concepts and techniques to real-world programming problems related to iOS and mobile platforms in general."
+                          ,"photo_url":"/images/speakers/rocca.jpg"
+                          ,"www":"https://broomburgo.github.io/fun-ios/"
+                          ,"twitter":"https://twitter.com/_logicist"
+                          ,"github": "https://github.com/broomburgo"
+                          ,"linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
+                 }
 
 
             },
