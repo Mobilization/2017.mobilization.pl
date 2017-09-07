@@ -559,6 +559,15 @@ docpadConfig = {
                       "bio_html": "iOS developer, consultant, manager, online marketer. ",
                       "photo_url": "/images/speakers/czopek.jpg"
                 },
+                "speaker-raul-portales": {
+                  "name": "Raul",
+                  "surname": "Portales",
+                  "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
+                  "webpage": "http://plattysoft.com",
+                  "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                  "github": "https://github.com/plattysoft",
+                  "linkedin": "https://www.linkedin.com/in/raul.portales"
+                },
 
 
             },
@@ -741,6 +750,25 @@ docpadConfig = {
                         "speaker-kamil-czopek"
                       ]
                 },
+                "talk-make-your-app-instant": {
+                      "title": "Make your app instant",
+                      "description_html": "Instant Apps is a bridge between seamless web experience not requiring installation and truly native user experience with material design and navigation. It absorbs the benefits of both worlds. \n\nAs Google's early access partner, Jet.com got access to Instant Apps API and tools in their early experimental stage. I was leading Instant Apps project for the last 8 months at Jet.com and would love to share the experience. Building Instant Apps required a lot of work on the architecture side, modularization and reducing the app size. \n\nIn my talk I will touch the following points:\n- Instant Apps types\n- Architecture changes\n- Size and feature constraints\n- Pain points and lessons learned\n- Ways to slim down the app and bring it down to 4 MB\n- Benefits",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-yuliya-kaleda"
+                      ]
+                },
+                "talk-android-things-101": {
+                      "title": "Android Things 101",
+                      "description_html": "In this talk Raul will explain the basic concepts of Android Things (Android for IoT), explain how to setup the development environment for it and show how easy is to work with the different peripherals. For this, he'll use the most popular Dev Kit for Android Things: A Raspberry Pi with a Rainbow HAT (which has lots of sensors, input and output devices).",
+                      "audience_level": "Beginner",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-raul-portales"
+                      ]
+                },
+                
 
             },
             breaks: {
