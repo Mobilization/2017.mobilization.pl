@@ -433,7 +433,7 @@ docpadConfig = {
                         "firstname": "Vasiliy",
                         "lastname": "Zukanov",
                         "bio_html": "Professional software engineer and blogger (www.techyourchance.com)",
-                        "photo_url": "https://pbs.twimg.com/profile_images/845977477986037764/nHRsN6H3.jpg",
+                        "photo_url": "/images/speakers/vasiliy-zukanov.jpg",
                         "www": "http://www.techyourchance.com",
                         "twitter": "https://twitter.com/VasiliyZukanov",
                       },
@@ -639,7 +639,16 @@ docpadConfig = {
                         "speaker-eliasz-sawicki"
                       ]
                 },
-                
+                "talk-android-architecture-components-considered-harmful": {
+                      "title": "Android Architecture Components Considered Harmful",
+                      "description_html": "Applications architecture is a broad and important topic in software development, which has been neglected by official guidelines for Android for a very long time. In spite of that, the interest in architecture among the members of Android community has been growing steadily over the years.\n\nOfficial guidelines and tools slowly caught up with the community interests, which culminated in a recent announcement of a set of libraries called Android Architecture Components by Google developers.\n\nWhile the motivation behind Android Architecture Components is clear, the relation between these libraries and application architecture is not so evident. Furthermore, the way these components address the issues that Android developers experienced over the years hides a new set of potential issues and gotchas under the hood.\n\nIn this session we will attempt to understand what software architecture is and what it isn't, and discuss several potential pitfalls associated with Android Architecture Components.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-vasiliy-zukanov"
+                      ]
+                },
+
 
             },
             breaks: {
