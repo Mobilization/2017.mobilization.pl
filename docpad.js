@@ -334,17 +334,17 @@ docpadConfig = {
             },
             speakers: {
 
-                // "speaker-enrique-lopez-manas": { //1
-                //     "firstname": "Enrique",
-                //     "lastname": "Lopez Manas",
-                //     "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
-                //     "www" : "http://lopez-manas.com",
-                //     "twitter": "https://twitter.com/eenriquelopez",
-                //     "facebook": "",
-                //     "github": "https://github.com/kikoso",
-                //     "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
-                //     "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
-                // },
+                 "speaker-enrique-lopez-manas": { //1
+                     "firstname": "Enrique",
+                     "lastname": "Lopez Manas",
+                     "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                     "www" : "http://lopez-manas.com",
+                     "twitter": "https://twitter.com/eenriquelopez",
+                    "facebook": "",
+                     "github": "https://github.com/kikoso",
+                     "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
+                     "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                 },
                 // "speaker-kamil-pyc": { //2
                 //     "firstname": "Kamil",
                 //     "lastname": "Pyć",
@@ -447,13 +447,26 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/miguelquinon"
 
                 },
-                    "speaker-yuliya-kaleda":{
+                "speaker-yuliya-kaleda":{
                         "firstname": "Yuliya",
                         "lastname": "Kaleda",
                         "bio_html": "Yuliya is an Android developer at Jet.com, leading a team of 4 developers whose main focus is to build performant, scalable and cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to build the first multi-feature Instant App.",
                         "photo_url": "/images/speakers/yuliya_k.jpg",
                         "linkedin": "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1"
-                      }
+                      },
+
+                "speaker-martin-mitrevski": {
+                          "firstname":"Martin",
+                          "lastname":"Mitrevski"
+                          ,"bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
+                          ,"photo_url":"/images/speakers/mitrevski.jpg"
+                          ,"www":"https://martinmitrevski.com/"
+                          ,"twitter":"https://twitter.com/mitrevski"
+                          ,"github": "https://github.com/martinmitrevski"
+                          ,"linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/"
+                      },
+
+
             },
             talks: {
                 "talk-tbd": {
