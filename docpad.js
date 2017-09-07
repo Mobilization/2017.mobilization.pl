@@ -474,14 +474,24 @@ docpadConfig = {
                           ,"twitter":"https://twitter.com/_logicist"
                           ,"github": "https://github.com/broomburgo"
                           ,"linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
-                 },
-                 "speaker-michal-kowalczyk": {
+                },
+                "speaker-michal-kowalczyk": {
                      "firstname":"Michał",
                      "lastname":"Kowalczyk"
                      ,"bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
                      ,"photo_url":"/images/speakers/mkowalczyk.jpg"
                      ,"linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
-                 },
+                },
+                "speaker-daniel-tull": {
+                      "firstname":"Daniel",
+                      "lastname":"Tull"
+                     ,"bio_html":"Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app."
+                     ,"photo_url":"https://www.gravatar.com/avatar/a226c33300a88ba937d7a8f69a4b0b3d?s=400"
+                     ,"www":"https://danieltull.co.uk"
+                     ,"twitter":"https://twitter.com/danielctull"
+                     ,"github": "https://github.com/danielctull"
+                },
+
 
 
             },
@@ -503,6 +513,7 @@ docpadConfig = {
                         "speaker-jorge-castillo"
                       ]
                 },
+
                 "talk-how-to-combine-swift": {
                       "title": "How to combine Swift/Kotlin with C/C++",
                       "description_html": "The appearance of Swift and Kotlin is a great change in mobile world. There is a number of advantages to using them. Still, one thing didn’t change: as embedded programmers, in order to provide better performance, reduce battery utilisation, etc. we sometimes need to operate on lower level.\nDuring the speech, I will provide you with ready-to-use tools that will let you utilise a huge codebase of C and C++ in your project and discuss differences between them.",
@@ -546,6 +557,15 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
+                "talk-making-scriptable-iOS-apps": {
+                      "title": "Making Scriptable iOS Apps",
+                      "description_html": "I will discuss how we can provide a Javascript interface to an app's core functionailty, and how this can help during development time, as well as providing advanced users with increased powers.",
+                      "audience_level": "Intermediate",
+                      "language": "English",
+                      "speakers_keys": [
+                        "speaker-daniel-tull"
+                      ]
+                    },
 
 
             },
