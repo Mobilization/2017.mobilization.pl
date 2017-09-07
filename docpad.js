@@ -509,7 +509,17 @@ docpadConfig = {
                     ,"twitter":"https://twitter.com/@ilievvesselin"
                     ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
                 },
-                
+                "speaker-eliasz-sawicki": {
+                      "firstname":"Eliasz",
+                      "lastname":"Sawicki"
+                    ,"bio_html":"I’m developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
+                    ,"photo_url":"/images/speakers/eliasz-sawicki.png"
+                    ,"www":"http://eliaszsawicki.com/"
+                    ,"twitter":"https://twitter.com/@elisawic"
+                    ,"github": "https://github.com/Eluss"
+                    ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
+                },
+
 
 
             },
@@ -620,7 +630,16 @@ docpadConfig = {
                         "speaker-veselin-iliev"
                       ]
                 },
-
+                "talk-introduction-to-react-native": {
+                      "title": "Introduction to React Native",
+                      "description_html": "React Native has been a hot topic for some time now. Many people claim that it is revolution in mobile development, others treat it as another multi platform solution which will never replace the \"real\" native development. So... What is it then? In this talk I'll share my experience as iOS developer who got into React Native development and has many different feeling regarding the topic.",
+                      "audience_level": "Beginner",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-eliasz-sawicki"
+                      ]
+                },
+                
 
             },
             breaks: {
