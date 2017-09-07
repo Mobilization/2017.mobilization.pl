@@ -535,8 +535,17 @@ docpadConfig = {
                   "twitter": "https://twitter.com/_tiwiz",
                   "github": "https://github.com/tiwiz"
                 },
+                "speaker-gautier-mechling": {
+                  "name": "Gautier",
+                  "surname": "Mechling",
+                  "bio_html": "Software Developer",
+                  "webpage": "http://nilhcem.com",
+                  "photo_url": "/images/speakers/gautier-mechling.jpg",
+                  "github": "https://github.com/Nilhcem",
+                  "linkedin": "https://www.linkedin.com/in/gautier-mechling-9a0a7236/"
+                },
 
-
+                
 
 
             },
@@ -690,6 +699,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-roberto-orgiu"
+                      ]
+                },
+                "talk-using-android-things": {
+                      "title": "Using Android Things to detect & exterminate Reptilians",
+                      "description_html": "Whether you believe it or not, the Reptilians are everywhere, and we have never been ready to face them so far.\nWe WERE NOT ready... But this will finally change, now that Android Things has been released. Trust me, they didn't want to see that happen.\n\nTogether, we will discover Android Things and see how we can create a moving machine capable of detecting Reptilians (with touch/skin temperature sensors, and machine learning), but also capable of exterminating them (btw, I would appreciate if the staff could lend me a flame-thrower, it would make a great demo).\n\nHow? Using a Raspberry Pi, an Arduino, and discovering+using some specific Android Things APIs, such as gpio, pwm, i2c, spi, uart, allowing us to interact with physical components.\n\nCome see the power of Android Things.",
+                      "audience_level": "Beginner",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-gautier-mechling"
                       ]
                 },
 
