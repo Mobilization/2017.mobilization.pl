@@ -487,6 +487,15 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
+                "talk-functional-approach": {
+                      "title": "Functional approach to Android architecture using Kotlin",
+                      "description_html": "Modern languages with functional colors are mainstream lately. Kotlin is arising as one of the most powerful ones, and developers around the world are using it for personal and professional projects.\n\nIt's time for Android devs to look forward and benefit from this fact, and start designing more advanced architectures based on the features provided by the language.\n\nOn this talk, I will showcase a Kotlin approach (plus a sample project) to learn how to move all our side effects in the edges of our system, and implement a functional oriented architecture for our Android apps based on purity. Testing will also take part on the talk.\n\nI will also showcase a functional programing lib we are working on in the spanish community, called kategory: https://github.com/kategory/kategory\n\nIf you feel OOP is just not enough and want to make a huge step forward, come to this talk. You will not regret!",
+                      "audience_level": "Advanced",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-jorge-castillo"
+                      ]
+                },
                 "talk-att-video-opt": {//1
                     "title": "Optimizing Android App performance with AT&T Video Optimizer",
                     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, Ill introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
