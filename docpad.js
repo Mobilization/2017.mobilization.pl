@@ -503,6 +503,15 @@ docpadConfig = {
                         "speaker-jorge-castillo"
                       ]
                 },
+                "talk-how-to-combine-swift": {
+                      "title": "How to combine Swift/Kotlin with C/C++",
+                      "description_html": "The appearance of Swift and Kotlin is a great change in mobile world. There is a number of advantages to using them. Still, one thing didn’t change: as embedded programmers, in order to provide better performance, reduce battery utilisation, etc. we sometimes need to operate on lower level.\nDuring the speech, I will provide you with ready-to-use tools that will let you utilise a huge codebase of C and C++ in your project and discuss differences between them.",
+                      "audience_level": "Beginner",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-michal-kowalczyk"
+                      ]
+                 },
                 "talk-att-video-opt": {//1
                     "title": "Optimizing Android App performance with AT&T Video Optimizer",
                     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, Ill introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
