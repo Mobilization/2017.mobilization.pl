@@ -577,6 +577,15 @@ docpadConfig = {
                   "github": "https://github.com/stkent",
                   "linkedin": "https://www.linkedin.com/in/skentphd"
                 },
+                "speaker-snow-zhao": {
+                      "firstname": "Snow (Siruo)",
+                      "lastname": "Zhao",
+                      "bio_html": "Snow fell in love with Android when G1 phone came onto the market and later joined the superstar team at Groupon Silicon Valley which presents a solid e-commerce app with billions users ranked as one of the “Best Android Apps” for 5 consecutive years. She was nominated as “Mobile Rock Star” multiple times because at the same time of delivering high quality features that generate billions of dollars of revenue, Snow also worked on a stand alone home service app, a series of internal, external libraries, major refactoring, and is always eager to share her knowledge. She is actively involved the Silicon Valley GDG, Women Who Code, Girls Who Code, and speaks both internally and externally on Android development. She is also invited to talk at Grace Hopper and DroidCon Beijing. \n",
+                      "photo_url": "/images/speakers/zhao.jpg",
+                      "twitter": "https://twitter.com/@zhaosiruo",
+                      "github": "https://github.com/siruozhao",
+                      "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
+                },
 
 
             },
@@ -784,6 +793,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-stuart-kent"
+                      ]
+                },
+                "talk-rx-retrofit": {
+                      "title": "Rx vs. Retrofit on Network Request: Live Examples for Comparison ",
+                      "description_html": "Rx and Retrofit each claims itself as the go-to framework for simplifying http tasks in mobile programming. However, which one should you use? Why did we migrated to Rx first and then switched to Retrofit a year later at Groupon?\n\nThis session will cover the basics for Rx and Retrofit, and present the examples on each for network tasks in production Groupon app as well as how the migration can be realized. After that we will leverage the pros and cons for each so that you will walk out knowing which suits your needs best.\n",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-snow-zhao"
                       ]
                 },
 
