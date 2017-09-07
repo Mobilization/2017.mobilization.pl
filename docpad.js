@@ -568,6 +568,15 @@ docpadConfig = {
                   "github": "https://github.com/plattysoft",
                   "linkedin": "https://www.linkedin.com/in/raul.portales"
                 },
+                "speaker-stuart-kent": {
+                  "name": "Stuart",
+                  "surname": "Kent",
+                  "bio_html": "Hello! I'm a software developer with 3 years' mobile experience. I currently work at Detroit Labs creating native Android and iOS apps for national and international brands in the utilities, QSR, automotive, and pro audio industries. Before becoming a developer, I taught college and earned a Ph.D. in Applied Math. Likes: Enums. Dislikes: dogmatism.",
+                  "webpage": "http://www.stkent.com",
+                  "photo_url": "/images/speakers/stuart-kent.jpg",
+                  "github": "https://github.com/stkent",
+                  "linkedin": "https://www.linkedin.com/in/skentphd"
+                },
 
 
             },
@@ -768,7 +777,16 @@ docpadConfig = {
                         "speaker-raul-portales"
                       ]
                 },
-                
+                "talk-bluetooth-low-energy": {
+                      "title": "Bluetooth Low Energy on Android: Top Tips for the Tricky Bits",
+                      "description_html": "Now that 90% of Android consumer devices and 100% of Android Things devices run software that supports Bluetooth Low Energy (BLE), it’s the perfect time for Android developers to dive into the Internet of Things and start building companion apps or custom smart devices. Unfortunately, Android’s Bluetooth stack has a well-deserved reputation for being difficult to work with. Join me for a journey through battle-tested strategies and code that will provide you with a roadmap for navigating the nasty parts. No prior experience with BLE is required; a gentle introduction is included.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-stuart-kent"
+                      ]
+                },
+
 
             },
             breaks: {
