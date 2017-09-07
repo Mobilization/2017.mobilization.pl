@@ -586,6 +586,13 @@ docpadConfig = {
                       "github": "https://github.com/siruozhao",
                       "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
                 },
+                "speaker-victor-okunev": {
+                      "firstname": "Victor",
+                      "lastname": "Okunev",
+                      "bio_html": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
+                      "photo_url": "/images/speakers/victorokunev.jpg",
+                      "linkedin": "https://www.linkedin.com/in/victorokunev/"
+                },
 
 
             },
@@ -802,6 +809,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-snow-zhao"
+                      ]
+                },
+                "talk-optimizing-android-apps": {
+                      "title": "Optimizing Android apps for desktop mode with Samsung DeX",
+                      "description_html": "With the launch of the Samsung Galaxy S8 and S8+, Samsung has introduced the next generation of smartphones, with new and innovative features. One of these features is the availability of Samsung DeX that extends the functionality of a mobile device to the desktop environment. Developers will learn how to optimize their Android apps for the next generation of Samsung Devices with enhanced interactions, desktop mode capabilities, and an overall amplified in-app experience. Developers will also learn how to leverage Samsung Knox to add security features to their Samsung DeX apps.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-victor-okunev"
                       ]
                 },
 
