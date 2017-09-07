@@ -565,7 +565,17 @@ docpadConfig = {
                       "speakers_keys": [
                         "speaker-daniel-tull"
                       ]
-                    },
+                },
+                "talk-coroutines-in-kotlin-for-android": {
+                      "title": "Coroutines in Kotlin for Android",
+                      "description_html": "Coroutines are the new feature of the Kotlin language in its version 1.1. They allow you to write seamingly blocking synchronous code that is really non-bocking asynchronous.\nIn this talk, I will present the concept of coroutines and explain how Kotlin proposes coroutines as a tool to be built upon rather than a standard to be forcibly used.\nI will show the low level primitives and the main coroutine library.\nI will then propose a live coding that shows the primitives and high level usage of coroutines in Kotlin and that demonstrates they can be used in the backend as well as UI development of and Android application.",
+                      "audience_level": "Advanced",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-salomon-brys"
+                      ]
+                },
+
 
 
             },
