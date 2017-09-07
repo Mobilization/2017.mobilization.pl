@@ -491,7 +491,25 @@ docpadConfig = {
                      ,"twitter":"https://twitter.com/danielctull"
                      ,"github": "https://github.com/danielctull"
                 },
-
+                "speaker-saul-diaz": {
+                      "firstname":"Saúl",
+                      "lastname":"Díaz"
+                    ,"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
+                    ,"photo_url":"/images/speakers/saul-diaz.jpg"
+                    ,"twitter":"https://twitter.com/@sefford"
+                    ,"github": "https://github.com/Sefford/"
+                    ,"linkedin":"https://www.linkedin.com/in/sefford/"
+                },
+                "speaker-veselin-iliev": {
+                      "firstname":"Veselin",
+                      "lastname":"Iliev"
+                    ,"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts."
+                    ,"photo_url":"/images/speakers/veskoiliev.jpg"
+                    ,"www":"http://veskoiliev.com/"
+                    ,"twitter":"https://twitter.com/@ilievvesselin"
+                    ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
+                },
+                
 
 
             },
@@ -584,7 +602,24 @@ docpadConfig = {
                         "speaker-sergi-martinez"
                       ]
                 },
-                
+                "talk-breaking-bug": {
+                      "title": "Breaking Bug",
+                      "description_html": "Breaking Bug is a post-mortem about how we handled in Chicisimo a bug which went largely undetected and of unknown scale. \n\nWe will explain how it did affect us, and which techniques and tools did we use to:\n\n1. Investigate what was going on.\n2. Properly diagnose and narrow it to the affected part in the app.\n3. Analyze its impact and affected people.\n4. Finally isolate it and fix it.\n\nIn the end we will give some conclusions about how was the real cost of fixing it, and in which ways the process gave us insight and helped us to understand and improve our quality processes.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-saul-diaz"
+                      ]
+                },
+                "talk-zero-to-hero-in-ui-testing": {
+                      "title": "Zero to hero in UI testing",
+                      "description_html": "(or how to build a scalable testing suite). In this talk we'll discuss the problems around UI testing - why is it hard to write such tests, how to get started, how to make them part of your CI system. We'll present a recipe for building a scalable framework that makes writing UI tests a pleasure. Most of the common \"gotcha-s\" will be solved along the way, as well as giving a few best practices. Once the foundations are laid out, a whole new set of scaling problems arises, so we'll talk about possible solutions for them. \n\nWhether you still don't have any UI tests in your project, or you already have a good suite built, this talk will give you some useful tips & ideas.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-veselin-iliev"
+                      ]
+                },
 
 
             },
