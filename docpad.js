@@ -527,6 +527,15 @@ docpadConfig = {
                   "webpage": "http://marcinmoskala.com/",
                   "github": "https://github.com/MarcinMoskala"
                 },
+                "speaker-roberto-orgiu": {
+                  "name": "Roberto",
+                  "surname": "Orgiu",
+                  "bio_html": "Born in Italy in 1987, passionate for everything that switches on and off and particularly for handheld and wearable devices.\nI love to learn new languages, patterns and everything Android-related.\nLately I have helping with the DroidCon Italy event and the release of the related app.",
+                  "photo_url": "/images/speakers/roberto-orgiu.png",
+                  "twitter": "https://twitter.com/_tiwiz",
+                  "github": "https://github.com/tiwiz"
+                },
+
 
 
 
@@ -672,6 +681,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-leandro-favarin"
+                      ]
+                },
+                "talk-kotlin-tools": {
+                      "title": "kotlin.tools() of the trade",
+                      "description_html": "Kotlin is fairly known in the Android community nowadays, and it's really easy to make the switch from Java. Getting the most out of it though it's the difficult part. In this talk we will explore together the most amazing features it has to offer, from the simplest extension functions to the functional style tricks, the coroutines and a bunch of yet-to-discover amazing things!",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-roberto-orgiu"
                       ]
                 },
 
