@@ -593,6 +593,15 @@ docpadConfig = {
                       "photo_url": "/images/speakers/victorokunev.jpg",
                       "linkedin": "https://www.linkedin.com/in/victorokunev/"
                 },
+                "speaker-marcin-zbijowski": {
+                      "firstname": "Marcin",
+                      "lastname": "Zbijowski",
+                      "bio_html": "I'm iOS developer since iPhone OS 3 and doing apps since then.",
+                      "photo_url": "/images/speakers/zbijowski.png",
+                      "twitter": "https://twitter.com/zbiju",
+                      "github": "https://github.com/marcin-zbijowski",
+                      "linkedin": "https://www.linkedin.com/in/marcinzbijowski/"
+                },
 
 
             },
@@ -818,6 +827,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-victor-okunev"
+                      ]
+                },
+                "talk-realm-database": {
+                      "title": "Realm database in real life",
+                      "description_html": "I'd like to present my actual case where I used Realm platform, both frontend (iOS) and backend (AWS cloud). ",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-marcin-zbijowski"
                       ]
                 },
 
