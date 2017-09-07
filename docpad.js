@@ -423,7 +423,7 @@ docpadConfig = {
                       "firstname": "Leandro",
                       "lastname": "Favarin",
                       "bio_html": "Leandro has been working as a software engineer for mobile devices and portable technology for 7+ years. His focus is on the Android platform and everything around it.",
-                      "photo_url": "https://pbs.twimg.com/profile_images/888083286962163714/SUFtfMw5_400x400.jpg",
+                      "photo_url": "/images/speakers/leandro-favarin.jpg",
                       "www": "http://leandrofavarin.com",
                       "twitter": "https://twitter.com/leandrofavarin",
                       "github": "https://github.com/leandrofavarin",
@@ -663,6 +663,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-marcin-moskala"
+                      ]
+                },
+                "talk-dont-fear-sql": {
+                      "title": "Don’t fear SQL: A better way to store and handle data with SQLBrite && SQLDelight",
+                      "description_html": "For many people, SQL can be intimidating when writing mobile apps. To avoid its complexity, various libraries started to implement techniques such as Object-Relational Mapping. They ease basic operations on complex objects, but come with a set of downsides such as decreased performance and the learning curve of a new library.\n\nSquare’s libraries SQLBrite and SQLDelight improve data manipulation by embracing all the powerful capabilities of SQLite while removing common frictions like runtime crashes, boilerplate code, and type-unsafe APIs.\n\nIn this talk I’ll present the reactive mindset behind SQLBrite and the code-generation capabilities of SQLDelight. When combined, these two libraries will help you architect and code safer and faster with queries autocompletion, code reuse, and much more.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-leandro-favarin"
                       ]
                 },
 
