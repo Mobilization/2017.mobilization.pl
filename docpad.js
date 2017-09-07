@@ -519,6 +519,14 @@ docpadConfig = {
                     ,"github": "https://github.com/Eluss"
                     ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
                 },
+                "speaker-marcin-moskala": {
+                  "name": "Marcin",
+                  "surname": "Moskała",
+                  "bio_html": " Kotlin developer and passionate for over 2 years. Making open-source libraries (ActivityStarter, PreferenceHolder, KotlinDiscreteMathToolkit) and applications both for GameKit and as a freelancer. Also writing articles for programming magazines and making speeches on different events. ",
+                  "photo_url": "/images/speakers/marcin-moskala.jpg",
+                  "webpage": "http://marcinmoskala.com/",
+                  "github": "https://github.com/MarcinMoskala"
+                },
 
 
 
@@ -646,6 +654,15 @@ docpadConfig = {
                       "language": "EN",
                       "speakers_keys": [
                         "speaker-vasiliy-zukanov"
+                      ]
+                },
+                "talk-mvc": {
+                      "title": "MVC vs MVP vs MVVM vs MVI",
+                      "description_html": "Choose between this pattern is constant subject for discussions and fights. In the same time anyone perceives them differently. Is there any way out of this ideological problems? Let's talk about MVC, MVP and MVVM pragmatically. Let's answer \"Why?\" and \"What are the consequences?\". ",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-marcin-moskala"
                       ]
                 },
 
