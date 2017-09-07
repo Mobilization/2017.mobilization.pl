@@ -474,7 +474,14 @@ docpadConfig = {
                           ,"twitter":"https://twitter.com/_logicist"
                           ,"github": "https://github.com/broomburgo"
                           ,"linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
-                 }
+                 },
+                 "speaker-michal-kowalczyk": {
+                     "firstname":"Michał",
+                     "lastname":"Kowalczyk"
+                     ,"bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
+                     ,"photo_url":"/images/speakers/mkowalczyk.jpg"
+                     ,"linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
+                 },
 
 
             },
