@@ -353,6 +353,12 @@ docpadConfig = {
                                     "github": "https://github.com/PycKamil",
                                     "photo_url": "/images/speakers/kamil_pyc.jpg"
                 },
+                "speaker-ewa-ludwiczak" : {
+                             "firstname": "Ewa",
+                            "lastname": "Ludwiczak",
+                            "bio_html": "EN: Ewa is software test engineer focused on mobile iOS app testing and development. In Allegro Group works in agile team where she continually improves her testing, programming and negotiation skills. Systematically shares her knowledge at local meetups like Geek Girls Carrots, PyLadies, PTAQ, WrotQA and conferences like Testwarez or Agile & Automation Days. Certified SCRUM devotee and dance lover. </br> PL: Ewa jest testerem aplikacji mobilnych. Pasjonuje się testowaniem aplikacji na system iOS i ich automatyzacją, stawia też swoje pierwsze kroki jako developer. Dzieliła się wiedzą na lokalnych spotkaniach Geek Girls Carrots, PyLadies, PTAQ, WrotQA, Girls Who Test czy konferencjach Testwarez oraz Agile & Automation Days. Certyfikowana wielbicielka SCRUMa i pasjonatka tańca.",
+                            "photo_url": "/images/speakers/ewaludwiczak.jpg"
+                },
                 // "speaker-bartosz-kraszewski": { //3
                 //     "firstname": "Bartosz",
                 //     "lastname": "Kraszewski",
