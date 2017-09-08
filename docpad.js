@@ -602,6 +602,16 @@ docpadConfig = {
                       "github": "https://github.com/marcin-zbijowski",
                       "linkedin": "https://www.linkedin.com/in/marcinzbijowski/"
                 },
+                "speaker-tomasz-gebarowski": {
+                      "firstname": "Tomasz",
+                      "lastname": "Gebarowski",
+                      "bio_html": "Software Engineer, currently working as an iOS Architect at mBank. Working full time in Swift. Having background in C/C++ and distributed VoIP servers. Experienced in maintaining large and long term projects. Privately father of two kids and LEGO enthusiast.",
+                      "photo_url": "/images/speakers/tomasz-gebarowski.jpg",
+                      "www": "http://www.codica.pl",
+                      "twitter": "https://twitter.com/tgebarowski",
+                      "github": "https://github.com/tgebarowski",
+                      "linkedin": "https://www.linkedin.com/in/tomaszgebarowski"
+                },
 
 
             },
@@ -838,7 +848,15 @@ docpadConfig = {
                         "speaker-marcin-zbijowski"
                       ]
                 },
-
+                "talk-unmaintainable-code": {
+                      "title": "Unmaintainable code - iOS developer perspective",
+                      "description_html": "Is code duplication the root of all evil? Should I always write a generic code? How to make others life harder? \n\nA subjective journey through common iOS anti-patterns, not so best practices and code smells from the perspective of an experienced Software Engineer.\nBased on +10 years of commercial experienced, thousands of code reviews, made with a dose of pragmatism.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-tomasz-gebarowski"
+                      ]
+                },
 
             },
             breaks: {
