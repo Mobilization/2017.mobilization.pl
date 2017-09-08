@@ -353,17 +353,16 @@ docpadConfig = {
                      "github": "https://github.com/PycKamil",
                      "photo_url": "/images/speakers/kamil_pyc.jpg"
                  },
-                // "speaker-bartosz-kraszewski": { //3
-                //     "firstname": "Bartosz",
-                //     "lastname": "Kraszewski",
-                //     "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
-                //     "www": "http://about.me/bartoszk",
-                //     "twitter": "https://twitter.com/BartoszKraszew1",
-                //     "facebook": "",
-                //     "github": "https://github.com/bkraszewski",
-                //     "linkedin": "https://www.linkedin.com/in/bkraszewski/",
-                //     "photo_url": "/images/speakers/bartoszk_k.jpg"
-                // },
+                 "speaker-bartosz-kraszewski": { //3
+                     "firstname": "Bartosz",
+                     "lastname": "Kraszewski",
+                     "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+                     "www": "http://about.me/bartoszk",
+                     "twitter": "https://twitter.com/BartoszKraszew1",
+                     "github": "https://github.com/bkraszewski",
+                     "linkedin": "https://www.linkedin.com/in/bkraszewski/",
+                     "photo_url": "/images/speakers/bartoszk_k.jpg"
+                 },
 
                 // "speaker-dmytro-khmelenko": { //4
                 //     "firstname": "Dmytro",
@@ -711,6 +710,7 @@ docpadConfig = {
                 "talk-att-video-opt": {//1
                     "title": "Optimizing Android App performance with AT&T Video Optimizer",
                     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, Ill introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
+                    "audience_level": "Intermediate",
                     "speakers_keys": [
                         "speaker-bartosz-kraszewski"
                     ],
