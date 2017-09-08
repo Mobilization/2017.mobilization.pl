@@ -435,7 +435,7 @@ docpadConfig = {
                         "www": "http://www.techyourchance.com",
                         "twitter": "https://twitter.com/VasiliyZukanov",
                       },
-                "miguel-quinones": {
+                "speaker-miguel-quinones": {
                     "firstname": "Miguel",
                     "lastname": "Quinones",
                     "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
@@ -562,9 +562,9 @@ docpadConfig = {
                   "surname": "Portales",
                   "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
                   "webpage": "http://plattysoft.com",
-                  "photo_url": "/images/speakers/mobilization-soldier.jpg",
+                  "photo_url": "/images/speakers/raulportales.jpg",
                   "github": "https://github.com/plattysoft",
-                  "linkedin": "https://www.linkedin.com/in/raul.portales"
+                  "linkedin": "https://www.linkedin.com/in/raulportales"
                 },
                 "speaker-stuart-kent": {
                   "name": "Stuart",
@@ -610,15 +610,6 @@ docpadConfig = {
                       "github": "https://github.com/tgebarowski",
                       "linkedin": "https://www.linkedin.com/in/tomaszgebarowski"
                 },
-                "speaker-miguel-quinones": {
-                  "name": "Miguel",
-                  "surname": "Quinones",
-                  "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
-                  "webpage": "https://miqu.me",
-                  "photo_url": "/images/speakers/miguel.jpg",
-                  "github": "https://github.com/DarthMike",
-                  "linkedin": "https://www.linkedin.com/in/miguelquinon"
-                },
                 "speaker-krzysztof-siejkowski": {
                   "firstname": "Krzysztof",
                   "lastname": "Siejkowski",
@@ -647,6 +638,26 @@ docpadConfig = {
                   "twitter": "https://twitter.com/sharnik",
                   "github": "https://github.com/sharnik",
                   "linkedin": "https://www.linkedin.com/in/sharnik"
+                },
+                "speaker-rowdy-rabouw": {
+                  "name": "Rowdy",
+                  "surname": "Rabouw",
+                  "bio_html": "Rowdy Rabouw is a webdeveloper with over 20 years’ experience in HTML, CSS, JavaScript and PHP.\n\nHe\u0027s been working as a freelancer since 2004 and has been employed by the Dutch insurance company Nationale-Nederlanden since 1992. Currently he is working on various JavaScript and NativeScript projects as Senior Engineer. \n\nRowdy started developing NativeScript apps with Angular in 2016 and running the NativeScript NL website; a curated list of courses, tools and tips to help people code awesome apps with NativeScript. \n\nSince 2017 he is a Telerik Developer Expert for NativeScript and spreading his love for {N}.",
+                  "webpage": "http://double-r.nl / nativescript.nl",
+                  "photo_url": "/images/speakers/rowdy-rabouw.jpg",
+                  "github": "https://github.com/nativescriptnl",
+                  "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
+                },
+
+                "speaker-sam-bellen": {
+                  "name": "Sam",
+                  "surname": "Bellen",
+                  "bio_html": "I\u0027m a front-end developer at madewithlove, a small app development company based in Belgium, but with employees all over the world. \n\nFor my day to day job I\u0027m in charge of creating challenging user interfaces and make applications nice to work with. \nAfter office hours I like to play around with the web-audio API, and other \"exotic\" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.\n\nWhen I\u0027m not behind a computer, you can find me playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
+                  "webpage": "https://blog.sambego.be/",
+                  "photo_url": "/images/speakers/sam-bellen.jpg",
+                  "twitter": "https://twitter.com/sambego",
+                  "github": "https://github.com/sambego"
+
                 },
 
 
@@ -941,7 +952,24 @@ docpadConfig = {
                     "speaker-wojciech-ogrodowczyk"
                   ]
                 },
-                
+                "talk-awesome-native-apps": {
+                  "title": "Awesome native apps with NativeScript and Angular!",
+                  "description_html": "Developing native iOS (and Android apps) can be very time consuming and expensive.\n\nWhat if you could build native apps with one code base and web techniques? Well, you can with NativeScript!\n\nIn this introduction, I’ll explain what NativeScript is and how it compares to other platforms. And in a live demo, I will show you how easy it is to get started and to make use of native capabilities.",
+                  "audience_level": "Beginner",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-rowdy-rabouw"
+                  ]
+                },
+                "talk-i-didnt-know-the-browser": {
+                  "title": "I didn’t know the browser could do that!",
+                  "description_html": "The times when a browser simply had to parse and show some markup are long gone. These days they are full of interesting api’s exposing various information and behaviour to web developers. This talk will walk you through a few of these api’s (speech, speech recognition, battery, location, ...), some of which you might know, some maybe not. I will show a quick example of what some of these api’s can do, and how to use them.",
+                  "audience_level": "Beginner",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-sam-bellen"
+                  ]
+                },
 
 
             },
