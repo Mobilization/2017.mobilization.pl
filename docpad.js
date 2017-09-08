@@ -619,15 +619,18 @@ docpadConfig = {
                   "github": "https://github.com/DarthMike",
                   "linkedin": "https://www.linkedin.com/in/miguelquinon"
                 },
-                "talk-Offline-first": {
-                  "title": "Offline-first",
-                  "description_html": "In this talk we'll explore architectural patterns you can use to organise applications that don't always require a server to function properly.",
-                  "audience_level": "Intermediate",
-                  "language": "EN",
-                  "speakers_keys": [
-                    "speaker-miguel-quinones"
-                  ]
+                "speaker-krzysztof-siejkowski": {
+                  "firstname": "Krzysztof",
+                  "lastname": "Siejkowski",
+                  "bio_html": "iOS developer at Polidea, a hardware-friendly software house in Warsaw. Co-organizer of Mobile Warsaw, a community for mobile developers. Swift enthusiast. A cultural anthropologist by training, happy to discuss the human side of programming techniques.",
+                  "photo_url": "/images/speakers/ksiejkowski.jpg",
+                  "www": "https://siejkowski.net",
+                  "twitter": "https://twitter.com/@_siejkowski",
+                  "github": "https://github.com/siejkowski",
+                  "linkedin": "https://www.linkedin.com/in/krzysztof-siejkowski-99828025"
                 },
+
+
 
 
 
@@ -882,6 +885,24 @@ docpadConfig = {
                   "language": "EN",
                   "speakers_keys": [
                     "speaker-elviro-rocca"
+                  ]
+                },
+                "talk-offline-first": {
+                  "title": "Offline-first",
+                  "description_html": "In this talk we'll explore architectural patterns you can use to organise applications that don't always require a server to function properly.",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-miguel-quinones"
+                  ]
+                },
+                "talk-rxswift-deep-cuts": {
+                  "title": "RxSwift: Deep Cuts",
+                  "description_html": "In the last few years reactive programming ideas have taken the iOS community by storm. Now that the dust has settled, we're more and more often coming across the most confusing, obscure and unreadable code we've possibly ever seen. The libraries like RxSwift bring the great power, but how to bear the burden of the great responsibility? I'll try to answer this question in my talk, drawing on experience of everyday use of RxSwift in a non-trivial app. Deep diving into implementation details and overview of battle-tested patterns will guide us along the way.",
+                  "audience_level": "Advanced",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-krzysztof-siejkowski"
                   ]
                 },
 
