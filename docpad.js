@@ -628,7 +628,7 @@ docpadConfig = {
                     "speaker-miguel-quinones"
                   ]
                 },
-                
+
 
 
             },
@@ -874,6 +874,15 @@ docpadConfig = {
                       "speakers_keys": [
                         "speaker-tomasz-gebarowski"
                       ]
+                },
+                "talk-lenses-and-prisms": {
+                  "title": "Lenses and Prisms in Swift",
+                  "description_html": "The concept of functional Lens has become pretty popular in functional programming circles, and there are already good contributions for applying lenses to other, traditionally imperative/OO contexts. I’d like to offer a more in depth view on why lenses can be useful in Swift, and also talk about an associated concept called Prism. Let’s consider some practical problems and confront an idiomatic/imperative approach to the one based on lenses and prisms.",
+                  "audience_level": "Advanced",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-elviro-rocca"
+                  ]
                 },
 
             },
