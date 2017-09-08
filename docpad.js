@@ -638,7 +638,16 @@ docpadConfig = {
                   "github": "https://github.com/yuseinishiyama",
                   "linkedin": "https://www.linkedin.com/in/yusei-nishiyama-6b45299b"
                 },
-
+                "speaker-wojciech-ogrodowczyk": {
+                  "firstname": "Wojciech",
+                  "lastname": "Ogrodowczyk",
+                  "bio_html": "Wojciech is a developer interested in venturing out of the usual green pastures of \"established\" technology and exploring the jungle of programming languages that lies beyond. He runs a software consultancy called Brains & Beards where he helps companies deliver better applications faster.\n\nWojciech likes mountains, photography, two wheel vehicles and reforestation. He doesn't like writing about himself in third person.",
+                  "photo_url": "/images/speakers/ogrodowczyk.jpg",
+                  "www": "http://brainsandbeards.com",
+                  "twitter": "https://twitter.com/sharnik",
+                  "github": "https://github.com/sharnik",
+                  "linkedin": "https://www.linkedin.com/in/sharnik"
+                },
 
 
 
@@ -923,6 +932,16 @@ docpadConfig = {
                     "speaker-yusei-nishiyama"
                   ]
                 },
+                "talk-beyond-javascript": {
+                  "title": "Beyond JavaScript: The Hidden Benefit of React Native",
+                  "description_html": "React Native, although still a really small part of the mobile development ecosystem, is growing really fast. A lot of \"real native\" developers dismiss it, because of their previous experiences with JavaScript - a language not easy to love. However, they're missing an important point - it's so much more than JS.\n\nIn this talk I will show how we can create React Native applications with various alternative languages. Starting with a typed version of JS: TypeScript, going through a dynamic functional language Clojure, up till statically typed options with 20-year old OCaml and 5-year old Elm. Expect fast pace, code, and weird syntax.\n\nBut, most importantly, we'll talk about why this freedom is so important and why this can make your applications better.",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-wojciech-ogrodowczyk"
+                  ]
+                },
+                
 
 
             },
