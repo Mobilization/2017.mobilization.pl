@@ -459,7 +459,7 @@ docpadConfig = {
                           "firstname":"Martin",
                           "lastname":"Mitrevski"
                           ,"bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
-                          ,"photo_url":"/images/speakers/mitrevski.jpg"
+                          ,"photo_url":"/images/speakers/martin-mitrevski.jpg"
                           ,"www":"https://martinmitrevski.com/"
                           ,"twitter":"https://twitter.com/mitrevski"
                           ,"github": "https://github.com/martinmitrevski"
