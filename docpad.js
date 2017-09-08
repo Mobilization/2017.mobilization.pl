@@ -629,6 +629,15 @@ docpadConfig = {
                   "github": "https://github.com/siejkowski",
                   "linkedin": "https://www.linkedin.com/in/krzysztof-siejkowski-99828025"
                 },
+                "speaker-yusei-nishiyama": {
+                  "firstname": "Yusei",
+                  "lastname": "Nishiyama",
+                  "bio_html": "Yusei Nishiyama is a senior iOS developer at Cookpad the largest recipe sharing service in the world with the aim of making everyday cooking fun! He majored in philosophy and aesthetics but the beauty of programming languages led him to become a programmer and he has now been working with iOS since 2012.\n\nWhen he isn’t coding, he is spending some time listening to and making music. You can find him playing jazz piano in a pub.",
+                  "photo_url": "/images/speakers/yuseinishiyama.png",
+                  "twitter": "https://twitter.com/@yuseinishiyama",
+                  "github": "https://github.com/yuseinishiyama",
+                  "linkedin": "https://www.linkedin.com/in/yusei-nishiyama-6b45299b"
+                },
 
 
 
@@ -905,6 +914,16 @@ docpadConfig = {
                     "speaker-krzysztof-siejkowski"
                   ]
                 },
+                "talk-building-ios-apps": {
+                  "title": "Building iOS Apps at Scale",
+                  "description_html": "Working with a large code base in a large distributed team involves a lot of challenges. You need to deal with complex workflows, slow build times, communications across different timezones, etc.\n\nIn this talk, Yusei will share how development teams can tackle these issues and speed up daily development. This talk will also cover the following topics:\n\n- Workflow automation with Fastlane\n- Code review with Danger and SwiftLint\n- Collecting and visualizing code metrics with InfluxDB and Grafana\n- Build time reduction\n- Code modularization",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-yusei-nishiyama"
+                  ]
+                },
+
 
             },
             breaks: {
