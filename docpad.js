@@ -206,6 +206,11 @@ docpadConfig = {
                         "logo_url": "/images/partners/droidcon.png",
                         "link": "http://droidcon.pl/"
                     },
+                    {
+                        "name": "Innovation Amazon",
+                        "logo_url": "/images/partners/innovationamazon.png",
+                        "link": "https://innovation-amazon.com/"
+                    },
                 ],
                 media: [
 
@@ -445,7 +450,7 @@ docpadConfig = {
                     "firstname": "Miguel",
                     "lastname": "Quinones",
                     "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
-                    "webpage": "https://miqu.me",
+                    "www": "https://miqu.me",
                     "photo_url": "/images/speakers/miguel-quinones.jpg",
                     "github": "https://github.com/DarthMike",
                     "linkedin": "https://www.linkedin.com/in/miguelquinon"
@@ -493,7 +498,7 @@ docpadConfig = {
                   "firstname": "Gautier",
                   "lastname": "Mechling",
                   "bio_html": "Software Developer",
-                  "webpage": "http://nilhcem.com",
+                  "www": "http://nilhcem.com",
                   "photo_url": "/images/speakers/gautier-mechling.jpg",
                   "github": "https://github.com/Nilhcem",
                   "linkedin": "https://www.linkedin.com/in/gautier-mechling-9a0a7236/"
@@ -510,6 +515,15 @@ docpadConfig = {
                       "lastname": "Czopek",
                       "bio_html": "iOS developer, consultant, manager, online marketer. ",
                       "photo_url": "/images/speakers/czopek.jpg"
+                },
+                "speaker-rowdy-rabouw": {
+                  "firstname": "Rowdy",
+                  "lastname": "Rabouw",
+                  "bio_html": "Rowdy Rabouw is a webdeveloper with over 20 years’ experience in HTML, CSS, JavaScript and PHP.\n\nHe\u0027s been working as a freelancer since 2004 and has been employed by the Dutch insurance company Nationale-Nederlanden since 1992. Currently he is working on various JavaScript and NativeScript projects as Senior Engineer. \n\nRowdy started developing NativeScript apps with Angular in 2016 and running the NativeScript NL website; a curated list of courses, tools and tips to help people code awesome apps with NativeScript. \n\nSince 2017 he is a Telerik Developer Expert for NativeScript and spreading his love for {N}.",
+                  "www": "http://double-r.nl",
+                  "photo_url": "/images/speakers/rowdy-rabouw.jpg",
+                  "github": "https://github.com/nativescriptnl",
+                  "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
                 },
             },
             talks: {
