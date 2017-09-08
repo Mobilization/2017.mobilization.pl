@@ -345,16 +345,14 @@ docpadConfig = {
                      "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
                      "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
                  },
-                // "speaker-kamil-pyc": { //2
-                //     "firstname": "Kamil",
-                //     "lastname": "Pyć",
-                //     "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
-                //     "www": "",
-                //     "twitter": "https://twitter.com/KamilPyc",
-                //     "facebook": "",
-                //     "github": "https://github.com/PycKamil",
-                //     "photo_url": "/images/speakers/kamil_pyc.jpg"
-                // },
+               "speaker-kamil-pyc": { //2
+                                    "firstname": "Kamil",
+                                    "lastname": "Pyć",
+                                    "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
+                                    "twitter": "https://twitter.com/KamilPyc",
+                                    "github": "https://github.com/PycKamil",
+                                    "photo_url": "/images/speakers/kamil_pyc.jpg"
+                },
                 // "speaker-bartosz-kraszewski": { //3
                 //     "firstname": "Bartosz",
                 //     "lastname": "Kraszewski",
@@ -474,9 +472,39 @@ docpadConfig = {
                           ,"twitter":"https://twitter.com/_logicist"
                           ,"github": "https://github.com/broomburgo"
                           ,"linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
-                 }
-
-
+                 },
+                "speaker-tomasz-gebarowski": {
+                      "firstname": "Tomasz",
+                      "lastname": "Gebarowski",
+                      "bio_html": "Software Engineer, currently working as an iOS Architect at mBank. Working full time in Swift. Having background in C/C++ and distributed VoIP servers. Experienced in maintaining large and long term projects. Privately father of two kids and LEGO enthusiast.",
+                      "photo_url": "/images/speakers/tomasz-gebarowski.jpg",
+                      "www": "http://www.codica.pl",
+                      "twitter": "https://twitter.com/tgebarowski",
+                      "github": "https://github.com/tgebarowski",
+                      "linkedin": "https://www.linkedin.com/in/tomaszgebarowski"
+                },
+                "speaker-gautier-mechling": {
+                  "firstname": "Gautier",
+                  "lastname": "Mechling",
+                  "bio_html": "Software Developer",
+                  "webpage": "http://nilhcem.com",
+                  "photo_url": "/images/speakers/gautier-mechling.jpg",
+                  "github": "https://github.com/Nilhcem",
+                  "linkedin": "https://www.linkedin.com/in/gautier-mechling-9a0a7236/"
+                },
+                "speaker-michal-kowalczyk": {
+                     "firstname":"Michał",
+                     "lastname":"Kowalczyk"
+                     ,"bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
+                     ,"photo_url":"/images/speakers/mkowalczyk.jpg"
+                     ,"linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
+                },
+                "speaker-kamil-czopek": {
+                      "firstname": "Kamil",
+                      "lastname": "Czopek",
+                      "bio_html": "iOS developer, consultant, manager, online marketer. ",
+                      "photo_url": "/images/speakers/czopek.jpg"
+                },
             },
             talks: {
                 "talk-tbd": {
