@@ -345,16 +345,14 @@ docpadConfig = {
                      "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
                      "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
                  },
-                // "speaker-kamil-pyc": { //2
-                //     "firstname": "Kamil",
-                //     "lastname": "Pyć",
-                //     "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
-                //     "www": "",
-                //     "twitter": "https://twitter.com/KamilPyc",
-                //     "facebook": "",
-                //     "github": "https://github.com/PycKamil",
-                //     "photo_url": "/images/speakers/kamil_pyc.jpg"
-                // },
+                 "speaker-kamil-pyc": { //2
+                     "firstname": "Kamil",
+                     "lastname": "Pyć",
+                     "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
+                     "twitter": "https://twitter.com/KamilPyc",
+                     "github": "https://github.com/PycKamil",
+                     "photo_url": "/images/speakers/kamil_pyc.jpg"
+                 },
                 // "speaker-bartosz-kraszewski": { //3
                 //     "firstname": "Bartosz",
                 //     "lastname": "Kraszewski",
@@ -612,6 +610,25 @@ docpadConfig = {
                       "github": "https://github.com/tgebarowski",
                       "linkedin": "https://www.linkedin.com/in/tomaszgebarowski"
                 },
+                "speaker-miguel-quinones": {
+                  "name": "Miguel",
+                  "surname": "Quinones",
+                  "bio_html": "Miguel is a control systems engineer who turned to iOS and Cocoa many years ago. Attracted by the simplicity and power of Apple’s ecosystem, he never looked back. He writes code for fun, generating profit as a nice side-effect. He\u0027s worked on apps with millions MAUs like Badoo, Bumble and currently, Peak Brain Training.",
+                  "webpage": "https://miqu.me",
+                  "photo_url": "/images/speakers/miguel.jpg",
+                  "github": "https://github.com/DarthMike",
+                  "linkedin": "https://www.linkedin.com/in/miguelquinon"
+                },
+                "talk-Offline-first": {
+                  "title": "Offline-first",
+                  "description_html": "In this talk we'll explore architectural patterns you can use to organise applications that don't always require a server to function properly.",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-miguel-quinones"
+                  ]
+                },
+                
 
 
             },
@@ -664,6 +681,7 @@ docpadConfig = {
                 "talk-cebulowe-testy": {//3
                     "title": "Cebulowe testy na iOS",
                     "description_html": "Jesteście ciekawi jak testujemy w Allegro aplikacje mobilne na system iOS? Począwszy od momentu otworzenia Xcode’a, poprzez stworzenie interfejsu użytkownika, skończywszy na finalnej implementacji, robimy to inaczej i za pomocą różnych narzędzi. Każdy z etapów rozwoju aplikacji, pozwala na sprawdzenie jej pod innym kątem. Poznajcie naszą historię na temat kolejnych warstw testów: jednostkowych, integracyjnych, snapshotowych i funkcjonalnych. Historia oparta na faktach, opowiedziana ze strony testera i dewelopera.",
+                    "audience_level": "Intermediate",
                     "speakers_keys": [
                         "speaker-kamil-pyc"
                     ],
