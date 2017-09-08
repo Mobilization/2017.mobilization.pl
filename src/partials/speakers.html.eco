@@ -117,7 +117,7 @@
 					</div>
 					<% end %>
 
-					<!-- c4p begin -->
+					<!-- c4p begin
 					<div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
 						<div class="sp-single-are">
 							<div class="cbx-view cbx-view-inner">
@@ -133,7 +133,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- c4p end -->
+					 c4p end -->
 
 
 				</div>

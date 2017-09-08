@@ -456,7 +456,7 @@ docpadConfig = {
                           "firstname":"Martin",
                           "lastname":"Mitrevski"
                           ,"bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
-                          ,"photo_url":"/images/speakers/mitrevski.jpg"
+                          ,"photo_url":"/images/speakers/mitrevski.png"
                           ,"www":"https://martinmitrevski.com/"
                           ,"twitter":"https://twitter.com/mitrevski"
                           ,"github": "https://github.com/martinmitrevski"
@@ -501,7 +501,7 @@ docpadConfig = {
                       "firstname":"Veselin",
                       "lastname":"Iliev"
                     ,"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts."
-                    ,"photo_url":"/images/speakers/veskoiliev.jpg"
+                    ,"photo_url":"/images/speakers/veskoiliev.png"
                     ,"www":"http://veskoiliev.com/"
                     ,"twitter":"https://twitter.com/@ilievvesselin"
                     ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
@@ -509,32 +509,33 @@ docpadConfig = {
                 "speaker-eliasz-sawicki": {
                       "firstname":"Eliasz",
                       "lastname":"Sawicki"
-                    ,"bio_html":"I’m developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
+                    ,"bio_html":"I'm developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
                     ,"photo_url":"/images/speakers/eliasz-sawicki.png"
                     ,"www":"http://eliaszsawicki.com/"
                     ,"twitter":"https://twitter.com/@elisawic"
                     ,"github": "https://github.com/Eluss"
                     ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
                 },
+
                 "speaker-marcin-moskala": {
-                  "name": "Marcin",
-                  "surname": "Moskała",
+                  "firstname": "Marcin",
+                  "lastname": "Moskała",
                   "bio_html": " Kotlin developer and passionate for over 2 years. Making open-source libraries (ActivityStarter, PreferenceHolder, KotlinDiscreteMathToolkit) and applications both for GameKit and as a freelancer. Also writing articles for programming magazines and making speeches on different events. ",
                   "photo_url": "/images/speakers/marcin-moskala.jpg",
                   "webpage": "http://marcinmoskala.com/",
                   "github": "https://github.com/MarcinMoskala"
                 },
                 "speaker-roberto-orgiu": {
-                  "name": "Roberto",
-                  "surname": "Orgiu",
+                  "firstname": "Roberto",
+                  "lastname": "Orgiu",
                   "bio_html": "Born in Italy in 1987, passionate for everything that switches on and off and particularly for handheld and wearable devices.\nI love to learn new languages, patterns and everything Android-related.\nLately I have helping with the DroidCon Italy event and the release of the related app.",
                   "photo_url": "/images/speakers/roberto-orgiu.png",
                   "twitter": "https://twitter.com/_tiwiz",
                   "github": "https://github.com/tiwiz"
                 },
                 "speaker-gautier-mechling": {
-                  "name": "Gautier",
-                  "surname": "Mechling",
+                  "firstname": "Gautier",
+                  "lastname": "Mechling",
                   "bio_html": "Software Developer",
                   "webpage": "http://nilhcem.com",
                   "photo_url": "/images/speakers/gautier-mechling.jpg",
@@ -557,8 +558,8 @@ docpadConfig = {
                       "photo_url": "/images/speakers/czopek.jpg"
                 },
                 "speaker-raul-portales": {
-                  "name": "Raul",
-                  "surname": "Portales",
+                  "firstname": "Raul",
+                  "lastname": "Portales",
                   "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
                   "webpage": "http://plattysoft.com",
                   "photo_url": "/images/speakers/raulportales.jpg",
@@ -566,8 +567,8 @@ docpadConfig = {
                   "linkedin": "https://www.linkedin.com/in/raulportales"
                 },
                 "speaker-stuart-kent": {
-                  "name": "Stuart",
-                  "surname": "Kent",
+                  "firstname": "Stuart",
+                  "lastname": "Kent",
                   "bio_html": "Hello! I'm a software developer with 3 years' mobile experience. I currently work at Detroit Labs creating native Android and iOS apps for national and international brands in the utilities, QSR, automotive, and pro audio industries. Before becoming a developer, I taught college and earned a Ph.D. in Applied Math. Likes: Enums. Dislikes: dogmatism.",
                   "webpage": "http://www.stkent.com",
                   "photo_url": "/images/speakers/stuart-kent.jpg",
@@ -632,15 +633,15 @@ docpadConfig = {
                   "firstname": "Wojciech",
                   "lastname": "Ogrodowczyk",
                   "bio_html": "Wojciech is a developer interested in venturing out of the usual green pastures of \"established\" technology and exploring the jungle of programming languages that lies beyond. He runs a software consultancy called Brains & Beards where he helps companies deliver better applications faster.\n\nWojciech likes mountains, photography, two wheel vehicles and reforestation. He doesn't like writing about himself in third person.",
-                  "photo_url": "/images/speakers/ogrodowczyk.jpg",
+                  "photo_url": "/images/speakers/ogrodowczyk.png",
                   "www": "http://brainsandbeards.com",
                   "twitter": "https://twitter.com/sharnik",
                   "github": "https://github.com/sharnik",
                   "linkedin": "https://www.linkedin.com/in/sharnik"
                 },
                 "speaker-rowdy-rabouw": {
-                  "name": "Rowdy",
-                  "surname": "Rabouw",
+                  "firstname": "Rowdy",
+                  "lastname": "Rabouw",
                   "bio_html": "Rowdy Rabouw is a webdeveloper with over 20 years’ experience in HTML, CSS, JavaScript and PHP.\n\nHe\u0027s been working as a freelancer since 2004 and has been employed by the Dutch insurance company Nationale-Nederlanden since 1992. Currently he is working on various JavaScript and NativeScript projects as Senior Engineer. \n\nRowdy started developing NativeScript apps with Angular in 2016 and running the NativeScript NL website; a curated list of courses, tools and tips to help people code awesome apps with NativeScript. \n\nSince 2017 he is a Telerik Developer Expert for NativeScript and spreading his love for {N}.",
                   "webpage": "http://double-r.nl / nativescript.nl",
                   "photo_url": "/images/speakers/rowdy-rabouw.jpg",
@@ -649,8 +650,8 @@ docpadConfig = {
                 },
 
                 "speaker-sam-bellen": {
-                  "name": "Sam",
-                  "surname": "Bellen",
+                  "firstname": "Sam",
+                  "lastname": "Bellen",
                   "bio_html": "I\u0027m a front-end developer at madewithlove, a small app development company based in Belgium, but with employees all over the world. \n\nFor my day to day job I\u0027m in charge of creating challenging user interfaces and make applications nice to work with. \nAfter office hours I like to play around with the web-audio API, and other \"exotic\" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.\n\nWhen I\u0027m not behind a computer, you can find me playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
                   "webpage": "https://blog.sambego.be/",
                   "photo_url": "/images/speakers/sam-bellen.jpg",
@@ -673,11 +674,7 @@ docpadConfig = {
                       "twitter": "https://twitter.com/@otusweb",
                       "github": "https://github.com/otusweb",
                       "linkedin": "https://www.linkedin.com/in/olivierdestrebecq/"
-                },
-
-
-
-
+                },s
             },
             talks: {
                 "talk-tbd": {
