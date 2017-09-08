@@ -657,7 +657,13 @@ docpadConfig = {
                   "photo_url": "/images/speakers/sam-bellen.jpg",
                   "twitter": "https://twitter.com/sambego",
                   "github": "https://github.com/sambego"
-
+                },
+                "speaker-gabor-wnuk": {
+                  "firstname": "Gabor",
+                  "lastname": "Wnuk",
+                  "bio_html": "For the last 10 years bonded with o2.pl and later Grupa Wirtualna Polska. Currently Mobile Tech Lead at Grupa Wirtualna Polska, busy with implementing React Native wherever possible.",
+                  "photo_url": "/images/speakers/wnuk.jpg",
+                  "www": "https://gabo.re/"
                 },
 
 
@@ -970,6 +976,25 @@ docpadConfig = {
                     "speaker-sam-bellen"
                   ]
                 },
+                "talk-speech-analysis-techniques": {
+                  "title": "Speech Analysis techniques",
+                  "description_html": "The evolution of user interfaces in mobile apps continues with the most natural way of expressing the user’s wishes - their voice. Understanding what the users say is not an easy task. In this talk, we will see several speech analysis techniques used to help us in this challenging task, from Apple's brand new Core ML and SiriKit, to Google's api.ai, along with some well known Natural Language Processing algorithms like the TF-IDF.",
+                  "audience_level": "Beginner",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-martin-mitrevski"
+                  ]
+                },
+                "talk-predict-impending": {
+                  "title": "Predict impending doom with IoT and ReactNative",
+                  "description_html": "In short few slides i'll show you how to program an ESP32 microcontroller using JavaScript, create air quality sensor, and how to communicate with it using Bluetooth LE and ReactNative application.",
+                  "audience_level": "Beginner",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-gabor-wnuk"
+                  ]
+                },
+                
 
 
             },
