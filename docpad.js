@@ -328,7 +328,7 @@ docpadConfig = {
                     to: '16:50'
                 },
                 'slot-finally': {
-                    from: '16:50',
+                   from: '16:50',
                     to: '17:00  '
                 },
                 'slot-afterparty': {
@@ -350,14 +350,14 @@ docpadConfig = {
                      "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
                      "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
                  },
-//                 "speaker-kamil-pyc": { //2
-//                     "firstname": "Kamil",
-//                     "lastname": "Pyć",
-//                     "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
-//                     "twitter": "https://twitter.com/KamilPyc",
-//                     "github": "https://github.com/PycKamil",
-//                     "photo_url": "/images/speakers/kamil_pyc.jpg"
-//                 },
+                "speaker-kamil-pyc": { //2
+                    "firstname": "Kamil",
+                    "lastname": "Pyć",
+                    "bio_html": "He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
+                    "twitter": "https://twitter.com/KamilPyc",
+                    "github": "https://github.com/PycKamil",
+                    "photo_url": "/images/speakers/kamil_pyc.jpg"
+                },
 //                 "speaker-bartosz-kraszewski": { //3
 //                     "firstname": "Bartosz",
 //                     "lastname": "Kraszewski",
@@ -518,6 +518,51 @@ docpadConfig = {
                   "github": "https://github.com/nativescriptnl",
                   "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
                 },
+                "speaker-stuart-kent": {
+                  "firstname": "Stuart",
+                  "lastname": "Kent",
+                  "bio_html": "Hello! I'm a software developer with 3 years' mobile experience. I currently work at Detroit Labs creating native Android and iOS apps for national and international brands in the utilities, QSR, automotive, and pro audio industries. Before becoming a developer, I taught college and earned a Ph.D. in Applied Math. Likes: Enums. Dislikes: dogmatism.",
+                  "www": "http://www.stkent.com",
+                  "photo_url": "/images/speakers/stuart-kent.jpg",
+                  "github": "https://github.com/stkent",
+                  "linkedin": "https://www.linkedin.com/in/skentphd"
+               },
+               "speaker-olivier-destrebecq": {
+                      "firstname": "Olivier",
+                      "lastname": "Destrebecq",
+                      "bio_html": "I provide mobile strategy & development for teams creating their first mobile app (particularly iOS).\nAfter working for very large companies in the US I'm taking all that I learned in software development and using this to help my clients build great apps.\nI also build apps for own business and co-organize the mobile development meetup for the french riviera.",
+                      "photo_url": "/images/speakers/olivier.png",
+                      "www": "http://www.mobdesignapps.fr",
+                      "twitter": "https://twitter.com/@otusweb",
+                      "github": "https://github.com/otusweb",
+                      "linkedin": "https://www.linkedin.com/in/olivierdestrebecq/"
+               },
+               "speaker-ewa-ludwiczak": {
+                      "firstname": "Ewa",
+                      "lastname": "Ludwiczak",
+                      "bio_html": "Ewa is software test engineer focused on mobile iOS app testing and development. In Allegro Group works in agile team where she continually improves her testing, programming and negotiation skills. Systematically shares her knowledge at local meetups like Geek Girls Carrots, PyLadies, PTAQ, WrotQA and conferences like Testwarez or Agile & Automation Days. Certified SCRUM devotee and dance lover.",
+                      "photo_url": "/images/speakers/ewaludwiczak.png",
+                      "twitter": "https://twitter.com/@ewabielskapoz",
+                      "linkedin": "https://www.linkedin.com/in/ewa-ludwiczak-25268b54"
+               },
+               "speaker-lorenzo-quiroli": {
+                      "firstname": "Lorenzo",
+                      "lastname": "Quiroli",
+                      "bio_html": "Lorenzo is Android Developer who started from Java and then saw the light thanks to Kotlin, which he has already used in several production apps. He is currently working in London @busuu",
+                      "photo_url": "/images/speakers/lorenzo.png",
+                      "twitter": "https://twitter.com/lorenzoquiroli",
+                      "github": "https://github.com/quiro91",
+               },
+	           "speaker-eliasz-sawicki": {
+	                  "firstname":"Eliasz",
+	                  "lastname":"Sawicki"
+	                ,"bio_html":"I'm developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
+	                ,"photo_url":"/images/speakers/eliasz-sawicki.png"
+	                ,"www":"http://eliaszsawicki.com/"
+	                ,"twitter":"https://twitter.com/@elisawic"
+	                ,"github": "https://github.com/Eluss"
+	                ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
+	           },                               
                // Not confirmed bellow:
                /*
                                 "speaker-daniel-tull": {
@@ -547,16 +592,7 @@ docpadConfig = {
                                     ,"twitter":"https://twitter.com/@ilievvesselin"
                                     ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
                                 },
-                                "speaker-eliasz-sawicki": {
-                                      "firstname":"Eliasz",
-                                      "lastname":"Sawicki"
-                                    ,"bio_html":"I'm developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
-                                    ,"photo_url":"/images/speakers/eliasz-sawicki.png"
-                                    ,"www":"http://eliaszsawicki.com/"
-                                    ,"twitter":"https://twitter.com/@elisawic"
-                                    ,"github": "https://github.com/Eluss"
-                                    ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
-                                },
+
 
                                 "speaker-marcin-moskala": {
                                   "firstname": "Marcin",
@@ -592,15 +628,6 @@ docpadConfig = {
                                   "photo_url": "/images/speakers/raulportales.jpg",
                                   "github": "https://github.com/plattysoft",
                                   "linkedin": "https://www.linkedin.com/in/raulportales"
-                                },
-                                "speaker-stuart-kent": {
-                                  "firstname": "Stuart",
-                                  "lastname": "Kent",
-                                  "bio_html": "Hello! I'm a software developer with 3 years' mobile experience. I currently work at Detroit Labs creating native Android and iOS apps for national and international brands in the utilities, QSR, automotive, and pro audio industries. Before becoming a developer, I taught college and earned a Ph.D. in Applied Math. Likes: Enums. Dislikes: dogmatism.",
-                                  "www": "http://www.stkent.com",
-                                  "photo_url": "/images/speakers/stuart-kent.jpg",
-                                  "github": "https://github.com/stkent",
-                                  "linkedin": "https://www.linkedin.com/in/skentphd"
                                 },
                                 "speaker-snow-zhao": {
                                       "firstname": "Snow (Siruo)",
@@ -674,16 +701,6 @@ docpadConfig = {
                                   "photo_url": "/images/speakers/wnuk.jpg",
                                   "www": "https://gabo.re/"
                                 },
-                                "speaker-olivier-destrebecq": {
-                                      "firstname": "Olivier",
-                                      "lastname": "Destrebecq",
-                                      "bio_html": "I provide mobile strategy & development for teams creating their first mobile app (particularly iOS).\nAfter working for very large companies in the US I'm taking all that I learned in software development and using this to help my clients build great apps.\nI also build apps for own business and co-organize the mobile development meetup for the french riviera.",
-                                      "photo_url": "/images/speakers/oliver.jpg",
-                                      "www": "http://www.mobdesignapps.fr",
-                                      "twitter": "https://twitter.com/@otusweb",
-                                      "github": "https://github.com/otusweb",
-                                      "linkedin": "https://www.linkedin.com/in/olivierdestrebecq/"
-                                },
                                 */
             },
             talks: {
@@ -735,12 +752,13 @@ docpadConfig = {
 
                 "talk-cebulowe-testy": {//3
                     "title": "Cebulowe testy na iOS",
-                    "description_html": "Jesteście ciekawi jak testujemy w Allegro aplikacje mobilne na system iOS? Począwszy od momentu otworzenia Xcode’a, poprzez stworzenie interfejsu użytkownika, skończywszy na finalnej implementacji, robimy to inaczej i za pomocą różnych narzędzi. Każdy z etapów rozwoju aplikacji, pozwala na sprawdzenie jej pod innym kątem. Poznajcie naszą historię na temat kolejnych warstw testów: jednostkowych, integracyjnych, snapshotowych i funkcjonalnych. Historia oparta na faktach, opowiedziana ze strony testera i dewelopera.",
+                    "description_html": "If you are curious how we test iOS mobile applications in Allegro, this lecture is suited for you. We think of app testing right after opening Xcode, creating user interface and writing final implementation. Depending on different development stages, we test different subjects with different tools. Feel invited to learn our story about following stages of testing, starting from unit, through snapshot and functional testing. True story based on developer’s and tester’s experience.",
                     "audience_level": "Intermediate",
                     "speakers_keys": [
-                        "speaker-kamil-pyc"
+                        "speaker-kamil-pyc",
+                        "speaker-ewa-ludwiczak",
                     ],
-                    "language": "PL"
+                    "language": "EN"
                 },
                 "talk-template": {//4
                     "title": "Migration to RxJava2: obstacles and solutions",
