@@ -377,16 +377,16 @@ docpadConfig = {
                 //     "photo_url": "/images/speakers/dmytro_khmelenko.png"
                 // },
 
-                // "speaker-adam-zaczek": {
-                //   "firstname": "Adam",
-                //   "lastname": "Żaczek",
-                //   "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
-                //   "photo_url": "/images/speakers/adam_z.jpg",
-                //   "www": "https://www.netguru.co/about-us/team/adam-4828293800",
-                //   "twitter": "https://twitter.com/ZaczekAdam",
-                //   "github": "https://github.com/adamzaczek",
-                //   "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
-                // },
+                 "speaker-adam-zaczek": {
+                   "firstname": "Adam",
+                   "lastname": "Żaczek",
+                   "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                   "photo_url": "/images/speakers/adam_z.jpg",
+                   "www": "https://www.netguru.co/about-us/team/adam-4828293800",
+                   "twitter": "https://twitter.com/ZaczekAdam",
+                   "github": "https://github.com/adamzaczek",
+                   "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+                 },
                 "speaker-jorge-castillo" : {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
@@ -664,6 +664,16 @@ docpadConfig = {
                   "bio_html": "For the last 10 years bonded with o2.pl and later Grupa Wirtualna Polska. Currently Mobile Tech Lead at Grupa Wirtualna Polska, busy with implementing React Native wherever possible.",
                   "photo_url": "/images/speakers/wnuk.jpg",
                   "www": "https://gabo.re/"
+                },
+                "speaker-olivier-destrebecq": {
+                      "firstname": "Olivier",
+                      "lastname": "Destrebecq",
+                      "bio_html": "I provide mobile strategy & development for teams creating their first mobile app (particularly iOS).\nAfter working for very large companies in the US I'm taking all that I learned in software development and using this to help my clients build great apps.\nI also build apps for own business and co-organize the mobile development meetup for the french riviera.",
+                      "photo_url": "/images/speakers/oliver.jpg",
+                      "www": "http://www.mobdesignapps.fr",
+                      "twitter": "https://twitter.com/@otusweb",
+                      "github": "https://github.com/otusweb",
+                      "linkedin": "https://www.linkedin.com/in/olivierdestrebecq/"
                 },
 
 
@@ -994,7 +1004,25 @@ docpadConfig = {
                     "speaker-gabor-wnuk"
                   ]
                 },
-                
+                "talk-dont-loose-your-users": {
+                  "title": "Don't loose your users because of endless quality issues",
+                  "description_html": "Getting someone to download your app is hard enough. Don't scare them away with constant crashes, bad behaviors and errors which make your app unusable.\nDuring my presentation, I'll go over techniques, habits and tools to keep your iOS app in tip top shape.",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-olivier-destrebecq"
+                  ]
+                },
+                "talk-graphql-vs-rest": {
+                  "title": "GraphQL vs REST",
+                  "description_html": "Introduction to GraphQL as the innovational way of thinking about data.\nBroad GraphQL vs REST comparison led by real life examples of working with each of the two concepts.\nBased on my article shared by GraphQL's Twitter: https://twitter.com/GraphQL/status/841435480675692544",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-adam-zaczek"
+                  ]
+                },
+
 
 
             },
