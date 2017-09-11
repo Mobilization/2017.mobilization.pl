@@ -211,6 +211,11 @@ docpadConfig = {
                         "logo_url": "/images/partners/innovationamazon.png",
                         "link": "https://innovation-amazon.com/"
                     },
+                    {
+                        "name": "DevCamp",
+                        "logo_url": "/images/partners/devcamp.png",
+                        "link": "http://devcamp.nextapps.pl/"
+                    },                    
                 ],
                 media: [
 
