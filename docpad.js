@@ -25,7 +25,7 @@ docpadConfig = {
             visibility: {
                 "features": false,
                 "agenda": true,
-                "talks": false,
+                "talks": true,
                 "speakers": true,
                 "volunteers": true
             },
@@ -48,7 +48,7 @@ docpadConfig = {
                      {"name": "TomTom", "logo_url": "/images/sponsors/tomtom-on-white2.png", "link": "https://www.tomtom.com/pl_pl/"},
                 ],
                 platinum: [
-                    // {"name": "HTD", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
+                    {"name": "HTDevelopers", "logo_url": "/images/sponsors/htd.png", "link": "http://htdevelopers.com"},
                     {
                         "name": "Mobica",
                         "logo_url": "/images/sponsors/mobica.png",
@@ -62,23 +62,23 @@ docpadConfig = {
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                 ],
                 gold: [
+                    {"name": "Comarch", "logo_url": "/images/sponsors/comarch.png", "link": "http://www.comarch.pl/"},
+                    {
+                        "name": "Exaco",
+                        "logo_url": "/images/sponsors/exaco.png",
+                        "link": "http://exaco.pl"
+                    },              
                   {
                       "name": "Harman",
                       "logo_url": "/images/sponsors/harman.jpeg",
                       "link": "http://services.harman.com/"
                   },
-                    {
-                        "name": "Exaco",
-                        "logo_url": "/images/sponsors/exaco.png",
-                        "link": "http://exaco.pl"
-                    },
+                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                     {
                         "name": "Oberthur Technologies R&D Poland",
                         "logo_url": "/images/sponsors/oberthur.png",
                         "link": "http://www.oberthur.com/"
                     },                    
-                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
-                    {"name": "Comarch", "logo_url": "/images/sponsors/comarch.png", "link": "http://www.comarch.pl/"},
                 ],
                 silver: [
                   {
@@ -86,17 +86,18 @@ docpadConfig = {
                       "logo_url": "/images/sponsors/appyourself.png",
                       "link": "https://appyourself.net/en/"
                   },
+                  //   {"name": "Billennium", "logo_url": "/images/sponsors/billennium.png", "link": "http://billennium.pl/oddzialy/lodz/"},
+                  //   {
+                  //       "name": "CircleK Europe",
+                  //       "logo_url": "/images/sponsors/circlek.png",
+                  //       "link": "https://circlek.pl"
+                  //   },                  
                   {
                       "name": "Cybercom",
                       "logo_url": "/images/sponsors/cybercom.png",
                       "link": "http://www.cybercom.com/pl/Poland/"
                   },
-                  //   {
-                  //       "name": "ITKontrakt",
-                  //       "logo_url": "/images/sponsors/itkontrakt.png",
-                  //       "link": "https://www.itkontrakt.pl/"
-                  //   },
-                  //   {"name": "Sii", "logo_url": "/images/sponsors/sii.png", "link": "http://sii.pl/oddzialy/lodz/"},
+  
                 ],
                 copper: [
                     // {
