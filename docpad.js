@@ -562,7 +562,87 @@ docpadConfig = {
 	                ,"twitter":"https://twitter.com/@elisawic"
 	                ,"github": "https://github.com/Eluss"
 	                ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
-	           },                               
+	           },
+	           "speaker-saul-diaz": {
+                      "firstname":"Saúl",
+                      "lastname":"Díaz"
+                    ,"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
+                    ,"photo_url":"/images/speakers/saul-diaz.jpg"
+                    ,"twitter":"https://twitter.com/@sefford"
+                    ,"github": "https://github.com/Sefford/"
+                    ,"linkedin":"https://www.linkedin.com/in/sefford/"
+               },
+                "speaker-marcin-moskala": {
+                  "firstname": "Marcin",
+                  "lastname": "Moskała",
+                  "bio_html": " Kotlin developer and passionate for over 2 years. Making open-source libraries (ActivityStarter, PreferenceHolder, KotlinDiscreteMathToolkit) and applications both for GameKit and as a freelancer. Also writing articles for programming magazines and making speeches on different events. ",
+                  "photo_url": "/images/speakers/marcin-moskala.jpg",
+                  "www": "http://marcinmoskala.com/",
+                  "github": "https://github.com/MarcinMoskala"
+                },   
+                "speaker-pawel-gajda": {
+                  "firstname": "Paweł",
+                  "lastname": "Gajda",
+                  "bio_html": "Associated with Android since 2010, when platform was taking its first steps in the global market. Enthusiast of JetBrains products such as IntelliJ IDEA and Kotlin. Laureate of the national finals of Microsoft Imagine Cup 2013. Focuses on lifehacking and improving his productivity. Speaker at mobile conferences. After-hours open source contributor (author of KAndroid - a kotlin library for Android), amateur runner and guitar player.",
+                  "photo_url": "/images/speakers/pawel-gajda.jpg",
+                  "www": "http://www.pawegio.com/",
+                  "twitter": "https://twitter.com/@pawegio",
+                  "github": "https://github.com/pawegio",
+            },
+            "speaker-raul-portales": {
+              "firstname": "Raul",
+              "lastname": "Portales",
+              "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
+              "www": "http://plattysoft.com",
+              "photo_url": "/images/speakers/raulportales.jpg",
+              "github": "https://github.com/plattysoft",
+              "linkedin": "https://www.linkedin.com/in/raulportales"
+            },  
+            "speaker-marcin-zbijowski": {
+                  "firstname": "Marcin",
+                  "lastname": "Zbijowski",
+                  "bio_html": "I'm iOS developer since iPhone OS 3 and doing apps since then.",
+                  "photo_url": "/images/speakers/zbijowski.png",
+                  "twitter": "https://twitter.com/zbiju",
+                  "github": "https://github.com/marcin-zbijowski",
+                  "linkedin": "https://www.linkedin.com/in/marcinzbijowski/"
+            },
+
+            "speaker-krzysztof-siejkowski": {
+              "firstname": "Krzysztof",
+              "lastname": "Siejkowski",
+              "bio_html": "iOS developer at Polidea, a hardware-friendly software house in Warsaw. Co-organizer of Mobile Warsaw, a community for mobile developers. Swift enthusiast. A cultural anthropologist by training, happy to discuss the human side of programming techniques.",
+              "photo_url": "/images/speakers/ksiejkowski.jpg",
+              "www": "https://siejkowski.net",
+              "twitter": "https://twitter.com/@_siejkowski",
+              "github": "https://github.com/siejkowski",
+              "linkedin": "https://www.linkedin.com/in/krzysztof-siejkowski-99828025"
+            },
+            "speaker-yusei-nishiyama": {
+              "firstname": "Yusei",
+              "lastname": "Nishiyama",
+              "bio_html": "Yusei Nishiyama is a senior iOS developer at Cookpad the largest recipe sharing service in the world with the aim of making everyday cooking fun! He majored in philosophy and aesthetics but the beauty of programming languages led him to become a programmer and he has now been working with iOS since 2012.\n\nWhen he isn’t coding, he is spending some time listening to and making music. You can find him playing jazz piano in a pub.",
+              "photo_url": "/images/speakers/yuseinishiyama.png",
+              "twitter": "https://twitter.com/@yuseinishiyama",
+              "github": "https://github.com/yuseinishiyama",
+              "linkedin": "https://www.linkedin.com/in/yusei-nishiyama-6b45299b"
+            },
+            "speaker-sam-bellen": {
+              "firstname": "Sam",
+              "lastname": "Bellen",
+              "bio_html": "I'm a front-end developer at madewithlove, a small app development company based in Belgium, but with employees all over the world. \n\nFor my day to day job I'm in charge of creating challenging user interfaces and make applications nice to work with. \nAfter office hours I like to play around with the web-audio API, and other \"exotic\" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.\n\nWhen I'm not behind a computer, you can find me playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
+              "www": "https://blog.sambego.be/",
+              "photo_url": "/images/speakers/sam-bellen.jpg",
+              "twitter": "https://twitter.com/sambego",
+              "github": "https://github.com/sambego"
+            },
+            "speaker-gabor-wnuk": {
+              "firstname": "Gabor",
+              "lastname": "Wnuk",
+              "bio_html": "For the last 10 years bonded with o2.pl and later Grupa Wirtualna Polska. Currently Mobile Tech Lead at Grupa Wirtualna Polska, busy with implementing React Native wherever possible.",
+              "photo_url": "/images/speakers/wnuk.jpg",
+              "www": "https://gabo.re/"
+            },                                      
                // Not confirmed bellow:
                /*
                                 "speaker-daniel-tull": {
@@ -574,15 +654,7 @@ docpadConfig = {
                                      ,"twitter":"https://twitter.com/danielctull"
                                      ,"github": "https://github.com/danielctull"
                                 },
-                                "speaker-saul-diaz": {
-                                      "firstname":"Saúl",
-                                      "lastname":"Díaz"
-                                    ,"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
-                                    ,"photo_url":"/images/speakers/saul-diaz.jpg"
-                                    ,"twitter":"https://twitter.com/@sefford"
-                                    ,"github": "https://github.com/Sefford/"
-                                    ,"linkedin":"https://www.linkedin.com/in/sefford/"
-                                },
+
                                 "speaker-veselin-iliev": {
                                       "firstname":"Veselin",
                                       "lastname":"Iliev"
@@ -594,14 +666,7 @@ docpadConfig = {
                                 },
 
 
-                                "speaker-marcin-moskala": {
-                                  "firstname": "Marcin",
-                                  "lastname": "Moskała",
-                                  "bio_html": " Kotlin developer and passionate for over 2 years. Making open-source libraries (ActivityStarter, PreferenceHolder, KotlinDiscreteMathToolkit) and applications both for GameKit and as a freelancer. Also writing articles for programming magazines and making speeches on different events. ",
-                                  "photo_url": "/images/speakers/marcin-moskala.jpg",
-                                  "www": "http://marcinmoskala.com/",
-                                  "github": "https://github.com/MarcinMoskala"
-                                },
+ 
                                 "speaker-roberto-orgiu": {
                                   "firstname": "Roberto",
                                   "lastname": "Orgiu",
@@ -611,24 +676,7 @@ docpadConfig = {
                                   "github": "https://github.com/tiwiz"
                                 },
 
-                                "speaker-pawel-gajda": {
-                                      "firstname": "Paweł",
-                                      "lastname": "Gajda",
-                                      "bio_html": "Associated with Android since 2010, when platform was taking its first steps in the global market. Enthusiast of JetBrains products such as IntelliJ IDEA and Kotlin. Laureate of the national finals of Microsoft Imagine Cup 2013. Focuses on lifehacking and improving his productivity. Speaker at mobile conferences. After-hours open source contributor (author of KAndroid - a kotlin library for Android), amateur runner and guitar player.",
-                                      "photo_url": "/images/speakers/pawel-gajda.jpg",
-                                      "www": "http://www.pawegio.com/",
-                                      "twitter": "https://twitter.com/@pawegio",
-                                      "github": "https://github.com/pawegio",
-                                },
-                                "speaker-raul-portales": {
-                                  "firstname": "Raul",
-                                  "lastname": "Portales",
-                                  "bio_html": "Raul Portales is a Software Engineer working on mobile since the early times. He switched from Symbian to Android in 2009 (before Android versions had tasty names) and never looked back. He loves public speaking and has presented at several DroidCons, Game Developer Conferences and many GDGs.\n\nAfter working a lot on the front end - especially building games - Raul has developed a special interest in UX and UI.",
-                                  "www": "http://plattysoft.com",
-                                  "photo_url": "/images/speakers/raulportales.jpg",
-                                  "github": "https://github.com/plattysoft",
-                                  "linkedin": "https://www.linkedin.com/in/raulportales"
-                                },
+                                
                                 "speaker-snow-zhao": {
                                       "firstname": "Snow (Siruo)",
                                       "lastname": "Zhao",
@@ -645,35 +693,7 @@ docpadConfig = {
                                       "photo_url": "/images/speakers/victorokunev.jpg",
                                       "linkedin": "https://www.linkedin.com/in/victorokunev/"
                                 },
-                                "speaker-marcin-zbijowski": {
-                                      "firstname": "Marcin",
-                                      "lastname": "Zbijowski",
-                                      "bio_html": "I'm iOS developer since iPhone OS 3 and doing apps since then.",
-                                      "photo_url": "/images/speakers/zbijowski.png",
-                                      "twitter": "https://twitter.com/zbiju",
-                                      "github": "https://github.com/marcin-zbijowski",
-                                      "linkedin": "https://www.linkedin.com/in/marcinzbijowski/"
-                                },
-
-                                "speaker-krzysztof-siejkowski": {
-                                  "firstname": "Krzysztof",
-                                  "lastname": "Siejkowski",
-                                  "bio_html": "iOS developer at Polidea, a hardware-friendly software house in Warsaw. Co-organizer of Mobile Warsaw, a community for mobile developers. Swift enthusiast. A cultural anthropologist by training, happy to discuss the human side of programming techniques.",
-                                  "photo_url": "/images/speakers/ksiejkowski.jpg",
-                                  "www": "https://siejkowski.net",
-                                  "twitter": "https://twitter.com/@_siejkowski",
-                                  "github": "https://github.com/siejkowski",
-                                  "linkedin": "https://www.linkedin.com/in/krzysztof-siejkowski-99828025"
-                                },
-                                "speaker-yusei-nishiyama": {
-                                  "firstname": "Yusei",
-                                  "lastname": "Nishiyama",
-                                  "bio_html": "Yusei Nishiyama is a senior iOS developer at Cookpad the largest recipe sharing service in the world with the aim of making everyday cooking fun! He majored in philosophy and aesthetics but the beauty of programming languages led him to become a programmer and he has now been working with iOS since 2012.\n\nWhen he isn’t coding, he is spending some time listening to and making music. You can find him playing jazz piano in a pub.",
-                                  "photo_url": "/images/speakers/yuseinishiyama.png",
-                                  "twitter": "https://twitter.com/@yuseinishiyama",
-                                  "github": "https://github.com/yuseinishiyama",
-                                  "linkedin": "https://www.linkedin.com/in/yusei-nishiyama-6b45299b"
-                                },
+                                
                                 "speaker-wojciech-ogrodowczyk": {
                                   "firstname": "Wojciech",
                                   "lastname": "Ogrodowczyk",
@@ -683,23 +703,6 @@ docpadConfig = {
                                   "twitter": "https://twitter.com/sharnik",
                                   "github": "https://github.com/sharnik",
                                   "linkedin": "https://www.linkedin.com/in/sharnik"
-                                },
-
-                                "speaker-sam-bellen": {
-                                  "firstname": "Sam",
-                                  "lastname": "Bellen",
-                                  "bio_html": "I\u0027m a front-end developer at madewithlove, a small app development company based in Belgium, but with employees all over the world. \n\nFor my day to day job I\u0027m in charge of creating challenging user interfaces and make applications nice to work with. \nAfter office hours I like to play around with the web-audio API, and other \"exotic\" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.\n\nWhen I\u0027m not behind a computer, you can find me playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
-                                  "www": "https://blog.sambego.be/",
-                                  "photo_url": "/images/speakers/sam-bellen.jpg",
-                                  "twitter": "https://twitter.com/sambego",
-                                  "github": "https://github.com/sambego"
-                                },
-                                "speaker-gabor-wnuk": {
-                                  "firstname": "Gabor",
-                                  "lastname": "Wnuk",
-                                  "bio_html": "For the last 10 years bonded with o2.pl and later Grupa Wirtualna Polska. Currently Mobile Tech Lead at Grupa Wirtualna Polska, busy with implementing React Native wherever possible.",
-                                  "photo_url": "/images/speakers/wnuk.jpg",
-                                  "www": "https://gabo.re/"
                                 },
                                 */
             },
