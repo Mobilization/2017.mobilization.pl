@@ -343,7 +343,6 @@ docpadConfig = {
 
             },
             speakers: {
-
                  "speaker-enrique-lopez-manas": { //1
                      "firstname": "Enrique",
                      "lastname": "Lopez Manas",
@@ -386,16 +385,16 @@ docpadConfig = {
                 //     "photo_url": "/images/speakers/dmytro_khmelenko.png"
                 // },
 
-//                 "speaker-adam-zaczek": {
-//                   "firstname": "Adam",
-//                   "lastname": "Żaczek",
-//                   "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
-//                   "photo_url": "/images/speakers/adam_z.jpg",
-//                   "www": "https://www.netguru.co/about-us/team/adam-4828293800",
-//                   "twitter": "https://twitter.com/ZaczekAdam",
-//                   "github": "https://github.com/adamzaczek",
-//                   "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
-//                 },
+                "speaker-adam-zaczek": {
+                  "firstname": "Adam",
+                  "lastname": "Żaczek",
+                  "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                  "photo_url": "/images/speakers/adam_z.jpg",
+                  "www": "https://www.netguru.co/about-us/team/adam-4828293800",
+                  "twitter": "https://twitter.com/ZaczekAdam",
+                  "github": "https://github.com/adamzaczek",
+                  "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+                },
                 "speaker-jorge-castillo" : {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
@@ -647,7 +646,17 @@ docpadConfig = {
               "bio_html": "For the last 10 years bonded with o2.pl and later Grupa Wirtualna Polska. Currently Mobile Tech Lead at Grupa Wirtualna Polska, busy with implementing React Native wherever possible.",
               "photo_url": "/images/speakers/wnuk.jpg",
               "www": "https://gabo.re/"
-            },                                      
+            },
+            "speaker-kuba-mazur": {
+                  "firstname": "Jakub",
+                  "lastname": "Mazur",
+                  "bio_html": "iOS Developer @wingu. Works with iBeacons since very beginning.",
+                  "photo_url": "/images/speakers/jakub_mazur.png",
+                  "www": "https://www.wingu.de/",
+                  "twitter": "https://twitter.com/jkmazur",
+                  "github": "https://github.com/JakubMazur",
+                  "linkedin": "https://www.linkedin.com/in/jakub-mazur-8350b244"
+                },                                      
                // Not confirmed bellow:
                /*
                                 "speaker-daniel-tull": {
