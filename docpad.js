@@ -54,11 +54,11 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/mobica.png",
                         "link": "http://www.mobica.com/"
                     },
-                    // {
-                    //     "name": "Rndity",
-                    //     "logo_url": "/images/sponsors/rndity.png",
-                    //     "link": "http://rndity.com/"
-                    // },
+                    {
+                        "name": "Rndity",
+                        "logo_url": "/images/sponsors/rndity.png",
+                        "link": "http://rndity.com/"
+                    },
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                 ],
                 gold: [
@@ -86,12 +86,12 @@ docpadConfig = {
                       "logo_url": "/images/sponsors/appyourself.png",
                       "link": "https://appyourself.net/en/"
                   },
-                  //   {"name": "Billennium", "logo_url": "/images/sponsors/billennium.png", "link": "http://billennium.pl/oddzialy/lodz/"},
-                  //   {
-                  //       "name": "CircleK Europe",
-                  //       "logo_url": "/images/sponsors/circlek.png",
-                  //       "link": "https://circlek.pl"
-                  //   },                  
+                    {"name": "Billennium", "logo_url": "/images/sponsors/billennium.png", "link": "http://billennium.pl/oddzialy/lodz/"},
+                    {
+                        "name": "CircleK Europe",
+                        "logo_url": "/images/sponsors/circlek.png",
+                        "link": "https://circlek.pl"
+                    },                  
                   {
                       "name": "Cybercom",
                       "logo_url": "/images/sponsors/cybercom.png",
@@ -99,7 +99,7 @@ docpadConfig = {
                   },
   
                 ],
-                copper: [
+                after-party: [
                     // {
                     //     "name": "Jetbrains",
                     //     "logo_url": "/images/sponsors/jetbrains.png",
