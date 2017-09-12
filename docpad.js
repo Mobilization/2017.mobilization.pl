@@ -25,7 +25,7 @@ docpadConfig = {
             visibility: {
                 "features": false,
                 "agenda": true,
-                "talks": true,
+                "talks": false,
                 "speakers": true,
                 "volunteers": true
             },
@@ -657,7 +657,16 @@ docpadConfig = {
                   "twitter": "https://twitter.com/jkmazur",
                   "github": "https://github.com/JakubMazur",
                   "linkedin": "https://www.linkedin.com/in/jakub-mazur-8350b244"
-                },                                      
+                },
+                "speaker-veselin-iliev": {
+                      "firstname":"Veselin",
+                      "lastname":"Iliev"
+                    ,"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts."
+                    ,"photo_url":"/images/speakers/veskoiliev.png"
+                    ,"www":"http://veskoiliev.com/"
+                    ,"twitter":"https://twitter.com/@ilievvesselin"
+                    ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
+                },                                          
                // Not confirmed bellow:
                /*
                                 "speaker-daniel-tull": {
@@ -669,19 +678,6 @@ docpadConfig = {
                                      ,"twitter":"https://twitter.com/danielctull"
                                      ,"github": "https://github.com/danielctull"
                                 },
-
-                                "speaker-veselin-iliev": {
-                                      "firstname":"Veselin",
-                                      "lastname":"Iliev"
-                                    ,"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts."
-                                    ,"photo_url":"/images/speakers/veskoiliev.png"
-                                    ,"www":"http://veskoiliev.com/"
-                                    ,"twitter":"https://twitter.com/@ilievvesselin"
-                                    ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
-                                },
-
-
- 
                                 "speaker-roberto-orgiu": {
                                   "firstname": "Roberto",
                                   "lastname": "Orgiu",
@@ -690,8 +686,6 @@ docpadConfig = {
                                   "twitter": "https://twitter.com/_tiwiz",
                                   "github": "https://github.com/tiwiz"
                                 },
-
-                                
                                 "speaker-snow-zhao": {
                                       "firstname": "Snow (Siruo)",
                                       "lastname": "Zhao",
@@ -707,17 +701,6 @@ docpadConfig = {
                                       "bio_html": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
                                       "photo_url": "/images/speakers/victorokunev.jpg",
                                       "linkedin": "https://www.linkedin.com/in/victorokunev/"
-                                },
-                                
-                                "speaker-wojciech-ogrodowczyk": {
-                                  "firstname": "Wojciech",
-                                  "lastname": "Ogrodowczyk",
-                                  "bio_html": "Wojciech is a developer interested in venturing out of the usual green pastures of \"established\" technology and exploring the jungle of programming languages that lies beyond. He runs a software consultancy called Brains & Beards where he helps companies deliver better applications faster.\n\nWojciech likes mountains, photography, two wheel vehicles and reforestation. He doesn't like writing about himself in third person.",
-                                  "photo_url": "/images/speakers/ogrodowczyk.png",
-                                  "www": "http://brainsandbeards.com",
-                                  "twitter": "https://twitter.com/sharnik",
-                                  "github": "https://github.com/sharnik",
-                                  "linkedin": "https://www.linkedin.com/in/sharnik"
                                 },
                                 */
             },
