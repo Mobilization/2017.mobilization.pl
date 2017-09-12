@@ -99,7 +99,7 @@ docpadConfig = {
                   },
   
                 ],
-                after-party: [
+                "after-party": [
                     // {
                     //     "name": "Jetbrains",
                     //     "logo_url": "/images/sponsors/jetbrains.png",
