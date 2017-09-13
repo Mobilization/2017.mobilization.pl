@@ -399,7 +399,7 @@ docpadConfig = {
                 "speaker-jorge-castillo" : {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
-                    "bio_html": "Jorge Castillo is an experienced Android Engineer from Spain, currently working at GoMore, an International product company from Copenhagen.\n\nHe is currently focused on promoting functional architectures for Android apps using Kotlin. He has talked about this topic on different events. He is also very active sharing Kotlin knowledge for the community on his Medium account:\n* https://medium.com/@JorgeCastilloPr/kotlin-purity-and-function-memoization-b12ab35d70a5\n* https://medium.com/@JorgeCastilloPr/tail-recursion-and-how-to-use-it-in-kotlin-97353993e17f\n* https://medium.com/@JorgeCastilloPr/kotlin-dependency-injection-with-the-reader-monad-7d52f94a482e\n\nHe will be attending Kotlinconf San Francisco 2017 with this same talk, and has also speaked in events like the Droidcon Greece 2016 at Thessaloniki, Mobilization Poland 2016, Codemotion Madrid 2016, Google I/O Extended Madrid 2016, or DevFest events from Jaén, Granada and Códoba.\n\n\n\n\n\n\n",
+                    "bio_html": "Jorge is an experienced Android Engineer from Spain. He is currently working for GoMore, a danish company from CPH. He is very focused on applying Functional Programing over Kotlin, and he is one of the most active contributors of KΛTEGORY, a library to provide FP constructs, data types and operations over the language",
                     "photo_url": "/images/speakers/jorge-castillo.jpg",
                     "www": "https://medium.com/@jorgecastillopr",
                     "twitter": "https://twitter.com/jorgecastillopr",
