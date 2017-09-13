@@ -675,6 +675,13 @@ docpadConfig = {
                      ,"www":"https://danieltull.co.uk"
                      ,"twitter":"https://twitter.com/danielctull"
                      ,"github": "https://github.com/danielctull"
+                },
+                "speaker-victor-okunev": {
+                      "firstname": "Victor",
+                      "lastname": "Okunev",
+                      "bio_html": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
+                      "photo_url": "/images/speakers/victor_okunev.png",
+                      "linkedin": "https://www.linkedin.com/in/victorokunev/"
                 },                                       
                // Not confirmed bellow:
                /*
@@ -696,13 +703,7 @@ docpadConfig = {
                                       "github": "https://github.com/siruozhao",
                                       "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
                                 },
-                                "speaker-victor-okunev": {
-                                      "firstname": "Victor",
-                                      "lastname": "Okunev",
-                                      "bio_html": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
-                                      "photo_url": "/images/speakers/victorokunev.jpg",
-                                      "linkedin": "https://www.linkedin.com/in/victorokunev/"
-                                },
+
                                 */
             },
             talks: {
