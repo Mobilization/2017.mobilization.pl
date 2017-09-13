@@ -16,6 +16,18 @@ Would you like to integrate your mobile app with our website? Or even create a d
 - http://2017.mobilization.pl/api/talks.json
 - http://2017.mobilization.pl/api/venues.json
 
+for Https use raw user content github full path: 
+
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/breaks.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/event.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/partners.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/schedule.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/slots.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/speakers.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/sponsors.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/talks.json
+- https://raw.githubusercontent.com/Mobilization/2017.mobilization.pl/gh-pages/api/venues.json
+
 As you probably noticed some of the files are empty. If you'd like to start now, please take a look at demo files below. We can guarantee the original files will have exactly the same structure.
 
 - http://2017.mobilization.pl/api-demo/breaks.json
