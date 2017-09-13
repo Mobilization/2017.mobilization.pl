@@ -399,7 +399,7 @@ docpadConfig = {
                 "speaker-jorge-castillo" : {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
-                    "bio_html": "Jorge is an experienced Android Engineer from Spain. He is currently working for GoMore, a danish company from CPH. He is very focused on applying Functional Programing over Kotlin, and he is one of the most active contributors of KΛTEGORY, a library to provide FP constructs, data types and operations over the language",
+                    "bio_html": "Jorge is an experienced Android Engineer from Spain. He is currently working for GoMore, a danish company from CPH. He is very focused on applying Functional Programing over Kotlin, and he is one of the most active contributors of KΛTEGORY, a library to provide FP constructs, data types and operations over the language`",
                     "photo_url": "/images/speakers/jorge-castillo.jpg",
                     "www": "https://medium.com/@jorgecastillopr",
                     "twitter": "https://twitter.com/jorgecastillopr",
