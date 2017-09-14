@@ -226,11 +226,11 @@ docpadConfig = {
                     // {"name":"Praca IT","logo_url":"/images/partners/pracait.png","link":"http://pracait.com"},
                     // {"name":"Software Developer's Journal","logo_url":"/images/partners/sdj.png","link":"http://sdjournal.pl"},
                     // {"name":"GoMobi","logo_url":"/images/partners/gomobi.jpg","link":"http://gomobi.pl"},
-//                    {
-//                        "name": "Programista Magazine",
-//                        "logo_url": "/images/partners/programistamag.png",
-//                        "link": "http://programistamag.pl"
-//                    },
+                   {
+                       "name": "Programista Magazine",
+                       "logo_url": "/images/partners/programistamag.png",
+                       "link": "http://programistamag.pl"
+                   },
                     // {"name":"MyApple","logo_url":"/images/partners/myapple.jpg","link":"http://myapple.pl"},
                     // {"name":"4tech.tv","logo_url":"/images/partners/4techmobile.png","link":"http://testytelefonow.pl"},
                     // {"name":"StartUpTV","logo_url":"/images/partners/startuptv.png","link":"http://startuptv.pl"},
@@ -363,29 +363,6 @@ docpadConfig = {
                     "github": "https://github.com/PycKamil",
                     "photo_url": "/images/speakers/kamil_pyc.jpg"
                 },
-//                 "speaker-bartosz-kraszewski": { //3
-//                     "firstname": "Bartosz",
-//                     "lastname": "Kraszewski",
-//                     "bio_html": "Software Engineer specialized in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
-//                     "www": "http://about.me/bartoszk",
-//                     "twitter": "https://twitter.com/BartoszKraszew1",
-//                     "github": "https://github.com/bkraszewski",
-//                     "linkedin": "https://www.linkedin.com/in/bkraszewski/",
-//                     "photo_url": "/images/speakers/bartoszk_k.jpg"
-//                 },
-
-                // "speaker-dmytro-khmelenko": { //4
-                //     "firstname": "Dmytro",
-                //     "lastname": " Khmelenko",
-                //     "bio_html": "Software Engineer at Freeletics GmbH Area of interests: Functional Programming, Machine Learning, Internet of Things (IoT)",
-                //     "www": "https://dkhmelenko.github.io/",
-                //     "twitter": "",
-                //     "facebook": "",
-                //     "github": "https://github.com/dkhmelenko",
-                //     "linkedin": "https://www.linkedin.com/in/dmytro-khmelenko-74401858/",
-                //     "photo_url": "/images/speakers/dmytro_khmelenko.png"
-                // },
-
                 "speaker-adam-zaczek": {
                   "firstname": "Adam",
                   "lastname": "Żaczek",
@@ -682,7 +659,7 @@ docpadConfig = {
                       "bio_html": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
                       "photo_url": "/images/speakers/victor_okunev.png",
                       "linkedin": "https://www.linkedin.com/in/victorokunev/"
-                },                                       
+                },                                   
                // Not confirmed bellow:
                /*
 
