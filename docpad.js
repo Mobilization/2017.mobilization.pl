@@ -465,22 +465,22 @@ docpadConfig = {
                 "speaker-martin-mitrevski": {
                           "firstname":"Martin",
                           "lastname":"Mitrevski"
-      "bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
-      "photo_url":"/images/speakers/mitrevski.png"
-      "www":"https://martinmitrevski.com/"
-      "twitter":"https://twitter.com/mitrevski"
-      "github": "https://github.com/martinmitrevski"
-      "linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/"
+                          ,"bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
+                          ,"photo_url":"/images/speakers/mitrevski.png"
+                          ,"www":"https://martinmitrevski.com/"
+                          ,"twitter":"https://twitter.com/mitrevski"
+                          ,"github": "https://github.com/martinmitrevski"
+                          ,"linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/"
                       },
                 "speaker-elviro-rocca": {
                           "firstname":"Elviro",
                           "lastname":"Rocca"
-      "bio_html":"Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer @Facile.it and his main field of interest is applying functional concepts and techniques to real-world programming problems related to iOS and mobile platforms in general."
-      "photo_url":"/images/speakers/rocca.jpg"
-      "www":"https://broomburgo.github.io/fun-ios/"
-      "twitter":"https://twitter.com/_logicist"
-      "github": "https://github.com/broomburgo"
-      "linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
+                          ,"bio_html":"Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer @Facile.it and his main field of interest is applying functional concepts and techniques to real-world programming problems related to iOS and mobile platforms in general."
+                          ,"photo_url":"/images/speakers/rocca.jpg"
+                          ,"www":"https://broomburgo.github.io/fun-ios/"
+                          ,"twitter":"https://twitter.com/_logicist"
+                          ,"github": "https://github.com/broomburgo"
+                          ,"linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
                  },
                 "speaker-tomasz-gebarowski": {
                       "firstname": "Tomasz",
@@ -504,9 +504,9 @@ docpadConfig = {
                 "speaker-michal-kowalczyk": {
                      "firstname":"Michał",
                      "lastname":"Kowalczyk"
- "bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
- "photo_url":"/images/speakers/mkowalczyk.jpg"
- "linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
+                     ,"bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
+                     ,"photo_url":"/images/speakers/mkowalczyk.jpg"
+                     ,"linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
                 },
                 "speaker-kamil-czopek": {
                       "firstname": "Kamil",
@@ -571,11 +571,11 @@ docpadConfig = {
 	           "speaker-saul-diaz": {
                       "firstname":"Saúl",
                       "lastname":"Díaz"
-"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
-"photo_url":"/images/speakers/saul-diaz.jpg"
-"twitter":"https://twitter.com/@sefford"
-"github": "https://github.com/Sefford/"
-"linkedin":"https://www.linkedin.com/in/sefford/"
+                    ,"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
+                    ,"photo_url":"/images/speakers/saul-diaz.jpg"
+                    ,"twitter":"https://twitter.com/@sefford"
+                    ,"github": "https://github.com/Sefford/"
+                    ,"linkedin":"https://www.linkedin.com/in/sefford/"
                },
                 "speaker-marcin-moskala": {
                   "firstname": "Marcin",
@@ -660,21 +660,21 @@ docpadConfig = {
                 },
                 "speaker-veselin-iliev": {
                       "firstname":"Veselin",
-                      "lastname":"Iliev",
-						"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts.",
-						"photo_url":"/images/speakers/veskoiliev.png",
-						"www":"http://veskoiliev.com/",
-						"twitter":"https://twitter.com/@ilievvesselin",
-						"linkedin":"https://www.linkedin.com/in/vesseliniliev/",
+                      "lastname":"Iliev"
+                    ,"bio_html":"Veselin moved to London 2 years ago to join the Android team at ASOS. An Android developer since Froyo (long long time ago), he’s current focus is combining RxJava, Kotlin and MVP / MVVM patterns to provide smooth and seamless user experiences. Passionate about testing and writing clean code in general. Loves to spend his free time cycling, skiing or listening to podcasts."
+                    ,"photo_url":"/images/speakers/veskoiliev.png"
+                    ,"www":"http://veskoiliev.com/"
+                    ,"twitter":"https://twitter.com/@ilievvesselin"
+                    ,"linkedin":"https://www.linkedin.com/in/vesseliniliev/"
                 },
                 "speaker-daniel-tull": {
                       "firstname":"Daniel",
-                      "lastname":"Tull",
-                      "bio_html":"Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app.",
-                      "photo_url":"https://www.gravatar.com/avatar/a226c33300a88ba937d7a8f69a4b0b3d?s=400",
-                      "www":"https://danieltull.co.uk",
-                      "twitter":"https://twitter.com/danielctull",
-                      "github": "https://github.com/danielctull",
+                      "lastname":"Tull"
+                     ,"bio_html":"Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app."
+                     ,"photo_url":"https://www.gravatar.com/avatar/a226c33300a88ba937d7a8f69a4b0b3d?s=400"
+                     ,"www":"https://danieltull.co.uk"
+                     ,"twitter":"https://twitter.com/danielctull"
+                     ,"github": "https://github.com/danielctull"
                 },
                 "speaker-victor-okunev": {
                       "firstname": "Victor",
