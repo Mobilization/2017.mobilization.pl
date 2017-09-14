@@ -659,10 +659,39 @@ docpadConfig = {
       "bio_html":"With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung technologies for Android platform, namely Samsung Knox SDKs and lately Samsung DeX. When he's not travelling around the world to meet with developers, Victor bikes to work in his home-town Vancouver, two hours a day, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
       "photo_url":"/images/speakers/victor_okunev.png",
       "linkedin":"https://www.linkedin.com/in/victorokunev/"
-   },                             
+   },
+   "speaker-tomasz-pajak":{//35 
+      "firstname":"Tomasz",
+      "lastname":"Pająk",
+      "bio_html":"Tomek is Software Engineering Manager at fintech company Seqr. It is the place where on daily basis he faces challenges of developing a disruptive product and takes repsonsibility for dealing with them. Tomek shares his experience as a speaker at multiple international conferences (eg. Agile Cambridge, Agile Lean Europe, DevOpsDays, Agile Management Congress, Agile By Example etc.) and as a contributor to InfoQ. He specializes in navigating in complex adaptive systems, organizational culture and building high-performance organizations by Agile transformations and DevOps transformations. As a consultant and coach Tomek witnesses other organizations trying to transform their businesses by adoption of Lean Product Development, DevOps and Agile mindsets and practices.",
+      "photo_url":"/images/speakers/tomasz_pajak.png",
+      "twitter":"https://twitter.com/@tomekatwork",
+      "linkedin":"https://www.linkedin.com/in/tomekatwork/"
+   },                            
                // Not confirmed bellow:
                /*
-
+								"speaker-nikola-irinchev": {
+                                  "firstname": "Nikola",
+                                  "lastname": "Irinchev",
+                                  "bio_html": "Nick has extensive experience with everything .NET - from architecting highly performant web servers to shipping cross platform mobile apps, you name it. Now he resides at Realm, delivering the best database in the world to .NET developers. When he’s not doing that, he speaks about cloud infrastructure and occasionally blogs about the hard problems he faces.",
+                                  "photo_url": "/images/speakers/nikola-irinchev.png"
+                                },
+                                "speaker-rndity": {
+                                  "firstname": "",
+                                  "lastname": "",
+                                  "bio_html": "",
+                                  "photo_url": "/images/speakers/roberto-orgiu.png",
+                                  "twitter": "https://twitter.com/_tiwiz",
+                                  "github": "https://github.com/tiwiz"
+                                },
+                                "speaker-marcin-zywno": {
+                                  "firstname": "Maciej",
+                                  "lastname": "Żywno",
+                                  "bio_html": "",
+                                  "photo_url": "/images/speakers/maciej-zywno.png",
+                                  "twitter": "https://twitter.com/_tiwiz",
+                                  "github": "https://github.com/tiwiz"
+                                },
                                 "speaker-roberto-orgiu": {
                                   "firstname": "Roberto",
                                   "lastname": "Orgiu",
