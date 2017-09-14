@@ -464,23 +464,23 @@ docpadConfig = {
 
                 "speaker-martin-mitrevski": {
                           "firstname":"Martin",
-                          "lastname":"Mitrevski"
-      "bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. "
-      "photo_url":"/images/speakers/mitrevski.png"
-      "www":"https://martinmitrevski.com/"
-      "twitter":"https://twitter.com/mitrevski"
-      "github": "https://github.com/martinmitrevski"
-      "linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/"
+                          "lastname":"Mitrevski",
+      "bio_html":"Martin is working as a Technical Coordinator at Swiss Software Company Netcetera. He’s been working on mobile apps in the areas of virtual reality, transport, indoor navigation, insurance, weather, innovation tools and live event apps. Lately, he's been fascinated by the possibilities that conversational interfaces bring in simplifying the user experience and how they might change the way we think about apps. ",
+      "photo_url":"/images/speakers/mitrevski.png",
+      "www":"https://martinmitrevski.com/",
+      "twitter":"https://twitter.com/mitrevski",
+      "github": "https://github.com/martinmitrevski",
+      "linkedin":"https://www.linkedin.com/in/martin-mitrevski-01134755/",
                       },
                 "speaker-elviro-rocca": {
                           "firstname":"Elviro",
-                          "lastname":"Rocca"
-      "bio_html":"Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer @Facile.it and his main field of interest is applying functional concepts and techniques to real-world programming problems related to iOS and mobile platforms in general."
-      "photo_url":"/images/speakers/rocca.jpg"
-      "www":"https://broomburgo.github.io/fun-ios/"
-      "twitter":"https://twitter.com/_logicist"
-      "github": "https://github.com/broomburgo"
-      "linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279"
+                          "lastname":"Rocca",
+      "bio_html":"Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer @Facile.it and his main field of interest is applying functional concepts and techniques to real-world programming problems related to iOS and mobile platforms in general.",
+      "photo_url":"/images/speakers/rocca.jpg",
+      "www":"https://broomburgo.github.io/fun-ios/",
+      "twitter":"https://twitter.com/_logicist",
+      "github": "https://github.com/broomburgo",
+      "linkedin":"https://www.linkedin.com/in/elviro-rocca-045b1279",
                  },
                 "speaker-tomasz-gebarowski": {
                       "firstname": "Tomasz",
@@ -503,10 +503,10 @@ docpadConfig = {
                 },
                 "speaker-michal-kowalczyk": {
                      "firstname":"Michał",
-                     "lastname":"Kowalczyk"
- "bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation."
- "photo_url":"/images/speakers/mkowalczyk.jpg"
- "linkedin":"https://www.linkedin.com/in/michalkowalczyk/"
+                     "lastname":"Kowalczyk",
+ "bio_html":"Michał has worked in various sectors of IT for last 12 years. He has created web applications as well as embedded systems. In his job, he likes to combine various technologies. For the last couple of years, he has used C++ with Java, Python and Swift mixed in. Currently, he works in TomTom developing a multiplatform engine for map visualisation.",
+ "photo_url":"/images/speakers/mkowalczyk.jpg",
+ "linkedin":"https://www.linkedin.com/in/michalkowalczyk/",
                 },
                 "speaker-kamil-czopek": {
                       "firstname": "Kamil",
@@ -560,22 +560,22 @@ docpadConfig = {
                },
 	           "speaker-eliasz-sawicki": {
 	                  "firstname":"Eliasz",
-	                  "lastname":"Sawicki"
-	                ,"bio_html":"I'm developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books."
-	                ,"photo_url":"/images/speakers/eliasz-sawicki.png"
-	                ,"www":"http://eliaszsawicki.com/"
-	                ,"twitter":"https://twitter.com/@elisawic"
-	                ,"github": "https://github.com/Eluss"
-	                ,"linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2"
+	                  "lastname":"Sawicki",
+	                  "bio_html":"I'm developer at Bright Inventions, focused on providing great iOS experience. I’m constantly looking for new ways to improve my solutions which is also main topic of my blog. When my Mac is sleeping, I’m probably playing guitar or reading books.",
+	                  "photo_url":"/images/speakers/eliasz-sawicki.png",
+	                  "www":"http://eliaszsawicki.com/",
+	                  "twitter":"https://twitter.com/@elisawic",
+	                  "github": "https://github.com/Eluss",
+	                  "linkedin":"https://www.linkedin.com/in/eliasz-sawicki-499953a2",
 	           },
 	           "speaker-saul-diaz": {
                       "firstname":"Saúl",
-                      "lastname":"Díaz"
-"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences."
-"photo_url":"/images/speakers/saul-diaz.jpg"
-"twitter":"https://twitter.com/@sefford"
-"github": "https://github.com/Sefford/"
-"linkedin":"https://www.linkedin.com/in/sefford/"
+                      "lastname":"Díaz",
+"bio_html":"Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
+"photo_url":"/images/speakers/saul-diaz.jpg",
+"twitter":"https://twitter.com/@sefford",
+"github": "https://github.com/Sefford/",
+"linkedin":"https://www.linkedin.com/in/sefford/",
                },
                 "speaker-marcin-moskala": {
                   "firstname": "Marcin",
