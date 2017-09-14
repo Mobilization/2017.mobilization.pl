@@ -112,7 +112,7 @@ docpadConfig = {
                     {
                         name: 'Java User Group Łódź',
                         logo_url: partnersImgBaseUrl + 'juglodz.jpeg',
-                        description_html: 'Łódź JUG is an association of Java developers, architects and enthusiasts of Java technology from Łódź, the city in the centre of Poland. The aim of the association is to promote exchange of knowledge and competence growth among Java professionals in the Łódźarea. The main activity towards this goal is organisation of IT-related seminars and meetings that usually involve a presentation about chosen topic and then follow-up discussion. LJUG cooperates with other JUGs in Poland, like Polish JUG and Warsaw JUG. We encourage everyone interested in Java technologies to join and start participating in our expertise-sharing activities! Java User Group Łódź is main organizer of Mobilization event since 2011'
+                        description_html: 'Łódź JUG is an association of Java developers, architects and enthusiasts of Java technology from Łódź, the city in the centre of Poland. The aim of the association is to promote exchange of knowledge and competence growth among Java professionals in the Łódź area. The main activity towards this goal is organisation of IT-related seminars and meetings that usually involve a presentation about chosen topic and then follow-up discussion. LJUG cooperates with other JUGs in Poland, like Polish JUG and Warsaw JUG. We encourage everyone interested in Java technologies to join and start participating in our expertise-sharing activities! Java User Group Łódź is main organizer of Mobilization event since 2011'
                     }
                 ],
 
@@ -366,7 +366,7 @@ docpadConfig = {
 //                 "speaker-bartosz-kraszewski": { //3
 //                     "firstname": "Bartosz",
 //                     "lastname": "Kraszewski",
-//                     "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+//                     "bio_html": "Software Engineer specialized in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
 //                     "www": "http://about.me/bartoszk",
 //                     "twitter": "https://twitter.com/BartoszKraszew1",
 //                     "github": "https://github.com/bkraszewski",
@@ -409,7 +409,7 @@ docpadConfig = {
                 "speaker-salomon-brys" : {
                     "firstname": "Salomon",
                     "lastname": "Brys",
-                    "bio_html": "Passionate about Kotlin for the last three years, I am the developper and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
+                    "bio_html": "Passionate about Kotlin for the last three years, I am the developer and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
                     "photo_url": "/images/speakers/salomon_b.jpg",
                     "www": "https://github.com/SalomonBrys/",
                     "twitter": "https://twitter.com/",
@@ -736,7 +736,7 @@ docpadConfig = {
                  },
                 "talk-att-video-opt": {//1
                     "title": "Optimizing Android App performance with AT&T Video Optimizer",
-                    "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, Ill introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
+                    "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, I'll introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
                     "audience_level": "Intermediate",
                     "speakers_keys": [
                         "speaker-bartosz-kraszewski"
