@@ -3379,19 +3379,27 @@ When I'm not behind a computer, you can find me playing the guitar, having a bee
  
  <section class="intro text-center section-padding" id="venue">
      <div class="container">
-         <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
-             <h1 class="arrow">Venue</h1>
-             <hr>
-             <p>
-                 Expo-Łódź Sp. z o.o.,<br />
-                 al. Politechniki 4<br />
-                 93-590 Łódź, Polska
-             </p>
-             <br/>
-         </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="cbx-heading">
+                    <h2 class="uppercase">
+                            <span class="heading-serial">
+                                <span class="heading-serial-inner">
+                                  05
+                                </span>
+                            </span>
+                        <span class="title">Venue</span>
+                    </h2>
+                    <p>
+                         (Nowa) Hala Expo<br />
+                         al. Politechniki 4<br />
+                         93-590 Łódź, Polska
+                    </p>
+                    <br/>
+                </div>
+            </div> <!--//main COL-->
+        </div> <!--//main row-->
          <div class="row">
-             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-
              <div id='gmap_canvas' style='height:400px;width:100%'></div>
              <div>
                  <style>#gmap_canvas img {
@@ -3399,9 +3407,9 @@ When I'm not behind a computer, you can find me playing the guitar, having a bee
                      background: none !important
                  }</style>
              </div>
-             <script type='text/javascript'>function init_map() {
+             <script type='text/javascript'>function initMap() {
                  var myOptions = {
-                     zoom: 6,
+                     zoom: 12,
                      center: new google.maps.LatLng(51.7505458, 19.4501351),
                      mapTypeId: google.maps.MapTypeId.ROADMAP,
                      scrollwheel: false,
@@ -3412,70 +3420,18 @@ When I'm not behind a computer, you can find me playing the guitar, having a bee
                      map: map,
                      position: new google.maps.LatLng(51.7505458, 19.4501351)
                  });
-                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization VI</strong><br/>Expo-Łódź Sp. z o.o.'});
+                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization 2017</strong><br/>(Nowa) Hala Expo al. Politechniki 4 Łódź'});
                  google.maps.event.addListener(marker, 'click', function () {
                      infowindow.open(map, marker);
                  });
                  infowindow.open(map, marker);
              }
-             google.maps.event.addDomListener(window, 'load', init_map);
              </script>
          </div>
      </div>
  </section>
  <!-- /VENUE -->
 
-<!--CONTACT-->
-<section class="text-center section-padding contact-wrap" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-center" data-wow-duration="1s" data-wow-delay="0.3s">
-                <div class="cbx-heading">
-                    <h2 class="uppercase">
-                                    <span class="heading-serial">
-                                        <span class="heading-serial-inner">
-                                          06
-                                        </span>
-                                    </span>
-
-                    <span class="title">Contacts</span>
-                    </h2>
-                </div>
-                <hr>
-                <p>Our team looks forward to hearing from you!</p>
-            </div>
-        </div>
-        <div class="row contact-details">
-            <div class="partners-heading text-center" data-wow-duration="1s" data-wow-delay="0.9s">
-                <div class="light-box box-hover">
-                    <h2><span>Email</span></h2>
-                    <p><a href="mailto:contact@mobilization.pl">contact@mobilization.pl</a><br>
-                    </p>
-                </div>
-            </div>
-            <div class="row text-center" data-wow-duration="1s" data-wow-delay="0.9s">
-                <div class="light-box box-hover">
-                    <h2><span>Phone</span></h2>
-                    <p>Marek Defeciński<br>+48 517 725 068
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="row text-center">
-                <ul class="social-buttons">
-                    <li><a href="https://twitter.com/mobilizationpl" class="social-btn"><i
-                            class="fa fa-twitter"></i></a></li>
-                    <li><a href="mailto:contact@mobilization.pl" class="social-btn"><i class="fa fa-envelope"></i></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/mobilization" class="social-btn"><i
-                            class="fa fa-facebook"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /CONTACT -->
 <footer>
     <div id="cbx-footer" class="cbx-footer">
         <div class="cbx-footer-inner cbx-top-inner">
@@ -3498,11 +3454,11 @@ When I'm not behind a computer, you can find me playing the guitar, having a bee
                                 <ul class="list-unstyled list-inline text-center">
 
                                     <li><a class="sp-em" href="mailto:contact@mobilization.pl"><i
-                                            class="fa fa-envelope-square fa-2x"></i></a></li>
+                                            class="fa fa-envelope-square fa-4x"></i></a></li>
                                     <li><a class="sp-fb" href="https://www.facebook.com/mobilization/"><i
-                                            class="fa fa-facebook fa-2x"></i></a></li>
+                                            class="fa fa-facebook fa-4x"></i></a></li>
                                     <li><a class="sp-tw" href="https://twitter.com/mobilizationpl"><i
-                                            class="fa fa-twitter fa-2x"></i></a></li>
+                                            class="fa fa-twitter fa-4x"></i></a></li>
                                 </ul>
                             </div>
                             <p class="cbx-copy-right">
@@ -3534,7 +3490,7 @@ When I'm not behind a computer, you can find me playing the guitar, having a bee
 <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script-->
 
 <!-- if load google maps then load this api -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD3xONDlmEc5Q_9DxPmtDbPZyr-vz3SpX8&callback=initMap"></script>
 
 <!-- WOW  JS -->
 <script src="/assets/js/wow.js"></script>
