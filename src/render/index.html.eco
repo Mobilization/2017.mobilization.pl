@@ -7,5 +7,10 @@ layout: 'main2017'
 <%- @partial('about.html', @) %>
 <%- @partial('sponsors.html.eco', @) %>
 <%- @partial('speakers.html.eco', @) %>
+<% if @site.visibility.agenda: %><%- @partial('agenda.html.eco', @) %><% end %>
+<% if @site.visibility.talks: %><%- @partial('talks.html.eco', @) %><% end %>
 <%- @partial('partners.html.eco', @) %>
+<% if @site.visibility.volunteers: %><%- @partial('volunteers.html.eco', @) %><% end %>
+<%- @partial('venue.html.eco', @) %>
+<%- @partial('contact.html', @) %>
 <%- @partial('footer.html', @) %>

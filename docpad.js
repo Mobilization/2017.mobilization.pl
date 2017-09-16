@@ -24,10 +24,10 @@ docpadConfig = {
             scripts: [],
             visibility: {
                 "features": false,
-                "agenda": true,
+                "agenda": false,
                 "talks": false,
                 "speakers": true,
-                "volunteers": true
+                "volunteers": false
             },
             event: {
                 title: 'Mobilization 2017',

@@ -21,7 +21,7 @@
 				<div class="row">
 					<% for speaker_key, speaker of @site.speakers: %>
 					<div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
-						<div class="sp-single-are">
+						<div id="<%= speaker_key %>" class="sp-single-are">
 							<div class="cbx-view cbx-view-inner">
 								<figure>
 									<div class="text-center">
@@ -109,7 +109,7 @@
 
 								</figure>
 							</div>
-							<div class="cbx-name-info">
+							<div  class="cbx-name-info">
 								<h3><%= speaker.firstname %> <%= speaker.lastname %></h3>
 								<!--<h4></h4>-->
 							</div>
