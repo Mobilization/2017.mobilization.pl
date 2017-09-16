@@ -1,4 +1,4 @@
-var docpadConfig;
+    var docpadConfig;
 var indexOf = [].indexOf || function (item) {
         for (var i = 0, l = this.length; i < l; i++) {
             if (i in this && this[i] === item) return i;
@@ -283,29 +283,29 @@ docpadConfig = {
                 },
                 'slot-coffee-1': {
                     from: '10:00',
-                    to: '10:20'
+                    to: '10:15'
                 },
                 'slot-2': {
-                    from: '10:20',
-                    to: '11:05'
+                    from: '10:15',
+                    to: '11:00'
                 },
                 'slot-coffee-2': {
-                    from: '11:05',
-                    to: '11:25'
+                    from: '11:00',
+                    to: '11:15'
                 },
                 'slot-3': {
-                    from: '11:25',
-                    to: '12:10'
+                    from: '11:15',
+                    to: '12:00'
                 },
                 'slot-lunch': {
-                    from: '12:10',
+                    from: '12:00',
                     to: '13:00'
                 },
                 'slot-4': {
                     from: '13:00',
                     to: '13:45'
                 },
-                'slot-coffee-3': {
+                'slot-coffee-4': {
                     from: '13:45',
                     to: '14:00'
                 },
@@ -313,7 +313,7 @@ docpadConfig = {
                     from: '14:00',
                     to: '14:45'
                 },
-                'slot-coffee-4': {
+                'slot-coffee-5': {
                     from: '14:45',
                     to: '15:00'
                 },
@@ -321,7 +321,7 @@ docpadConfig = {
                     from: '15:00',
                     to: '15:45'
                 },
-                'slot-coffee-5': {
+                'slot-coffee-6': {
                     from: '15:45',
                     to: '16:00'
                 },
@@ -329,19 +329,26 @@ docpadConfig = {
                     from: '16:00',
                     to: '16:45'
                 },
-                'slot-no-coffee-6': {
+                'slot-coffee-7': {
                     from: '16:45',
-                    to: '16:50'
+                    to: '17:00'
                 },
+                'slot-8': {
+                    from: '17:00',
+                    to: '17:45'
+                },
+                'slot-no-coffee-8': {
+                    from: '17:45',
+                    to: '17:50'
+                },                
                 'slot-finally': {
-                   from: '16:50',
-                    to: '17:00  '
+                   from: '17:50',
+                    to: '18:10  '
                 },
                 'slot-afterparty': {
                     from: '18:30',
                     to: '23:59'
                 },
-
             },
             speakers: {  
    "speaker-enrique-lopez-manas":{//1 
@@ -776,14 +783,6 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-template": {//4
-                    "title": "Migration to RxJava2: obstacles and solutions",
-                    "description_html": "I would like to show experience and results of migrating a payment module from RxJava 1.x to RxJava 2.x",
-                    "speakers_keys": [
-                        "speaker-dmytro-khmelenko"
-                    ],
-                    "language": "EN"
-                },
                 "talk-making-scriptable-iOS-apps": {
                       "title": "Making Scriptable iOS Apps",
                       "description_html": "I will discuss how we can provide a Javascript interface to an app's core functionailty, and how this can help during development time, as well as providing advanced users with increased powers.",
@@ -1063,9 +1062,6 @@ docpadConfig = {
                     "speaker-adam-zaczek"
                   ]
                 },
-
-
-
             },
             breaks: {
                 'break-registration': {
@@ -1171,11 +1167,6 @@ docpadConfig = {
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},
-                "slot-during-lunch": {
-                    "venue-tomtom": {
-                        "talk_key": "talk-tbd"
-                    }
-                },
                 "slot-4": {
                     "venue-tomtom": {
                         "talk_key": "talk-tbd"
@@ -1193,7 +1184,7 @@ docpadConfig = {
                         "talk_key": "talk-tbd"
                     }
                 },
-                "slot-coffee-3": {"break_key": "break-coffee"},
+                "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-5": {
                     "venue-tomtom": {
                         "talk_key": "talk-tbd"
@@ -1211,7 +1202,7 @@ docpadConfig = {
                         "talk_key": "talk-tbd"
                     }
                 },
-                "slot-coffee-4": {"break_key": "break-coffee"},
+                "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-6": {
                     "venue-tomtom": {
                         "talk_key": "talk-tbd"
@@ -1229,7 +1220,7 @@ docpadConfig = {
                         "talk_key": "talk-tbd"
                     }
                 },
-                "slot-coffee-5": {"break_key": "break-coffee"},
+                "slot-coffee-6": {"break_key": "break-coffee"},
                 "slot-7": {
                     "venue-tomtom": {
                         "talk_key": "talk-tbd"
@@ -1247,7 +1238,25 @@ docpadConfig = {
                         "talk_key": "talk-tbd"
                     }
                 },
-                "slot-no-coffee-6": {"break_key": "break-no-coffee"},
+                "slot-coffee-7": {"break_key": "break-coffee"},
+                "slot-8": {
+                    "venue-tomtom": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-htd": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-rndity": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-mobica": {
+                        "talk_key": "talk-tbd"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-tbd"
+                    }
+                },
+                "slot-no-coffee-8": {"break_key": "break-no-coffee"},
                 "slot-finally": {"break_key": "break-finally"},
                 "slot-afterparty": {"break_key": "break-afterparty"}
             },
