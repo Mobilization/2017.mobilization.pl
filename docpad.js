@@ -744,7 +744,6 @@ docpadConfig = {
                         "speaker-jorge-castillo"
                       ]
                 },
-
                 "talk-how-to-combine-swift": {
                       "title": "How to combine Swift/Kotlin with C/C++",
                       "description_html": "The appearance of Swift and Kotlin is a great change in mobile world. There is a number of advantages to using them. Still, one thing didn’t change: as embedded programmers, in order to provide better performance, reduce battery utilisation, etc. we sometimes need to operate on lower level.\nDuring the speech, I will provide you with ready-to-use tools that will let you utilise a huge codebase of C and C++ in your project and discuss differences between them.",
@@ -754,16 +753,24 @@ docpadConfig = {
                         "speaker-michal-kowalczyk"
                       ]
                  },
-                "talk-att-video-opt": {//1
-                    "title": "Optimizing Android App performance with AT&T Video Optimizer",
-                    "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, I'll introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
-                    "audience_level": "Intermediate",
-                    "speakers_keys": [
-                        "speaker-bartosz-kraszewski"
-                    ],
-                    "language": "PL"
-                },
-
+                 "talk-devops-in-mobile": {
+                      "title": "DevOps in mobile?",
+                      "description_html": "Developing an app being a consumer product means working under constant pressure to frequently release features that bring value to customers. Several-months-long development with no release to production happens very seldom in the aforementioned context. How to cope with a need for speed of releasing an app eg. once a week? If you look at what happens in a ‘backend world’, DevOps is the new hype giving a promise to deliver value in a stable way very often. However, DevOps is very often associated mistakenly only with Continuous Integration and Continuous Delivery. I will be talking about increasing overall flow of value to customers, shortening feedback loops from customers and building an organization which is optimized for speed and stability. Moreover, what practices considered with DevOps in a ‘backend world’ are valid in a 'mobile world'? On the other hand, what practices need to be re-thought taking into account the mobile context? I will not be able to answer all the questions as I don’t know all the answers. However, the answers I have are based on what Facebook, Netflix, Etsy and - where applicable - Seqr do, don’t do or were doing wrong. The goal of my talk is to help people to understand DevOps comprehensively and how it fits into mobile context. I will refer to certain technologies as examples but will not discuss them in detail.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-tomasz-pajak"
+                      ]
+                 },
+                // "talk-att-video-opt": {//1
+                //     "title": "Optimizing Android App performance with AT&T Video Optimizer",
+                //     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, I'll introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
+                //     "audience_level": "Intermediate",
+                //     "speakers_keys": [
+                //         "speaker-bartosz-kraszewski"
+                //     ],
+                //     "language": "PL"
+                // },
                 "talk-tensorflow": {//2
                                     "title": "Tensorflow for Mobile Developers",
                                     "description_html": "here is a lot of Hype with ML and AI lately, and TensorFlow is the framework of choice from Google. But as a Mobile Developer you might have asked yourself, how can I benefit from it? In this talk, you will learn your first steps into the fascinating ML world for mobile",
@@ -870,7 +877,8 @@ docpadConfig = {
                       "audience_level": "Intermediate",
                       "language": "EN",
                       "speakers_keys": [
-                        "speaker-roberto-orgiu"
+                        // "speaker-roberto-orgiu",
+                        "speaker-lorenzo-quiroli",
                       ]
                 },
                 "talk-using-android-things": {
@@ -927,15 +935,15 @@ docpadConfig = {
                         "speaker-stuart-kent"
                       ]
                 },
-                "talk-rx-retrofit": {
-                      "title": "Rx vs. Retrofit on Network Request: Live Examples for Comparison ",
-                      "description_html": "Rx and Retrofit each claims itself as the go-to framework for simplifying http tasks in mobile programming. However, which one should you use? Why did we migrated to Rx first and then switched to Retrofit a year later at Groupon?\n\nThis session will cover the basics for Rx and Retrofit, and present the examples on each for network tasks in production Groupon app as well as how the migration can be realized. After that we will leverage the pros and cons for each so that you will walk out knowing which suits your needs best.\n",
-                      "audience_level": "Intermediate",
-                      "language": "EN",
-                      "speakers_keys": [
-                        "speaker-snow-zhao"
-                      ]
-                },
+                // "talk-lint-for-life": {
+                //       "title": "Lint for Life: Your Customizable Guard On the Go",
+                //       "description_html": "The ONLY and MOST comprehensive and up to date talk on Android Lint! Android Lint was introduced in ADT 16 as a tool to scan for potential bugs. However, Lint itself has been around since the Unix V7 in 1979 as a static analysis tool and adopted by every major programming language over the past 40 years. Well utilized Lint not only prevents common errors such as use of deprecated elements or API calls, but also improves code quality and enforce tailored rules. At the end of this session, audience will walk out with knowledge that reveals the full potential behind Android Lint from the built-in checks and configuration, most updated APIs, PSI Library. And step by step implementation will be shared for one customized check used by production Groupon app (also submitted to the Retrofit Library!). This talk will also cover the difference between Android Lint and other static code analysis tools such as PMD and Findbugs to help you make better decisions on which fits a certain purpose best. Now are you ready to join us and become a Lint Expert?",
+                //       "audience_level": "Intermediate",
+                //       "language": "EN",
+                //       "speakers_keys": [
+                //         "speaker-snow-zhao"
+                //       ]
+                // },
                 "talk-optimizing-android-apps": {
                       "title": "Optimizing Android apps for desktop mode with Samsung DeX",
                       "description_html": "With the launch of the Samsung Galaxy S8 and S8+, Samsung has introduced the next generation of smartphones, with new and innovative features. One of these features is the availability of Samsung DeX that extends the functionality of a mobile device to the desktop environment. Developers will learn how to optimize their Android apps for the next generation of Samsung Devices with enhanced interactions, desktop mode capabilities, and an overall amplified in-app experience. Developers will also learn how to leverage Samsung Knox to add security features to their Samsung DeX apps.",
@@ -1115,7 +1123,7 @@ docpadConfig = {
                 "slot-hello-world": {"break_key": "break-hello-world"},
                 "slot-1": {
                     "venue-tomtom": {
-                        "talk_key": "talk-tbd"
+                        "talk_key": "talk-how-to-combine-swift"
                     },
                     "venue-htd": {
                         "talk_key": "talk-tbd"
@@ -1124,10 +1132,10 @@ docpadConfig = {
                         "talk_key": "talk-tbd"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-tbd"
+                        "talk_key": "talk-augmented-reality"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd"
+                        "talk_key": "talk-devops-in-mobile"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
