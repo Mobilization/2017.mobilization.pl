@@ -34,14 +34,14 @@ docpadConfig = {
                 location: {
                     lat: 51.7505458,
                     lng: 19.4501351,
-                    place: 'Expo-Łódź Sp. z o.o.',
+                    place: '(Nowa) Hala Expo',
                     street: 'al. Politechniki 4',
                     city: 'Łódź',
                     zip: '93-590',
                     country: 'Polska'
                 },
                 data: '21nd Oct 2017',
-                time: '08:00-17:30'
+                time: '08:00-18:00'
             },
             sponsors: {
                 diamond: [
