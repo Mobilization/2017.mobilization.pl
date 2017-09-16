@@ -338,7 +338,7 @@ docpadConfig = {
                     to: '17:00  '
                 },
                 'slot-afterparty': {
-                    from: '18:00',
+                    from: '18:30',
                     to: '23:59'
                 },
 
@@ -570,7 +570,6 @@ docpadConfig = {
       "www":"http://www.pawegio.com/",
       "twitter":"https://twitter.com/@pawegio",
       "github":"https://github.com/pawegio",
-
    },
    "speaker-raul-portales":{//25
       "firstname":"Raul",
@@ -670,13 +669,13 @@ docpadConfig = {
    },                            
                // Not confirmed bellow:
                /*
-								"speaker-nikola-irinchev": {
+								"speaker-nikola-irinchev": { //36
                                   "firstname": "Nikola",
                                   "lastname": "Irinchev",
                                   "bio_html": "Nick has extensive experience with everything .NET - from architecting highly performant web servers to shipping cross platform mobile apps, you name it. Now he resides at Realm, delivering the best database in the world to .NET developers. When he’s not doing that, he speaks about cloud infrastructure and occasionally blogs about the hard problems he faces.",
                                   "photo_url": "/images/speakers/nikola-irinchev.png"
                                 },
-                                "speaker-rndity": {
+                                "speaker-rndity": { //37
                                   "firstname": "",
                                   "lastname": "",
                                   "bio_html": "",
@@ -684,7 +683,7 @@ docpadConfig = {
                                   "twitter": "https://twitter.com/_tiwiz",
                                   "github": "https://github.com/tiwiz"
                                 },
-                                "speaker-marcin-zywno": {
+                                "speaker-maciej-zywno": { //38
                                   "firstname": "Maciej",
                                   "lastname": "Żywno",
                                   "bio_html": "",
@@ -692,7 +691,7 @@ docpadConfig = {
                                   "twitter": "https://twitter.com/_tiwiz",
                                   "github": "https://github.com/tiwiz"
                                 },
-                                "speaker-roberto-orgiu": {
+                                "speaker-roberto-orgiu": { 
                                   "firstname": "Roberto",
                                   "lastname": "Orgiu",
                                   "bio_html": "Born in Italy in 1987, passionate for everything that switches on and off and particularly for handheld and wearable devices.\nI love to learn new languages, patterns and everything Android-related.\nLately I have helping with the DroidCon Italy event and the release of the related app.",
@@ -700,7 +699,7 @@ docpadConfig = {
                                   "twitter": "https://twitter.com/_tiwiz",
                                   "github": "https://github.com/tiwiz"
                                 },
-                                "speaker-snow-zhao": {
+                                "speaker-snow-zhao": { //39
                                       "firstname": "Snow (Siruo)",
                                       "lastname": "Zhao",
                                       "bio_html": "Snow fell in love with Android when G1 phone came onto the market and later joined the superstar team at Groupon Silicon Valley which presents a solid e-commerce app with billions users ranked as one of the “Best Android Apps” for 5 consecutive years. She was nominated as “Mobile Rock Star” multiple times because at the same time of delivering high quality features that generate billions of dollars of revenue, Snow also worked on a stand alone home service app, a series of internal, external libraries, major refactoring, and is always eager to share her knowledge. She is actively involved the Silicon Valley GDG, Women Who Code, Girls Who Code, and speaks both internally and externally on Android development. She is also invited to talk at Grace Hopper and DroidCon Beijing. \n",
@@ -709,7 +708,15 @@ docpadConfig = {
                                       "github": "https://github.com/siruozhao",
                                       "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
                                 },
-
+                                "speaker-bartosz-kraszewski": { //39
+                                      "firstname": "Snow (Siruo)",
+                                      "lastname": "Zhao",
+                                      "bio_html": "Snow fell in love with Android when G1 phone came onto the market and later joined the superstar team at Groupon Silicon Valley which presents a solid e-commerce app with billions users ranked as one of the “Best Android Apps” for 5 consecutive years. She was nominated as “Mobile Rock Star” multiple times because at the same time of delivering high quality features that generate billions of dollars of revenue, Snow also worked on a stand alone home service app, a series of internal, external libraries, major refactoring, and is always eager to share her knowledge. She is actively involved the Silicon Valley GDG, Women Who Code, Girls Who Code, and speaks both internally and externally on Android development. She is also invited to talk at Grace Hopper and DroidCon Beijing. \n",
+                                      "photo_url": "/images/speakers/zhao.jpg",
+                                      "twitter": "https://twitter.com/@zhaosiruo",
+                                      "github": "https://github.com/siruozhao",
+                                      "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
+                                },
                                 */
             },
             talks: {
