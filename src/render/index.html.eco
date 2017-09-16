@@ -12,5 +12,4 @@ layout: 'main2017'
 <%- @partial('partners.html.eco', @) %>
 <% if @site.visibility.volunteers: %><%- @partial('volunteers.html.eco', @) %><% end %>
 <%- @partial('venue.html.eco', @) %>
-<%- @partial('contact.html', @) %>
 <%- @partial('footer.html', @) %>
