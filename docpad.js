@@ -673,15 +673,19 @@ docpadConfig = {
       "photo_url":"/images/speakers/tomasz_pajak.png",
       "twitter":"https://twitter.com/@tomekatwork",
       "linkedin":"https://www.linkedin.com/in/tomekatwork/"
-   },                            
+   },
+   "speaker-nikola-irinchev": { //36
+      "firstname": "Nikola",
+      "lastname": "Irinchev",
+      "bio_html": "Nick has extensive experience with everything .NET - from architecting highly performant web servers to shipping cross platform mobile apps, you name it. Now he resides at Realm, delivering the best database in the world to .NET developers. When he’s not doing that, he speaks about cloud infrastructure and occasionally blogs about the hard problems he faces.",
+      "photo_url": "/images/speakers/nikola-irinchev.png",
+      "twitter": "https://twitter.comm/nirinchev",
+      "linkedin" : "https://www.linkedin.com/in/nikola-irinchev-12443a80",
+      "github" : "http://github.com/nirinchev"
+    },                      
                // Not confirmed bellow:
                /*
-								"speaker-nikola-irinchev": { //36
-                                  "firstname": "Nikola",
-                                  "lastname": "Irinchev",
-                                  "bio_html": "Nick has extensive experience with everything .NET - from architecting highly performant web servers to shipping cross platform mobile apps, you name it. Now he resides at Realm, delivering the best database in the world to .NET developers. When he’s not doing that, he speaks about cloud infrastructure and occasionally blogs about the hard problems he faces.",
-                                  "photo_url": "/images/speakers/nikola-irinchev.png"
-                                },
+								
                                 "speaker-rndity": { //37
                                   "firstname": "",
                                   "lastname": "",
@@ -1063,11 +1067,20 @@ docpadConfig = {
                 },
                 "talk-graphql-vs-rest": { //3
                   "title": "GraphQL vs REST",
-                  "description_html": "Introduction to GraphQL as the innovational way of thinking about data.\nBroad GraphQL vs REST comparison led by real life examples of working with each of the two concepts.\nBased on my article shared by GraphQL's Twitter: https://twitter.com/GraphQL/status/841435480675692544",
+                  "description_html": "Introduction to GraphQL as the innovational way of thinking about data.\nBroad GraphQL vs REST comparison led by real life examples of working with each of the two concepts.\nBased on my article shared by <a href='https://twitter.com/GraphQL/status/841435480675692544'>GraphQL's Twitter</a>",
                   "audience_level": "Intermediate",
                   "language": "EN",
                   "speakers_keys": [
                     "speaker-adam-zaczek"
+                  ]
+                },
+                "talk-database-driven-ui": { //36
+                  "title": "Database driven UI with MVVM & Realm",
+                  "description_html": "In this talk I'll show how to simplify your app's architecture by letting the database drive the UI. We'll explore powerful features of Realm such as change notifications and automatic updates to ensure we never have to manually update the UI again.",
+                  "audience_level": "Intermediate",
+                  "language": "EN",
+                  "speakers_keys": [
+                    "speaker-nikola-irinchev"
                   ]
                 },
             },
@@ -1153,7 +1166,7 @@ docpadConfig = {
                         "talk_key": "speaker-yuliya-kaleda"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-tbd" //ni
+                        "talk_key": "talk-database-driven-ui"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
