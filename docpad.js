@@ -958,8 +958,8 @@ docpadConfig = {
                 //       ]
                 // },
                 "talk-optimizing-android-apps": { //34
-                      "title": "Optimizing Android apps for desktop mode with Samsung DeX",
-                      "description_html": "With the launch of the Samsung Galaxy S8 and S8+, Samsung has introduced the next generation of smartphones, with new and innovative features. One of these features is the availability of Samsung DeX that extends the functionality of a mobile device to the desktop environment. Developers will learn how to optimize their Android apps for the next generation of Samsung Devices with enhanced interactions, desktop mode capabilities, and an overall amplified in-app experience. Developers will also learn how to leverage Samsung Knox to add security features to their Samsung DeX apps.",
+                      "title": "Optimizing Android apps for desktop experience",
+                      "description_html": "The mobile devices of the latest generation are now capable of powering the desktop user experience. Get your Android apps ready for the big screen. Learn what it takes to optimize your apps for enhanced interactions, desktop mode capabilities, and an overall amplified in-app experience. Stay for the quiz and for a Samsung DeX station giveaway at the end of the session!",
                       "audience_level": "Intermediate",
                       "language": "EN",
                       "speakers_keys": [
