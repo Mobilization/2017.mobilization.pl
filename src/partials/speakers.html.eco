@@ -9,7 +9,7 @@
 							<h2 class="uppercase">
                                     <span class="heading-serial">
                                         <span class="heading-serial-inner">
-                                          03
+                                          #
                                         </span>
                                     </span>
 								<span class="title">Speakers</span>
@@ -55,8 +55,8 @@
 													<a class="sp-mm" href="<%= speaker.medium %>"><i class="fa fa-medium"></i></a>
 													<% end %>
 												</div>
-												<button class="info speaker-more-info">More Info</button>
-												<div class="speaker-info-box">
+												<button class="info speaker-more-info" data-modal="speaker-more-info-<%= speaker_key %>">More Info</button>
+												<div class="speaker-info-box" id="speaker-more-info-<%= speaker_key %>">
 													<div class="speaker-info-box-content">
 														<div class="text-center">
 															<img src="<%= speaker.photo_url %>"

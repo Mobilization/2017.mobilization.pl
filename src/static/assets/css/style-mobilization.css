@@ -135,7 +135,7 @@ blockquote ol:last-child {
 }
 a {
   text-decoration: none;
-  color: #79bf56;
+  color: #689d45;
 }
 a:hover {
   text-decoration: none;
@@ -2486,6 +2486,16 @@ iframe {
 }
 
 #cbx-speakers .cbx-inner {
+  background: #fff;
+  padding: 8rem 0 2rem !important;
+}
+
+#cbx-talks .cbx-inner {
+  background: #f1f1f1;
+  padding: 8rem 0 2rem !important;
+}
+
+#cbx-venue .cbx-inner {
   background: #f1f1f1;
   padding: 8rem 0 2rem !important;
 }
@@ -2549,6 +2559,24 @@ iframe {
 
 .speaker-info-box-content .bio {
   font-size: 14px;
+}
+
+.talk {
+  margin-bottom: 50px;
+}
+
+.talk button {
+  background-color: #eaeaea;
+  color: #589e35;
+}
+
+.talk button:hover {
+  background-color: #ddd;
+  color: #345a22;
+}
+
+.talk button:focus {
+  outline: none;
 }
 
 .cbx-view figure img {

@@ -389,7 +389,7 @@ jQuery(document).ready(function($){
                 return true; // close the modal
             }
         });
-        modal.setContent($(event.target).next().html());
+        modal.setContent($("#" + $(event.target).data("modal")).html());
         modal.open();
     });
 
