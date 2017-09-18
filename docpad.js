@@ -167,11 +167,11 @@ docpadConfig = {
                         "logo_url":"/images/partners/challenge-rocket.png",
                         "link":"http://ChallengeRocket.com"
                     },
-//                    {
-//                        "name": "Zwinna Łódź",
-//                        "logo_url": "/images/partners/zwinna_lodz.jpeg",
-//                        "link": "http://zwinnalodz.eu/"
-//                    },
+                   {
+                       "name": "Zwinna Łódź",
+                       "logo_url": "/images/partners/zwinna_lodz.jpg",
+                       "link": "http://zwinnalodz.eu/"
+                   },
                     {
                         "name": "Mobile Warsaw",
                         "logo_url": "/images/partners/mw-logo.png",
