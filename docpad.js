@@ -175,11 +175,11 @@ docpadConfig = {
                         "logo_url": "/images/partners/challenge-rocket.png",
                         "link": "http://ChallengeRocket.com"
                     },
-                   {
-                       "name": "Zwinna Łódź",
-                       "logo_url": "/images/partners/zwinna_lodz.jpg",
-                       "link": "http://zwinnalodz.eu/"
-                   },
+                    {
+                        "name": "Zwinna Łódź",
+                        "logo_url": "/images/partners/zwinna_lodz.jpg",
+                        "link": "http://zwinnalodz.eu/"
+                    },
                     {
                         "name": "Mobile Warsaw",
                         "logo_url": "/images/partners/mw-logo.png",
@@ -358,85 +358,85 @@ docpadConfig = {
                     to: '23:59'
                 },
             },
-            speakers: {  
-   "speaker-enrique-lopez-manas":{//1 
-      "firstname":"Enrique",
-      "lastname":"Lopez Manas",
-      "bio_html":"bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
-      "www":"http://lopez-manas.com",
-      "twitter":"https://twitter.com/eenriquelopez",
-      "facebook":"",
-      "github":"https://github.com/kikoso",
-      "linkedin":"https://www.linkedin.com/in/eenriquelopez/?ppe=1",
-      "photo_url":"/images/speakers/enrique-lopez-manas.jpg"
-   },
-   "speaker-aleksander-grzyb":{//2
-      "firstname":"Aleksander",
-      "lastname":"Grzyb",
-      // "bio_html":"I am software engineer. Right now I live in Vancouver, Canada and I am working at <a href='https://www.clio.com/'>Clio</a> on <a href='https://itunes.apple.com/ca/app/clio/id686777370?mt=8'>Clio iOS application</a>. Previously I worked at <a href='https://allegro.pl'>Allegro</a> on <a href='https://itunes.apple.com/pl/app/allegro/id305659772?mt=8'>Allegro iOS application</a>. In my free time I am exploring computer vision, working on my own <a href='https://itunes.apple.com/us/app/bimba/id1076185539?mt=8'>Bimba iOS application</a>, and <a href='https://candyrent.com'>CandyRent</a> startup I co-funded with friends.",
-      "bio_html":"",
-      "twitter":"https://twitter.com/aleksandergrzyb",
-      "github":"https://github.com/aleksandergrzyb",
-      "www":"http://aleksandergrzyb.com/",
-      "photo_url":"/images/speakers/aleksander_grzyb.png"
-   },
-   "speaker-adam-zaczek":{//3  
-      "firstname":"Adam",
-      "lastname":"Żaczek",
-      "bio_html":"Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
-      "photo_url":"/images/speakers/adam_z.jpg",
-      "www":"https://www.netguru.co/about-us/team/adam-4828293800",
-      "twitter":"https://twitter.com/ZaczekAdam",
-      "github":"https://github.com/adamzaczek",
-      "linkedin":"https://www.linkedin.com/in/adam-żaczek-a4a734110"
-   },
-   "speaker-jorge-castillo":{//4
-      "firstname":"Jorge",
-      "lastname":"Castillo",
-      "bio_html":"Jorge is an experienced Android Engineer from Spain. He is currently working for GoMore, a danish company from CPH. He is very focused on applying Functional Programing over Kotlin, and he is one of the most active contributors of KΛTEGORY, a library to provide FP constructs, data types and operations over the language`",
-      "photo_url":"/images/speakers/jorge-castillo.jpg",
-      "www":"https://medium.com/@jorgecastillopr",
-      "twitter":"https://twitter.com/jorgecastillopr",
-      "github":"https://github.com/jorgecastilloprz",
-      "linkedin":"https://www.linkedin.com/in/jorgecastilloprz"
-   },
-   "speaker-salomon-brys":{//5
-      "firstname":"Salomon",
-      "lastname":"Brys",
-      "bio_html":"Passionate about Kotlin for the last three years, I am the developer and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
-      "photo_url":"/images/speakers/salomon_b.jpg",
-      "www":"https://github.com/SalomonBrys/",
-      "twitter":"https://twitter.com/",
-      "github":"https://github.com/SalomonBrys",
-      "linkedin":"https://www.linkedin.com/in/salomonbrys"
-   },
-   "speaker-sergi-martinez":{//6
-      "firstname":"Sergi",
-      "lastname":"Martinez",
-      "bio_html":"Working as Android dev at Schibsted and Google Developer Expert for Android. He loves to share, teach, discuss, learn with the community",
-      "photo_url":"/images/speakers/sergi_m.jpg",
-      "www":"http://sergiandreplace.com",
-      "twitter":"https://twitter.com/sergiandreplace",
-      "github":"https://github.com/sergiandreplace",
-      "linkedin":"https://www.linkedin.com/in/sergiandreplace"
-   },
-   "speaker-leandro-favarin":{//7
-      "firstname":"Leandro",
-      "lastname":"Favarin",
-      "bio_html":"Leandro has been working as a software engineer for mobile devices and portable technology for 7+ years. His focus is on the Android platform and everything around it.",
-      "photo_url":"/images/speakers/leandro-favarin.jpg",
-      "www":"http://leandrofavarin.com",
-      "twitter":"https://twitter.com/leandrofavarin",
-      "github":"https://github.com/leandrofavarin",
-      "linkedin":"https://www.linkedin.com/in/leandrofavarin"
-   },
-   "speaker-vasiliy-zukanov":{//8
-      "firstname":"Vasiliy",
-      "lastname":"Zukanov",
-      "bio_html":"Professional software engineer and blogger (www.techyourchance.com)",
-      "photo_url":"/images/speakers/vasiliy-zukanov.jpg",
-      "www":"http://www.techyourchance.com",
-      "twitter":"https://twitter.com/VasiliyZukanov",
+            speakers: {
+                "speaker-enrique-lopez-manas": {//1
+                    "firstname": "Enrique",
+                    "lastname": "Lopez Manas",
+                    "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                    "www": "http://lopez-manas.com",
+                    "twitter": "https://twitter.com/eenriquelopez",
+                    "facebook": "",
+                    "github": "https://github.com/kikoso",
+                    "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
+                    "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                },
+                "speaker-aleksander-grzyb": {//2
+                    "firstname": "Aleksander",
+                    "lastname": "Grzyb",
+                    // "bio_html":"I am software engineer. Right now I live in Vancouver, Canada and I am working at <a href='https://www.clio.com/'>Clio</a> on <a href='https://itunes.apple.com/ca/app/clio/id686777370?mt=8'>Clio iOS application</a>. Previously I worked at <a href='https://allegro.pl'>Allegro</a> on <a href='https://itunes.apple.com/pl/app/allegro/id305659772?mt=8'>Allegro iOS application</a>. In my free time I am exploring computer vision, working on my own <a href='https://itunes.apple.com/us/app/bimba/id1076185539?mt=8'>Bimba iOS application</a>, and <a href='https://candyrent.com'>CandyRent</a> startup I co-funded with friends.",
+                    "bio_html": "",
+                    "twitter": "https://twitter.com/aleksandergrzyb",
+                    "github": "https://github.com/aleksandergrzyb",
+                    "www": "http://aleksandergrzyb.com/",
+                    "photo_url": "/images/speakers/aleksander_grzyb.png"
+                },
+                "speaker-adam-zaczek": {//3
+                    "firstname": "Adam",
+                    "lastname": "Żaczek",
+                    "bio_html": "Adam is a front-end developer who would not stop talking about new technologies or skateboarding. He finds spending time on programming or reading science articles just as fun as jumping from stairs on a piece of wood with wheels attached (i.e. a skateboard). He once felt like his eyes were bleeding when seeing Javascript code. Nowadays JS is all he wants to code in. Adam has recently found out about GraphQL and he plays with it whenever he can. He is responsible for creating one of the best skateparks in Poland. He is the holder of \nskateboarding Guinness World Record for most skateboard backside shuvits in one minute. ",
+                    "photo_url": "/images/speakers/adam_z.jpg",
+                    "www": "https://www.netguru.co/about-us/team/adam-4828293800",
+                    "twitter": "https://twitter.com/ZaczekAdam",
+                    "github": "https://github.com/adamzaczek",
+                    "linkedin": "https://www.linkedin.com/in/adam-żaczek-a4a734110"
+                },
+                "speaker-jorge-castillo": {//4
+                    "firstname": "Jorge",
+                    "lastname": "Castillo",
+                    "bio_html": "Jorge is an experienced Android Engineer from Spain. He is currently working for GoMore, a danish company from CPH. He is very focused on applying Functional Programing over Kotlin, and he is one of the most active contributors of KΛTEGORY, a library to provide FP constructs, data types and operations over the language`",
+                    "photo_url": "/images/speakers/jorge-castillo.jpg",
+                    "www": "https://medium.com/@jorgecastillopr",
+                    "twitter": "https://twitter.com/jorgecastillopr",
+                    "github": "https://github.com/jorgecastilloprz",
+                    "linkedin": "https://www.linkedin.com/in/jorgecastilloprz"
+                },
+                "speaker-salomon-brys": {//5
+                    "firstname": "Salomon",
+                    "lastname": "Brys",
+                    "bio_html": "Passionate about Kotlin for the last three years, I am the developer and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
+                    "photo_url": "/images/speakers/salomon_b.jpg",
+                    "www": "https://github.com/SalomonBrys/",
+                    "twitter": "https://twitter.com/",
+                    "github": "https://github.com/SalomonBrys",
+                    "linkedin": "https://www.linkedin.com/in/salomonbrys"
+                },
+                "speaker-sergi-martinez": {//6
+                    "firstname": "Sergi",
+                    "lastname": "Martinez",
+                    "bio_html": "Working as Android dev at Schibsted and Google Developer Expert for Android. He loves to share, teach, discuss, learn with the community",
+                    "photo_url": "/images/speakers/sergi_m.jpg",
+                    "www": "http://sergiandreplace.com",
+                    "twitter": "https://twitter.com/sergiandreplace",
+                    "github": "https://github.com/sergiandreplace",
+                    "linkedin": "https://www.linkedin.com/in/sergiandreplace"
+                },
+                "speaker-leandro-favarin": {//7
+                    "firstname": "Leandro",
+                    "lastname": "Favarin",
+                    "bio_html": "Leandro has been working as a software engineer for mobile devices and portable technology for 7+ years. His focus is on the Android platform and everything around it.",
+                    "photo_url": "/images/speakers/leandro-favarin.jpg",
+                    "www": "http://leandrofavarin.com",
+                    "twitter": "https://twitter.com/leandrofavarin",
+                    "github": "https://github.com/leandrofavarin",
+                    "linkedin": "https://www.linkedin.com/in/leandrofavarin"
+                },
+                "speaker-vasiliy-zukanov": {//8
+                    "firstname": "Vasiliy",
+                    "lastname": "Zukanov",
+                    "bio_html": "Professional software engineer and blogger (www.techyourchance.com)",
+                    "photo_url": "/images/speakers/vasiliy-zukanov.jpg",
+                    "www": "http://www.techyourchance.com",
+                    "twitter": "https://twitter.com/VasiliyZukanov",
 
                 },
                 "speaker-miguel-quinones": {//9
