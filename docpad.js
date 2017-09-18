@@ -742,9 +742,7 @@ docpadConfig = {
                 "talk-tbd": {
                     "title": "TBD",
                     "description_html": "TBD",
-                    "speakers_keys": [
-                        "speaker-tbd"
-                    ],
+                    "speakers_keys": [],
                     "language": "EN"
                 },
                 "talk-functional-approach": { //4
@@ -1171,7 +1169,7 @@ docpadConfig = {
                         "talk_key": "talk-speech-analysis-techniques"
                     },
                     "venue-mobica": {
-                        "talk_key": "speaker-yuliya-kaleda"
+                        "talk_key": "talk-make-your-app-instant"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-database-driven-ui"
@@ -1210,7 +1208,7 @@ docpadConfig = {
                         "talk_key": "talk-tbd" //lint
                     },
                     "venue-seqr": {
-                        "talk_key": "speaker-eliasz-sawicki"
+                        "talk_key": "talk-introduction-to-react-native"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
