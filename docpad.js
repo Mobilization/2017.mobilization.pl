@@ -25,7 +25,7 @@ docpadConfig = {
             visibility: {
                 "features": false,
                 "agenda": false,
-                "talks": false,
+                "talks": true,
                 "speakers": true,
                 "volunteers": false
             },

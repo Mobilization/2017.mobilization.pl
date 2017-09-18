@@ -1,6 +1,7 @@
  <!-- VENUE -->
  <% event = @site.event %>
- <section class="intro text-center section-padding" id="venue">
+ <div id="cbx-venue" class="cbx-venue">
+     <div class="cbx-inner">
      <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
@@ -8,7 +9,7 @@
                     <h2 class="uppercase">
                             <span class="heading-serial">
                                 <span class="heading-serial-inner">
-                                  05
+                                  #
                                 </span>
                             </span>
                         <span class="title">Venue</span>
@@ -18,7 +19,6 @@
                          <%= event.location.street %><br />
                          <%= event.location.zip %> <%= event.location.city %>, <%= event.location.country %>
                     </p>
-                    <br/>
                 </div>
             </div> <!--//main COL-->
         </div> <!--//main row-->
@@ -52,5 +52,6 @@
              </script>
          </div>
      </div>
- </section>
+     </div>
+ </div>
  <!-- /VENUE -->

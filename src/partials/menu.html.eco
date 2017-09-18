@@ -1,7 +1,6 @@
 <nav id="menu-offscroll" class="navbar navbar-default cbx-navbar">
     <div class="container">
         <div class="row">
-
             <div class="col-sm-3">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -16,14 +15,14 @@
                     </div>
                 </div>
             </div> <!--//.COL 3-->
-
             <div class="col-sm-9">
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav cbx-nav-right xs-text-center">
-                        <li><a href="/index.html#cbx-about">About</a></li>
+                        <!--<li><a href="/index.html#cbx-about">About</a></li>-->
                         <li><a href="/code-of-conduct.html">Code of conduct</a></li>
                         <li><a href="/index.html#cbx-sponsored">Sponsors</a></li>
+                        <% if @site.visibility.talks: %><li><a href="/index.html#cbx-talks">Talks</a></li><% end %>
                         <li><a href="/index.html#cbx-speakers">Speakers</a></li>
                     </ul>
                     <ul class="list-inline pull-right event-ticket">
@@ -32,7 +31,6 @@
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div> <!--//.COl 9-->
-
         </div><!--//.ROW-->
     </div><!-- /.container -->
 </nav>
