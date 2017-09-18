@@ -1,2 +1,20 @@
-<% for slot_key, slot of @site.schedule: %><%= @site.slots[slot_key].from %>;<% if 'break_key' of slot: %><% for venue_key, venue of @site.venues: %><%= @site.breaks[slot.break_key].title %>;<% end %><% else: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><%- @site.talks[slot[venue_key].talk_key].title %> - <% speakers = new Array() %><% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %><% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %><% end %><%= speakers.join(', ') %>;<% else: %>;<% end %><% end %><% end %>
-<% end %>
+8:00;Registration;Registration;Registration;Registration;Registration;
+9:00;Hello World;Hello World;Hello World;Hello World;Hello World;
+9:15;How to combine Swift/Kotlin with C/C++ - Michał Kowalczyk;TBD - ;Augmented Reality in the iOS World. What's in there for us? - Kamil Czopek;TBD - ;DevOps in mobile? - Tomasz Pająk;
+10:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+10:15;Functional approach to Android architecture using Kotlin - Jorge Castillo;Unmaintainable code - iOS developer perspective - Tomasz Gebarowski;Make your app instant - Yuliya Kaleda;Speech Analysis techniques - Martin Mitrevski;Database driven UI with MVVM & Realm - Nikola Irinchev;
+11:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+11:15;Coroutines in Kotlin for Android - Salomon Brys;Cebulowe testy na iOS - Aleksander Grzyb, Ewa Ludwiczak;Optimizing Android apps for desktop experience - Victor Okunev;Don't loose your users because of endless quality issues - Olivier Destrebecq;GraphQL vs REST - Adam Żaczek;
+12:00;Lunch Break;Lunch Break;Lunch Break;Lunch Break;Lunch Break;
+13:00;Database handling with Room - Sergi Martinez;Offline-first - Miguel Quinones;TBD - ;Realm database in real life - Marcin Zbijowski;Introduction to React Native - Eliasz Sawicki;
+13:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+14:00;Breaking Bug - Saúl Díaz;Lenses and Prisms in Swift - Elviro Rocca;Don’t fear SQL: A better way to store and handle data with SQLBrite && SQLDelight - Leandro Favarin;Making Scriptable iOS Apps - Daniel Tull;Predict impending doom with IoT and ReactNative - Gabor Wnuk;
+14:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+15:00;Android Architecture Components Considered Harmful - Vasiliy Zukanov;RxSwift: Deep Cuts - Krzysztof Siejkowski;MVC vs MVP vs MVVM vs MVI - Marcin Moskała;Android Things 101 - Raul Portales;Bluetooth Low Energy on Android: Top Tips for the Tricky Bits - Stuart Kent;
+15:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+16:00;kotlin.tools() of the trade - Lorenzo Quiroli;Building iOS Apps at Scale - Yusei Nishiyama;TBD - ;Using Android Things to detect & exterminate Reptilians - Gautier Mechling;Awesome native apps with NativeScript and Angular! - Rowdy Rabouw;
+16:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+17:00;Tensorflow for Mobile Developers - Enrique Lopez Manas;Let's framework everything! - Jakub Mazur;Building CI pipeline based on TeamCity & Docker in Android Team - Paweł Gajda;Zero to hero in UI testing - Veselin Iliev;I didn’t know the browser could do that! - Sam Bellen;
+17:45;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;
+17:50;Finally meeting;Finally meeting;Finally meeting;Finally meeting;Finally meeting;
+18:30;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;

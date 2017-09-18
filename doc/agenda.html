@@ -4,9 +4,9 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
+
 	<!-- Site Properities -->
-	<title><%= @getPreparedTitle() %> - Agenda</title>	
+	<title>Mobilization 2017 - Agenda</title>
 
 <style>
 body {
@@ -50,7 +50,7 @@ td.first {
 }
 
 td.std {
-	width: <%- 95 / (Object.keys(@site.venues).length + 1) %>%;
+	width: 15.833333333333334%;
 	border-left: 1px #444 dashed;
 }
 
@@ -62,39 +62,837 @@ td.std {
 <table>
 <tr>
 	<td class="first"></td>
-	<% for venue_key, venue of @site.venues: %>
-		<td class="header"><h3><%- venue.title %></h3></td>
-	<% end %>
+	
+		<td class="header"><h3>TomTom</h3></td>
+	
+		<td class="header"><h3>HTD</h3></td>
+	
+		<td class="header"><h3>Mobica</h3></td>
+	
+		<td class="header"><h3>Rndity</h3></td>
+	
+		<td class="header"><h3>SEQR</h3></td>
+	
 </tr>
-<% for slot_key, slot of @site.schedule: %>
-<% i = 0 %>
+
+
 <tr>
-	<td class="first"><h3><%= @site.slots[slot_key].from %></h3></td>
-	<% if 'break_key' of slot: %>
-		<td colspan="<%- Object.keys(@site.venues).length %>" style="text-align: center" class="special">
-			<strong><%= @site.breaks[slot.break_key].title %></strong>
+	<td class="first"><h3>8:00</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Registration</strong>
 		</td>
-	<% else: %>
-		<% for venue_key, venue of @site.venues: %>
-			<td class="std presentation <% if i++ % 2 == 0: %>odd<% else: %>even<% end %>">
-			<% if venue_key of slot: %>
-				<p>
-					<strong><%- @site.talks[slot[venue_key].talk_key].title %></strong>
-					<% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
-						<small>(<%- @site.talks[slot[venue_key].talk_key].language %>)</small>
-					<% end %>
-				</p>
-				<% speakers = new Array() %>
- 				<% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %>
-					<% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
- 				<% end %>
- 				<%= speakers.join(', ') %>
- 			<% end %>
-			</td>
-		<% end %>
-	<% end %>
+	
 </tr>
-<% end %>
+
+
+<tr>
+	<td class="first"><h3>9:00</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Hello World</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>9:15</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>How to combine Swift/Kotlin with C/C++</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Michał Kowalczyk
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>TBD</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Augmented Reality in the iOS World. What's in there for us?</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Kamil Czopek
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>TBD</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>DevOps in mobile?</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Tomasz Pająk
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>10:00</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>10:15</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Functional approach to Android architecture using Kotlin</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Jorge Castillo
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Unmaintainable code - iOS developer perspective</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Tomasz Gebarowski
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Make your app instant</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Yuliya Kaleda
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Speech Analysis techniques</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Martin Mitrevski
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Database driven UI with MVVM & Realm</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Nikola Irinchev
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>11:00</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>11:15</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Coroutines in Kotlin for Android</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Salomon Brys
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Cebulowe testy na iOS</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				
+				
+				Aleksander Grzyb, Ewa Ludwiczak
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Optimizing Android apps for desktop experience</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Victor Okunev
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Don't loose your users because of endless quality issues</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Olivier Destrebecq
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>GraphQL vs REST</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Adam Żaczek
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>12:00</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Lunch Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>13:00</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Database handling with Room</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Sergi Martinez
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Offline-first</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Miguel Quinones
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>TBD</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Realm database in real life</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Marcin Zbijowski
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Introduction to React Native</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Eliasz Sawicki
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>13:45</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>14:00</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Breaking Bug</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Saúl Díaz
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Lenses and Prisms in Swift</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Elviro Rocca
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Don’t fear SQL: A better way to store and handle data with SQLBrite && SQLDelight</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Leandro Favarin
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Making Scriptable iOS Apps</strong>
+					
+						<small>(English)</small>
+					
+				</p>
+				
+				
+				
+				
+				Daniel Tull
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Predict impending doom with IoT and ReactNative</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Gabor Wnuk
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>14:45</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>15:00</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Android Architecture Components Considered Harmful</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Vasiliy Zukanov
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>RxSwift: Deep Cuts</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Krzysztof Siejkowski
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>MVC vs MVP vs MVVM vs MVI</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Marcin Moskała
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Android Things 101</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Raul Portales
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Bluetooth Low Energy on Android: Top Tips for the Tricky Bits</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Stuart Kent
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>15:45</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>16:00</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>kotlin.tools() of the trade</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Lorenzo Quiroli
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Building iOS Apps at Scale</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Yusei Nishiyama
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>TBD</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Using Android Things to detect & exterminate Reptilians</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Gautier Mechling
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Awesome native apps with NativeScript and Angular!</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Rowdy Rabouw
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>16:45</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>17:00</h3></td>
+	
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Tensorflow for Mobile Developers</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Enrique Lopez Manas
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Let's framework everything!</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Jakub Mazur
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>Building CI pipeline based on TeamCity & Docker in Android Team</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Paweł Gajda
+ 			
+			</td>
+		
+			<td class="std presentation even">
+			
+				<p>
+					<strong>Zero to hero in UI testing</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Veselin Iliev
+ 			
+			</td>
+		
+			<td class="std presentation odd">
+			
+				<p>
+					<strong>I didn’t know the browser could do that!</strong>
+					
+						<small>(EN)</small>
+					
+				</p>
+				
+				
+				
+				
+				Sam Bellen
+ 			
+			</td>
+		
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>17:45</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>No Coffee Break</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>17:50</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>Finally meeting</strong>
+		</td>
+	
+</tr>
+
+
+<tr>
+	<td class="first"><h3>18:30</h3></td>
+	
+		<td colspan="5" style="text-align: center" class="special">
+			<strong>AfterParty in All Star Klubokawiarnia</strong>
+		</td>
+	
+</tr>
+
 </table>
 
 </body>
