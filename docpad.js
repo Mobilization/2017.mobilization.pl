@@ -362,13 +362,14 @@ docpadConfig = {
       "linkedin":"https://www.linkedin.com/in/eenriquelopez/?ppe=1",
       "photo_url":"/images/speakers/enrique-lopez-manas.jpg"
    },
-   "speaker-kamil-pyc":{//2 
-      "firstname":"Kamil",
-      "lastname":"Pyć",
-      "bio_html":"He is developing iOS applications for over 6 years. In work he strongly believes that everything can be automated and tested. In his free time he creates crazy projects during hackathons and travels around the world.",
-      "twitter":"https://twitter.com/KamilPyc",
-      "github":"https://github.com/PycKamil",
-      "photo_url":"/images/speakers/kamil_pyc.jpg"
+   "speaker-aleksander-grzyb":{//2 
+      "firstname":"Aleksander",
+      "lastname":"Grzyb",
+      "bio_html":"I am software engineer. Right now I live in Vancouver, Canada and I am working at <a href='https://www.clio.com/'>Clio</a> on <a href='https://itunes.apple.com/ca/app/clio/id686777370?mt=8'>Clio iOS application</a>. Previously I worked at <a href='https://allegro.pl'>Allegro</a> on <a href='https://itunes.apple.com/pl/app/allegro/id305659772?mt=8'>Allegro iOS application</a>. In my free time I am exploring computer vision, working on my own <a href='https://itunes.apple.com/us/app/bimba/id1076185539?mt=8'>Bimba iOS application</a>, and <a href='https://candyrent.com'>CandyRent</a> startup I co-funded with friends.",
+      "twitter":"https://twitter.com/aleksandergrzyb",
+      "github":"https://github.com/aleksandergrzyb",
+      "www":"http://aleksandergrzyb.com/",
+      "photo_url":"/images/speakers/aleksander_grzyb.png"
    },
    "speaker-adam-zaczek":{//3  
       "firstname":"Adam",
@@ -789,7 +790,7 @@ docpadConfig = {
                     "description_html": "If you are curious how we test iOS mobile applications in Allegro, this lecture is suited for you. We think of app testing right after opening Xcode, creating user interface and writing final implementation. Depending on different development stages, we test different subjects with different tools. Feel invited to learn our story about following stages of testing, starting from unit, through snapshot and functional testing. True story based on developer’s and tester’s experience.",
                     "audience_level": "Intermediate",
                     "speakers_keys": [
-                        "speaker-kamil-pyc",
+                        "speaker-aleksander-grzyb",
                         "speaker-ewa-ludwiczak",
                     ],
                     "language": "EN"
