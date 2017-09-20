@@ -793,8 +793,8 @@ docpadConfig = {
                 },
 
                 "talk-cebulowe-testy": {//3
-                    "title": "Cebulowe testy na iOS",
-                    "description_html": "If you are curious how we test iOS mobile applications in Allegro, this lecture is suited for you. We think of app testing right after opening Xcode, creating user interface and writing final implementation. Depending on different development stages, we test different subjects with different tools. Feel invited to learn our story about following stages of testing, starting from unit, through snapshot and functional testing. True story based on developer’s and tester’s experience.",
+                    "title": "Ogres and tests are like onions",
+                    "description_html": "If you are curious how we test iOS mobile applications in Allegro, this lecture is for you. We think of app testing right after opening Xcode, creating user interface and writing final implementation. On different development stages, we test different subjects with different tools. Feel invited to learn our story about subsequent layers of testing, starting from unit, through snapshot and functional testing. <a href='https://youtu.be/GZpcwKEIRCI?t=33s'>True story</a> based on developer’s and tester’s experience.",
                     "audience_level": "Intermediate",
                     "speakers_keys": [
                         "speaker-aleksander-grzyb",
