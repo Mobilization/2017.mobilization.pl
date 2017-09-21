@@ -1430,6 +1430,26 @@ docpadConfig = {
                 return "<img src=\"/assets/img/page/lang_pl.png\" alt=\"Polish\" class=\"language\" />";
             }
             return "";
+        },
+        getOrderedSpeakersKeys: function () {
+            var speakers = this.site.speakers;
+            var items = Object.keys(speakers).map(function (key) {
+                return [key, speakers[key]];
+            });
+
+            items.sort(function (a, b) {
+                if (a[1].firstname < b[1].firstname) {
+                    return -1;
+                }
+                if (a[1].firstname > b[1].firstname) {
+                    return 1;
+                }
+                return 0;
+            });
+
+            return items.map(function (value) {
+                return value[0];
+            });
         }
     },
     collections: {

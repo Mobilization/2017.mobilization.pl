@@ -19,7 +19,8 @@
 				</div> <!--//main row-->
 
 				<div class="row">
-					<% for speaker_key, speaker of @site.speakers: %>
+					<% for index, speaker_key of @getOrderedSpeakersKeys(): %>
+					<% speaker = @site.speakers[speaker_key] %>
 					<div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
 						<div id="<%= speaker_key %>" class="sp-single-are">
 							<div class="cbx-view cbx-view-inner">
