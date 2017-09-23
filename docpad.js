@@ -693,6 +693,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/nikola-irinchev-12443a80",
                     "github": "http://github.com/nirinchev"
                 },
+                 "speaker-bartosz-kraszewski": { //37
+                       "firstname": "Bartosz",
+                       "lastname": "Kraszewski",
+                       "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+                       "photo_url": "/images/speakers/bartosz-kraszewski.png",
+                       "twitter": "https://twitter.com/BartoszKraszew1",
+                       "github": "https://github.com/bkraszewski",
+                       "linkedin": "https://www.linkedin.com/in/bkraszewski/",
+                       "www" : "https://about.me/bartoszk"
+                 },                
                 // Not confirmed bellow:
                 /*
 
@@ -729,15 +739,7 @@ docpadConfig = {
                                        "github": "https://github.com/siruozhao",
                                        "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
                                  },
-                                 "speaker-bartosz-kraszewski": { //39
-                                       "firstname": "Snow (Siruo)",
-                                       "lastname": "Zhao",
-                                       "bio_html": "Snow fell in love with Android when G1 phone came onto the market and later joined the superstar team at Groupon Silicon Valley which presents a solid e-commerce app with billions users ranked as one of the “Best Android Apps” for 5 consecutive years. She was nominated as “Mobile Rock Star” multiple times because at the same time of delivering high quality features that generate billions of dollars of revenue, Snow also worked on a stand alone home service app, a series of internal, external libraries, major refactoring, and is always eager to share her knowledge. She is actively involved the Silicon Valley GDG, Women Who Code, Girls Who Code, and speaks both internally and externally on Android development. She is also invited to talk at Grace Hopper and DroidCon Beijing. \n",
-                                       "photo_url": "/images/speakers/zhao.jpg",
-                                       "twitter": "https://twitter.com/@zhaosiruo",
-                                       "github": "https://github.com/siruozhao",
-                                       "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
-                                 },
+
                                  */
             },
             talks: {
@@ -774,15 +776,15 @@ docpadConfig = {
                         "speaker-tomasz-pajak"
                     ]
                 },
-                // "talk-att-video-opt": {//1
-                //     "title": "Optimizing Android App performance with AT&T Video Optimizer",
-                //     "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, I'll introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
-                //     "audience_level": "Intermediate",
-                //     "speakers_keys": [
-                //         "speaker-bartosz-kraszewski"
-                //     ],
-                //     "language": "PL"
-                // },
+                "talk-att-video-opt": {//1
+                    "title": "Optimizing Android App performance with AT&T Video Optimizer",
+                    "description_html": "App performance matters. To achieve greatness we need to track and measure what we can't see with naked eye. I my talk, I'll introduce you to AT&T performance optimizer. Are you sure your Android app will pass strict security and performance tests?",
+                    "audience_level": "Intermediate",
+                    "speakers_keys": [
+                        "speaker-bartosz-kraszewski"
+                    ],
+                    "language": "EN"
+                },
                 "talk-tensorflow": {//2
                     "title": "Tensorflow for Mobile Developers",
                     "description_html": "here is a lot of Hype with ML and AI lately, and TensorFlow is the framework of choice from Google. But as a Mobile Developer you might have asked yourself, how can I benefit from it? In this talk, you will learn your first steps into the fascinating ML world for mobile",
@@ -1261,7 +1263,7 @@ docpadConfig = {
                         "talk_key": "talk-using-android-things"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-tbd" //bk
+                        "talk_key": "talk-att-video-opt"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-awesome-native-apps"
