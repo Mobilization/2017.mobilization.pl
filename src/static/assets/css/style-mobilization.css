@@ -2562,7 +2562,7 @@ iframe {
 }
 
 .talk {
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .talk button {
@@ -2584,3 +2584,10 @@ iframe {
 }
 
 button { border: none !important; }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}

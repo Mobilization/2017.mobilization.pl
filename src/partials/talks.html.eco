@@ -20,6 +20,7 @@
                 <% for talk_key, talk of @site.talks: %>
                 <% if talk.speakers_keys.length > 0: %>
                 <div class="row talk">
+                    <div class="anchor" id="<%= talk_key %>"></div>
                     <div class="col-xs-4 center">
                         <h3><%= talk.title %></h3>
                         //
