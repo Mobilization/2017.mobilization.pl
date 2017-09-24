@@ -160,11 +160,11 @@ docpadConfig = {
 //                        "logo_url": "/images/partners/gdgkrakow.jpeg",
 //                        "link": "http://www.meetup.com/GDG-Krakow/"
 //                    },
-//                    {
-//                        "name": "Let Swift",
-//                        "logo_url": "/images/partners/letswift.png",
-//                        "link": "https://www.facebook.com/letswiftwroclaw/"
-//                    },
+                   {
+                       "name": "Let Swift",
+                       "logo_url": "/images/partners/letswift.png",
+                       "link": "https://www.facebook.com/letswiftwroclaw/"
+                   },
                     {
                         "name": "Firmao",
                         "logo_url": "/images/partners/firmao.png",
