@@ -812,10 +812,10 @@ docpadConfig = {
                         "speaker-daniel-tull"
                     ]
                 },
-                "talk-coroutines-in-kotlin-for-android": { //5
-                    "title": "Coroutines in Kotlin for Android",
-                    "description_html": "Coroutines are the new feature of the Kotlin language in its version 1.1. They allow you to write seamingly blocking synchronous code that is really non-bocking asynchronous.\nIn this talk, I will present the concept of coroutines and explain how Kotlin proposes coroutines as a tool to be built upon rather than a standard to be forcibly used.\nI will show the low level primitives and the main coroutine library.\nI will then propose a live coding that shows the primitives and high level usage of coroutines in Kotlin and that demonstrates they can be used in the backend as well as UI development of and Android application.",
-                    "audience_level": "Advanced",
+                "talk-kodein": { //5
+                    "title": "The Kodein KOtlin DEpendency INjection library",
+                    "description_html" :"Kodein is a library that allows for ideomatic & semantic dependency injection in Kotlin. In this talk, I will first present Kodein, its goals and achievements. I will then propose a live coding showing how to use Kodein in an Android application.", 
+                    "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": [
                         "speaker-salomon-brys"
@@ -1181,7 +1181,7 @@ docpadConfig = {
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
                     "venue-tomtom": {
-                        "talk_key": "talk-coroutines-in-kotlin-for-android"
+                        "talk_key": "talk-kodein"
                     },
                     "venue-htd": {
                         "talk_key": "talk-cebulowe-testy"
