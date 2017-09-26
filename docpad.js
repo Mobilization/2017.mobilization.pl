@@ -362,7 +362,7 @@ docpadConfig = {
                 "speaker-enrique-lopez-manas": {//1
                     "firstname": "Enrique",
                     "lastname": "Lopez Manas",
-                    "bio_html": "bit.ly/EnriqueLopezManas GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                    "bio_html": "<a href='bit.ly/EnriqueLopezManas'>Enrique</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
                     "www": "http://lopez-manas.com",
                     "twitter": "https://twitter.com/eenriquelopez",
                     "facebook": "",
@@ -786,7 +786,7 @@ docpadConfig = {
                 },
                 "talk-tensorflow": {//2
                     "title": "Tensorflow for Mobile Developers",
-                    "description_html": "here is a lot of Hype with ML and AI lately, and TensorFlow is the framework of choice from Google. But as a Mobile Developer you might have asked yourself, how can I benefit from it? In this talk, you will learn your first steps into the fascinating ML world for mobile",
+                    "description_html": "There is a lot of Hype with ML and AI lately, and TensorFlow is the framework of choice from Google. But as a Mobile Developer you might have asked yourself, how can I benefit from it? In this talk, you will learn your first steps into the fascinating ML world for mobile",
                     "speakers_keys": [
                         "speaker-enrique-lopez-manas"
                     ],
