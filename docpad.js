@@ -24,8 +24,8 @@ docpadConfig = {
             scripts: [],
             visibility: {
                 "features": false,
-                "agenda": false,
-                "talks": true,
+                "agenda": true,
+                "talks": false,
                 "speakers": true,
                 "volunteers": false
             },
