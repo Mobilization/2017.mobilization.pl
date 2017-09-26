@@ -4,9 +4,9 @@
 10:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
 10:15;Functional approach to Android architecture using Kotlin - Jorge Castillo;Unmaintainable code - iOS developer perspective - Tomasz Gebarowski;Make your app instant - Yuliya Kaleda;Speech Analysis techniques - Martin Mitrevski;Database driven UI with MVVM & Realm - Nikola Irinchev;
 11:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-11:15;Coroutines in Kotlin for Android - Salomon Brys;Ogres and tests are like onions - Aleksander Grzyb, Ewa Ludwiczak;Optimizing Android apps for desktop experience - Victor Okunev;Don't loose your users because of endless quality issues - Olivier Destrebecq;GraphQL vs REST - Adam Żaczek;
+11:15;The Kodein KOtlin DEpendency INjection library - Salomon Brys;Ogres and tests are like onions - Aleksander Grzyb, Ewa Ludwiczak;Optimizing Android apps for desktop experience - Victor Okunev;Don't loose your users because of endless quality issues - Olivier Destrebecq;GraphQL vs REST - Adam Żaczek;
 12:00;Lunch Break;Lunch Break;Lunch Break;Lunch Break;Lunch Break;
-13:00;Database handling with Room - Sergi Martinez;Offline-first - Miguel Quinones;TBD - ;Realm database in real life - Marcin Zbijowski;Introduction to React Native - Eliasz Sawicki;
+13:00;Database handling with Room - Sergi Martinez;Offline-first - Miguel Quinones;Advanced Retrofit - Maciej Puchalski;Realm database in real life - Marcin Zbijowski;Introduction to React Native - Eliasz Sawicki;
 13:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
 14:00;Breaking Bug - Saúl Díaz;Lenses and Prisms in Swift - Elviro Rocca;Don’t fear SQL: A better way to store and handle data with SQLBrite && SQLDelight - Leandro Favarin;Making Scriptable iOS Apps - Daniel Tull;Predict impending doom with IoT and ReactNative - Gabor Wnuk;
 14:45;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
