@@ -362,7 +362,7 @@ docpadConfig = {
                 "speaker-enrique-lopez-manas": {//1
                     "firstname": "Enrique",
                     "lastname": "Lopez Manas",
-                    "bio_html": "<a href='bit.ly/EnriqueLopezManas'>Enrique</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                    "bio_html": "<a href='bit.ly/EnriqueLopezManas'>EnriqueLopezManas</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
                     "www": "http://lopez-manas.com",
                     "twitter": "https://twitter.com/eenriquelopez",
                     "facebook": "",
