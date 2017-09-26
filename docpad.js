@@ -702,7 +702,14 @@ docpadConfig = {
                        "github": "https://github.com/bkraszewski",
                        "linkedin": "https://www.linkedin.com/in/bkraszewski/",
                        "www" : "https://about.me/bartoszk"
-                 },                
+                 },
+                 "speaker-maciej-puchalski": { //38
+                       "firstname": "Maciej",
+                       "lastname": "Puchalski",
+                       "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
+                       "photo_url": "/images/speakers/maciej-puchalski.png",
+                       "linkedin": "https://www.linkedin.com/in/maciej-puchalski-5ab71a133/"
+                },           
                 // Not confirmed bellow:
                 /*
 
@@ -730,15 +737,7 @@ docpadConfig = {
                                    "twitter": "https://twitter.com/_tiwiz",
                                    "github": "https://github.com/tiwiz"
                                  },
-                                 "speaker-snow-zhao": { //40
-                                       "firstname": "Snow (Siruo)",
-                                       "lastname": "Zhao",
-                                       "bio_html": "Snow fell in love with Android when G1 phone came onto the market and later joined the superstar team at Groupon Silicon Valley which presents a solid e-commerce app with billions users ranked as one of the “Best Android Apps” for 5 consecutive years. She was nominated as “Mobile Rock Star” multiple times because at the same time of delivering high quality features that generate billions of dollars of revenue, Snow also worked on a stand alone home service app, a series of internal, external libraries, major refactoring, and is always eager to share her knowledge. She is actively involved the Silicon Valley GDG, Women Who Code, Girls Who Code, and speaks both internally and externally on Android development. She is also invited to talk at Grace Hopper and DroidCon Beijing. \n",
-                                       "photo_url": "/images/speakers/zhao.jpg",
-                                       "twitter": "https://twitter.com/@zhaosiruo",
-                                       "github": "https://github.com/siruozhao",
-                                       "linkedin": "https://www.linkedin.com/in/zhaosiruo/"
-                                 },
+
 
                                  */
             },
@@ -958,15 +957,15 @@ docpadConfig = {
                         "speaker-kuba-mazur"
                     ]
                 },
-                // "talk-lint-for-life": { //39
-                //       "title": "Lint for Life: Your Customizable Guard On the Go",
-                //       "description_html": "The ONLY and MOST comprehensive and up to date talk on Android Lint! Android Lint was introduced in ADT 16 as a tool to scan for potential bugs. However, Lint itself has been around since the Unix V7 in 1979 as a static analysis tool and adopted by every major programming language over the past 40 years. Well utilized Lint not only prevents common errors such as use of deprecated elements or API calls, but also improves code quality and enforce tailored rules. At the end of this session, audience will walk out with knowledge that reveals the full potential behind Android Lint from the built-in checks and configuration, most updated APIs, PSI Library. And step by step implementation will be shared for one customized check used by production Groupon app (also submitted to the Retrofit Library!). This talk will also cover the difference between Android Lint and other static code analysis tools such as PMD and Findbugs to help you make better decisions on which fits a certain purpose best. Now are you ready to join us and become a Lint Expert?",
-                //       "audience_level": "Intermediate",
-                //       "language": "EN",
-                //       "speakers_keys": [
-                //         "speaker-snow-zhao"
-                //       ]
-                // },
+                "talk-advanced-retrofit": { //39
+                      "title": "Advanced Retrofit",
+                      "description_html": "Retrofit library makes developers life easier. It serves for something very important these times - to connect to the Internet and get data from it. Everything in Retrofit is simplified to the required minimum of code to be written. In this talk there will be described advanced concepts, along with a little introduction to the library.",
+                      "audience_level": "Intermediate",
+                      "language": "EN",
+                      "speakers_keys": [
+                        "speaker-maciej-puchalski"
+                      ]
+                },
                 "talk-optimizing-android-apps": { //34
                     "title": "Optimizing Android apps for desktop experience",
                     "description_html": "The mobile devices of the latest generation are now capable of powering the desktop user experience. Get your Android apps ready for the big screen. Learn what it takes to optimize your apps for enhanced interactions, desktop mode capabilities, and an overall amplified in-app experience. Stay for the quiz and for a Samsung DeX station giveaway at the end of the session!",
@@ -1209,7 +1208,7 @@ docpadConfig = {
                         "talk_key": "talk-realm-database"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-tbd" //lint
+                        "talk_key": "talk-advanced-retrofit"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-introduction-to-react-native"
