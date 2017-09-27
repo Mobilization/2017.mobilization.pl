@@ -373,8 +373,7 @@ docpadConfig = {
                 "speaker-aleksander-grzyb": {//2
                     "firstname": "Aleksander",
                     "lastname": "Grzyb",
-                    // "bio_html":"I am software engineer. Right now I live in Vancouver, Canada and I am working at <a href='https://www.clio.com/'>Clio</a> on <a href='https://itunes.apple.com/ca/app/clio/id686777370?mt=8'>Clio iOS application</a>. Previously I worked at <a href='https://allegro.pl'>Allegro</a> on <a href='https://itunes.apple.com/pl/app/allegro/id305659772?mt=8'>Allegro iOS application</a>. In my free time I am exploring computer vision, working on my own <a href='https://itunes.apple.com/us/app/bimba/id1076185539?mt=8'>Bimba iOS application</a>, and <a href='https://candyrent.com'>CandyRent</a> startup I co-funded with friends.",
-                    "bio_html": "",
+                    "bio_html": "I am software engineer living in Poznań, Poland. Currently I am working at <a href='https://allegro.pl/'>Allegro</a> on <a href='https://itunes.apple.com/pl/app/allegro/id305659772?mt=8'>Allegro iOS application</a>. Previously I worked at <a href='https://www.clio.com/'>Clio</a> (Vancouver, Canada) on <a href='https://itunes.apple.com/ca/app/clio/id686777370?mt=8'>Clio iOS application</a>. In my free time I am exploring usage of computer vision in medical field and working on my own <a href='https://itunes.apple.com/us/app/bimba/id1076185539?mt=8'>Bimba iOS application</a>. Also I co-founded <a href='https://candyrent.com/'>CandyRent</a> startup with close friends.",
                     "twitter": "https://twitter.com/aleksandergrzyb",
                     "github": "https://github.com/aleksandergrzyb",
                     "www": "http://aleksandergrzyb.com/",
