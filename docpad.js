@@ -108,11 +108,6 @@ docpadConfig = {
 
                 ],
                 "after-party": [
-                    // {
-                    //     "name": "Jetbrains",
-                    //     "logo_url": "/images/sponsors/jetbrains.png",
-                    //     "link": "http://www.jetbrains.com/"
-                    // }
                 ],
             },
             partners: {
@@ -125,24 +120,6 @@ docpadConfig = {
                 ],
 
                 community: [
-//                    {
-//                        "name": "Łódź WiOSłuje",
-//                        "logo_url": "/images/partners/lodz-wiosluje.png",
-//                        "description_html": "The best place for iOS developers based in Łódź. A group with monthly meetings with tech talks, fantastic speakers and unbeatable atmosphere! Join us on facebook: www.facebook.com/lodzwiosluje",
-//                        "link": "http://www.meetup.com/Lodz-w-iOS-luje/"
-//                    },
-//                     {
-//                         "name": "Scala Wave IO",
-//                         "logo_url": "/images/partners/scala-wawe.png",
-//                         "description_html": "Scala Conf with the spirit of the sea Poland, Gdańsk, 7‑8.07.2017",
-//                         "link":"http://www.scalawave.io"
-//
-//                     },
-                    // {
-                    //      "name":"Toruń JUG",
-                    //      "logo_url":"/images/partners/jugtorun.png",
-                    //      "description_html":"Toruń JUG is a group of JVM technologies developers and enthusiasts. The main goal of the group is to gather people interested in JVM languages both professionally and personally. Our group contains programmers from many companies, scientists working on Toruń university, students and other technology passionates. We are encouraging knowledge sharing and collaboration in open source projects. Although we are the youngest JUG in Poland we are growing fast already having several big partners supporting us. More about Toruń JUG you can find at: torun.jug.pl"
-                    // },
                     {
                         "name": "Android Developer Group Poznań",
                         "logo_url": "/images/partners/adgp.jpeg",
@@ -153,13 +130,6 @@ docpadConfig = {
                         "logo_url": "/images/partners/mo-logo.png",
                         "link": "http://mo.dev.by"
                     },
-                    // {"name":"Polish Java User Group","logo_url":"/images/partners/polish-jug.png","description_html":"Polish Java User Group is a group of Java technology developers and enthusiasts. The main goal of the group is to popularize Java and modern software development methodologies. Since the beginning in 1999, the group had great impact on the Polish Java community growth. They main activity are meetings with students, programmers and project managers as well as conferences with famous professionals."},
-                    // {"name":"Mobile Central Europe 2016","logo_url":"/images/partners/mce2016.png","description_html":"We put our best effort into creating a stimulating experience for everyone involved. Help us make it one of the best mobile events in Europe! MCE is about bringing together the greatest minds in tech to exchange groundbreaking ideas. For Mobilization attendees promo-code will be offered giving 20% discount. Code will be visible during Mobilization event so you have to be on Mobilization! With this discount and early bird the ticket for MCE is really good price."},
-//                    {
-//                        "name": "GDG Kraków",
-//                        "logo_url": "/images/partners/gdgkrakow.jpeg",
-//                        "link": "http://www.meetup.com/GDG-Krakow/"
-//                    },
                    {
                        "name": "Let Swift",
                        "logo_url": "/images/partners/letswift.png",
@@ -228,38 +198,13 @@ docpadConfig = {
                 ],
                 media: [
 
-                    // {"name":"AK74","logo_url":"/images/partners/ak74.png","description_html":"Cześć! Nazywam się Artur Kurasiński i jestem autorem tego bloga. Na co dzień zajmuję się Fokusem. Jestem współtwórcą cyklu spotkań dla przedsiębiorców Aula Polska oraz konkursu Aulery. Jako vloger prowadzę program „Seria z AK74″. Czasami udzielam się jako mentor na imprezach z cyklu Seedcamp, Labstar, DemoCamp, Intel Challenge, i StartupFest. Więcej znajdziesz tutaj: LinkedIn.com czy Facebooku lub Twitterze Chcesz się ze mną skontaktować?: Wyślij maila na adres: artur@revolver.pl"},
-                    // {"name":"Marketing Mobilny","logo_url":"/images/partners/marketing-mobilny.jpg","link":"http://marketingmobilny.pl"},
-                    // {"name":"Dworzynska","logo_url":"/images/partners/dworzynska.png","link":"http://dworzynska.com"},
-                    // {"name":"Praca IT","logo_url":"/images/partners/pracait.png","link":"http://pracait.com"},
-                    // {"name":"Software Developer's Journal","logo_url":"/images/partners/sdj.png","link":"http://sdjournal.pl"},
-                    // {"name":"GoMobi","logo_url":"/images/partners/gomobi.jpg","link":"http://gomobi.pl"},
-                    {
+   					{
                         "name": "Programista Magazine",
                         "logo_url": "/images/partners/programistamag.png",
                         "link": "http://programistamag.pl"
                     },
-                    // {"name":"MyApple","logo_url":"/images/partners/myapple.jpg","link":"http://myapple.pl"},
-                    // {"name":"4tech.tv","logo_url":"/images/partners/4techmobile.png","link":"http://testytelefonow.pl"},
-                    // {"name":"StartUpTV","logo_url":"/images/partners/startuptv.png","link":"http://startuptv.pl"},
-                    // {"name":"Linux Magazine","logo_url":"/images/partners/linuxmag.png","link":"http://www.linux-magazine.pl"},
-//                    {
-//                        "name": "Packt Publishing",
-//                        "logo_url": "/images/partners/packt.png",
-//                        "link": "https://www.packtpub.com/"
-//                    },
                     // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
-//                    {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
-//                    {
-//                        "name": "Manning Publications",
-//                        "logo_url": "/images/partners/manning.png",
-//                        "link": "http://www.manning.com"
-//                    },
-//                    {
-//                        "name": "Pluralsight",
-//                        "logo_url": "/images/partners/pluralsight.png",
-//                        "link": "https://www.pluralsight.com/"
-//                    }
+                   {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
                 ],
 
                 supporters: [
@@ -702,7 +647,7 @@ docpadConfig = {
                        "linkedin": "https://www.linkedin.com/in/bkraszewski/",
                        "www" : "https://about.me/bartoszk"
                  },
-                 "speaker-maciej-puchalski": { //38
+                 "speaker-maciej-puchalski": { //39
                        "firstname": "Maciej",
                        "lastname": "Puchalski",
                        "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
@@ -712,15 +657,15 @@ docpadConfig = {
                 // Not confirmed bellow:
                 /*
 
-                                 "speaker-rndity": { //37
+                                 "speaker-rndity": { //38
                                    "firstname": "",
                                    "lastname": "",
                                    "bio_html": "",
-                                   "photo_url": "/images/speakers/roberto-orgiu.png",
-                                   "twitter": "https://twitter.com/_tiwiz",
-                                   "github": "https://github.com/tiwiz"
+                                   "photo_url": "",
+                                   "twitter": "",
+                                   "github": ""
                                  },
-                                 "speaker-maciej-zywno": { //38
+                                 "speaker-maciej-zywno": { //40
                                    "firstname": "Maciej",
                                    "lastname": "Żywno",
                                    "bio_html": "",
@@ -728,16 +673,6 @@ docpadConfig = {
                                    "twitter": "https://twitter.com/_tiwiz",
                                    "github": "https://github.com/tiwiz"
                                  },
-                                 "speaker-roberto-orgiu": { //20.5
-                                   "firstname": "Roberto",
-                                   "lastname": "Orgiu",
-                                   "bio_html": "Born in Italy in 1987, passionate for everything that switches on and off and particularly for handheld and wearable devices.\nI love to learn new languages, patterns and everything Android-related.\nLately I have helping with the DroidCon Italy event and the release of the related app.",
-                                   "photo_url": "/images/speakers/roberto-orgiu.png",
-                                   "twitter": "https://twitter.com/_tiwiz",
-                                   "github": "https://github.com/tiwiz"
-                                 },
-
-
                                  */
             },
             talks: {
