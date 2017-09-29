@@ -60,7 +60,7 @@ docpadConfig = {
                     },
                     {
                         "name": "Rndity",
-                        "logo_url": "/images/sponsors/rndity.png",
+                        "logo_url": "/images/sponsors/rndity_2.png",
                         "link": "http://rndity.com/"
                     },
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
