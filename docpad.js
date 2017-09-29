@@ -47,7 +47,7 @@ docpadConfig = {
                 diamond: [
                     {
                         "name": "TomTom",
-                        "logo_url": "/images/sponsors/tomtom-on-white2.png",
+                        "logo_url": "/images/sponsors/tomtom_big.png",
                         "link": "https://www.tomtom.com/pl_pl/"
                     },
                 ],
