@@ -422,7 +422,7 @@ docpadConfig = {
                 "speaker-tomasz-gebarowski": {//13
                     "firstname": "Tomasz",
                     "lastname": "Gebarowski",
-                    "bio_html": "Software Engineer, currently working as an iOS Architect at mBank. Working full time in Swift. Having background in C/C++ and distributed VoIP servers. Experienced in maintaining large and long term projects. Privately father of two kids and LEGO enthusiast.",
+                    "bio_html": "Senior Software Engineer, currently at YND Consult. Working full time in Swift (iOS and macOS). Having background in C/C++, mobile banking and distributed VoIP servers. Experienced in maintaining large and long term projects. Privately father of two kids and LEGO enthusiast.",
                     "photo_url": "/images/speakers/tomasz-gebarowski.jpg",
                     "www": "http://www.codica.pl",
                     "twitter": "https://twitter.com/tgebarowski",
