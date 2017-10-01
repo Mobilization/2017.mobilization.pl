@@ -1,6 +1,9 @@
 
 jQuery(document).ready(function($){
 
+    $('#agenda-venues > li').first().addClass("active");
+    $('.agenda-venues-tab').first().addClass("in active");
+
     /*********Theme PAth*********/
 
     var cbx_path = window.location.protocol + '//' + window.location.host;

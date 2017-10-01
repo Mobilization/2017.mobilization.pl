@@ -20,8 +20,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="cbx-tab">
-                            <ul class="nav nav-pills text-center">
-                                <!--<li class="active"><a data-toggle="pill" href="#home">First Day <br/><span>26.05.2015</span></a></li>-->
+                            <ul id="agenda-venues" class="nav nav-pills text-center">
                                 <% for venue_key, venue of @site.venues: %>
                                 <li><a data-toggle="pill" href="#menu-<%= venue_key %>"><%= venue.title %></a></li>
                                 <% end %>
@@ -29,7 +28,7 @@
 
                             <div class="tab-content cbx-tab-content text-center">
                                 <% for venue_key, venue of @site.venues: %>
-                                <div id="menu-<%= venue_key %>" class="tab-pane fade">
+                                <div id="menu-<%= venue_key %>" class="agenda-venues-tab tab-pane fade">
 
                                         <% for slot_key, slot of @site.schedule: %>
 
@@ -40,8 +39,8 @@
                                             <div class="col-xs-12 col-sm-4">
                                             </div>
                                             <div class="col-xs-12 col-sm-8">
-                                                <div class="cbx-info text-left" style="margin-top: 5px; padding-top: 0;">
-                                                    <span><a href="#"><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></a></span>
+                                                <div class="cbx-info text-left" style="margin-top: 5px; padding-top: 0; color: white;">
+                                                    <span><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
                                                     <h3 class="uppercase"><%= break_.title %></h3>
                                                 </div>
                                             </div>
@@ -50,23 +49,33 @@
                                             <% else: %>
                                             <% if venue_key of slot: %>
                                             <% _talk = @site.talks[slot[venue_key].talk_key] %>
+                                            <% if _talk.speakers_keys.length == 0: %>
+                                            <% continue; %>
+                                            <% end %>
                                     <div class="cbx-single-tab">
                                         <div class="row">
+                                            <% speakers = new Array() %>
+                                            <% for speaker_key in _talk.speakers_keys: %>
+                                            <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+                                            <% end %>
+
                                             <div class="col-xs-12 col-sm-4">
-                                                <a href="#"><img src="http://placehold.it/480x480" alt=""/></a>
+                                                <% if _talk.speakers_keys.length == 1: %>
+                                                <% for speaker_key in _talk.speakers_keys: %>
+                                                <% speaker = @site.speakers[speaker_key] %>
+                                                <img src="<%= speaker.photo_url %>" alt=""/>
+                                                <% end %>
+                                                <% end %>
                                             </div>
                                             <div class="col-xs-12 col-sm-8">
                                                 <div class="cbx-info text-left">
-                                                    <span><a href="#"><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></a></span>
+                                                    <span style="color: white;"><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
+                                                    <span style="color: white;"><i class="fa fa-map-marker"></i> <%= venue.title %></span>
+                                                    <span style="color: white;"><i class="fa fa-language"></i> <%- @getHtmlLangImg(_talk) %></span>
                                                     <h3 class="uppercase"><%= _talk.title %></h3>
                                                     <h5 class="uppercase">By <span class="span-color2">
-                                                    <% speakers = new Array() %>
-                                                    <% for speaker_key in _talk.speakers_keys: %>
-                                                    <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
-                                                    <% end %>
                                                     <%- speakers.join(', ') %>
                                                     </span>
-                                                        <span><%- @getHtmlLangImg(_talk) %></span>
                                                     </h5>
                                                     <p><%- _talk.description_html %></p>
                                                 </div> <!--//.single tab-->
@@ -84,6 +93,13 @@
                     </div>
                 </div>
             </div> <!--//container-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" style="margin-top: 30px">
+                        <a href="/doc/agenda.html" target="_parent" class="print-agenda"><i class="fa fa-print"></i> printable agenda</a>
+                    </div>
+                </div>
+            </div>
         </div> <!--//cbx-inner-->
     </div>
 </section> <!--SCHEDULE END-->
