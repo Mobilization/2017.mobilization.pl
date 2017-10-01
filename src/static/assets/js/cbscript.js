@@ -1,6 +1,8 @@
 
 jQuery(document).ready(function($){
 
+    $.support.transition = false;
+
     /*********Theme PAth*********/
 
     var cbx_path = window.location.protocol + '//' + window.location.host;
@@ -382,7 +384,7 @@ jQuery(document).ready(function($){
         var modal = new tingle.modal({
             footer: true,
             stickyFooter: false,
-            closeMethods: ['overlay', 'button', 'escape'],
+            closeMethods: ['overlay', 'button'],
             closeLabel: "Close",
             cssClass: [],
             beforeClose: function() {

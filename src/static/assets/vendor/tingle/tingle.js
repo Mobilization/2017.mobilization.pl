@@ -299,6 +299,7 @@
         if (this.opts.closeMethods.indexOf('button') !== -1) {
             this.modalCloseBtn = document.createElement('button');
             this.modalCloseBtn.classList.add('tingle-modal__close');
+            this.modalCloseBtn.classList.add('close-speaker-modal');
 
             this.modalCloseBtnIcon = document.createElement('span');
             this.modalCloseBtnIcon.classList.add('tingle-modal__closeIcon');

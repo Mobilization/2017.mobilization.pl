@@ -41,8 +41,6 @@
     <!-- to add bootstrap from cdn pls uncomment the bellow line -->
     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"-->
 
-    <link rel="stylesheet" href="/assets/vendor/tingle/tingle.css" media="all" />
-
     <!-- FONT AWESOME CSS -->
     <!-- font awesome css library can be can be added from local or cdn, bellow line is for local -->
     <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.min.css" media="all" />
@@ -52,12 +50,6 @@
 
     <!-- for animation effects animate.css -->
     <link rel="stylesheet" href="/assets/vendor/animate/animate.css" media="all" />
-
-
-    <!-- adding maginific popup library, there is js which is added in footer -->
-
-    <link rel="stylesheet" href="/assets/vendor/maginificpopup/magnific-popup.css"  media="all" />
-
 
     <!-- adding google fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
@@ -104,26 +96,14 @@
 <!--- for smooth scroll -->
 <script src="/assets/js/jquery.smooth-scroll.js"></script>
 
-
-
-<!-- adding magnific popup js library -->
-<script src="/assets/vendor/maginificpopup/jquery.magnific-popup.min.js" type="text/javascript"></script>
-
 <script src="/assets/js/validation/jquery.validate.js"></script>
 
 <!-- if use countdown plugin then use this plugin -->
 <script type="text/javascript" src="/assets/js/kinetic-v5.1.0.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.final-countdown.js"></script>
 
-<script type="text/javascript" src="/assets/vendor/tingle/tingle.js"></script>
-
 <!-- CUSTOM JS -->
 <script src="/assets/js/cbscript.js"></script>
-
-<!-- FOR DEMO ONLY-->
-<!-- comment this below line in production -->
-<!--<script type="text/javascript" src="switcher/js/switcher.js"></script>-->
-
 
 </body>
 </html>

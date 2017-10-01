@@ -2591,3 +2591,18 @@ button { border: none !important; }
   top: -90px;
   visibility: hidden;
 }
+
+body {
+  padding-right:0px !important;
+  margin-right:0px !important;
+}
+
+.small-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  background-size: cover;
+  display: block;
+}

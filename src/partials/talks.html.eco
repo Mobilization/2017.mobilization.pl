@@ -23,10 +23,14 @@
                     <div class="anchor" id="<%= talk_key %>"></div>
                     <div class="col-xs-4 center">
                         <h3><%= talk.title %></h3>
-                        //
                         <% for speaker_key in talk.speakers_keys: %>
                         <% _speaker = @site.speakers[speaker_key] %>
-                        <button class="speaker-more-info" data-modal="speaker-more-info-<%= speaker_key %>"><%= _speaker.firstname %> <%= _speaker.lastname %></button>
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;">
+                                <img src="<%= _speaker.photo_url %>" alt="" class="small-photo" style="float: left;" />
+                                <p style="float: left; margin-left: 8px;"><%= _speaker.firstname %><br/><%= _speaker.lastname %></p>
+                            </a>
+                        </div>
                         <% end %>
                     </div>
                     <div class="col-xs-8 center">
