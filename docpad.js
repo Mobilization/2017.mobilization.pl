@@ -491,7 +491,7 @@ docpadConfig = {
                     "firstname": "Lorenzo",
                     "lastname": "Quiroli",
                     "bio_html": "Lorenzo is Android Developer who started from Java and then saw the light thanks to Kotlin, which he has already used in several production apps. He is currently working in London @busuu",
-                    "photo_url": "/images/speakers/lorenzo.png",
+                    "photo_url": "/images/speakers/lorenzo_quiroli.png",
                     "twitter": "https://twitter.com/lorenzoquiroli",
                     "github": "https://github.com/quiro91",
 
