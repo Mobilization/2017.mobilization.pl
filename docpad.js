@@ -195,6 +195,16 @@ docpadConfig = {
                         "logo_url": "/images/partners/devcamp.png",
                         "link": "http://devcamp.nextapps.pl/"
                     },
+                    {
+                        "name": "Łódź wiOSłuje",
+                        "logo_url": "/images/partners/lodz-wiosluje.png",
+                        "link": "https://www.meetup.com/Lodz-w-iOS-luje/"
+                    },
+                    {
+                        "name": "GDG Kraków",
+                        "logo_url": "/images/partners/gdgkrakow.png",
+                        "link": "https://www.meetup.com/GDG-Krakow/?chapter_analytics_code=UA-37387374-1"
+                    },                                        
                 ],
                 media: [
 
