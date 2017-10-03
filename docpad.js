@@ -77,12 +77,12 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/harman.jpeg",
                         "link": "http://services.harman.com/"
                     },
-                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                     {
                         "name": "Idemia",
                         "logo_url": "/images/sponsors/idemia.png",
                         "link": "https://www.idemia.com/"
                     },
+                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                 ],
                 silver: [
                     {
