@@ -204,7 +204,12 @@ docpadConfig = {
                         "name": "GDG Kraków",
                         "logo_url": "/images/partners/gdgkrakow.png",
                         "link": "https://www.meetup.com/GDG-Krakow/?chapter_analytics_code=UA-37387374-1"
-                    },                                        
+                    },
+		            {
+                        "name": "Wydarzenia IT w Łodzi",
+                        "logo_url": "/images/partners/wydarzeniait.png",
+                        "link": "https://www.facebook.com/WydarzeniaITwLodzi/"
+                    },                                                                              
                 ],
                 media: [
 
