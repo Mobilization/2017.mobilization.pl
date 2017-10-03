@@ -79,9 +79,9 @@ docpadConfig = {
                     },
                     {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
                     {
-                        "name": "Oberthur Technologies R&D Poland",
-                        "logo_url": "/images/sponsors/oberthur.png",
-                        "link": "http://www.oberthur.com/"
+                        "name": "Idemia",
+                        "logo_url": "/images/sponsors/idemia.png",
+                        "link": "https://www.idemia.com/"
                     },
                 ],
                 silver: [
