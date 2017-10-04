@@ -207,7 +207,7 @@ docpadConfig = {
                     },
 		            {
                         "name": "Wydarzenia IT w Łodzi",
-                        "logo_url": "/images/partners/wydarzeniait.png",
+                        "logo_url": "/images/partners/wydarzeniaitlodz.png",
                         "link": "https://www.facebook.com/WydarzeniaITwLodzi/"
                     },
                 ],
