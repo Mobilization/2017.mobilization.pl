@@ -953,7 +953,7 @@ docpadConfig = {
                 },
                 "talk-offline-first": { //9
                     "title": "Offline-first",
-                    "description_html": "The best applications function equally well with and without network access. Offline functionality goes beyond a simple cache or database, and it is not a binary choice. Offline first encompasses project requirements, user interface design, security and code architecture. In this talk we'll review the challenges and ways to build applications that take offline as a first class requirement."
+                    "description_html": "The best applications function equally well with and without network access. Offline functionality goes beyond a simple cache or database, and it is not a binary choice. Offline first encompasses project requirements, user interface design, security and code architecture. In this talk we'll review the challenges and ways to build applications that take offline as a first class requirement.",
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": [
