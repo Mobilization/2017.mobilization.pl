@@ -229,11 +229,11 @@ docpadConfig = {
                         "logo_url": "/images/partners/krawka.png",
                         "link": "https://www.etsy.com/shop/Krawka?ref=hdr_shop_menu"
                     },
-                    // {
-                    //     "name": "Medialab",
-                    //     "logo_url": "/images/partners/medialab.png",
-                    //     "link": "http://www.medialab.pl/"
-                    // },
+                    {
+                        "name": "Medialab",
+                        "logo_url": "/images/partners/medialab.png",
+                        "link": "http://www.medialab.pl/"
+                    },
                 ]
             },
             slots: {
