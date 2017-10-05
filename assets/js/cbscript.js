@@ -1,8 +1,44 @@
 
-jQuery(document).ready(function($){
+function go_to_hash(hash) {
+    $('#agenda-venues > li').removeClass("active");
+    $('.agenda-venues-tab').removeClass("in active");
 
+    var tagSelector = '#' + hash;
+    var tabId = $(tagSelector).closest('.tab-pane').attr('id');
+    if (!tabId) {
+        select_first_tab();
+        return;
+    }
+
+    var menuId = tabId.substr(5);
+
+    var menuSelectorId = '#menu-selector-' + menuId;
+    var menuTabId = '#menu-' + menuId;
+
+    $(menuSelectorId).addClass("active");
+    $(menuTabId).addClass("in active");
+
+    $('html, body').animate({
+        scrollTop: $('#' + hash).offset().top - 80
+    }, 500)
+}
+
+function select_first_tab() {
     $('#agenda-venues > li').first().addClass("active");
     $('.agenda-venues-tab').first().addClass("in active");
+}
+
+jQuery(document).ready(function($){
+
+    // auto-tab switching
+    var hash = window.location.hash.substr(1);
+
+    if (hash) {
+        go_to_hash(hash);
+    } else {
+        select_first_tab();
+    }
+
     $.support.transition = false;
 
     /*********Theme PAth*********/
@@ -396,5 +432,6 @@ jQuery(document).ready(function($){
         modal.setContent($("#" + $(event.target).data("modal")).html());
         modal.open();
     });
+
 
 });//jQuery DOM READY END
