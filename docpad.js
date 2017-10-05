@@ -218,7 +218,7 @@ docpadConfig = {
                         "logo_url": "/images/partners/programistamag.png",
                         "link": "http://programistamag.pl"
                     },
-                    // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
+                   {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
                    {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
                 ],
 
