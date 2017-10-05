@@ -1,6 +1,8 @@
 
 jQuery(document).ready(function($){
 
+    $('#agenda-venues > li').first().addClass("active");
+    $('.agenda-venues-tab').first().addClass("in active");
     $.support.transition = false;
 
     /*********Theme PAth*********/

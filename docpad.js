@@ -24,8 +24,8 @@ docpadConfig = {
             scripts: [],
             visibility: {
                 "features": false,
-                "agenda": false,
-                "talks": true,
+                "agenda": true,
+                "talks": false,
                 "speakers": true,
                 "volunteers": false
             },
@@ -757,7 +757,8 @@ docpadConfig = {
                         "speaker-aleksander-grzyb",
                         "speaker-ewa-ludwiczak",
                     ],
-                    "language": "EN"
+                    "language": "EN",
+                    "photo_url": "/images/speakers/aleksander-ewa.jpg"
                 },
                 "talk-making-scriptable-iOS-apps": { //33
                     "title": "Making Scriptable iOS Apps",

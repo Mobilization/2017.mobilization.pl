@@ -1,151 +1,108 @@
-<!--SCHEDULE-->
-<section class="text-center section-padding" id="agenda">
-    <div class="container wow animated fadeInLeft bottom-spacing">
-        <div class="row">
-            <div class="col-md-8 align-center wow animated fadeInLeft">
-                <h1 class="arrow">Agenda</h1>
-                <hr/>
-                <p></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-schedule container wow animated fadeInDown animated" data-wow-duration="1s"
-         data-wow-delay="1s">
-        <div id="tabs-ui" class="tabs">
-            <nav>
-                <ul>
-                    <% for venue_key, venue of @site.venues: %>
-                    <li><a href="#track-<%= venue_key %>"><span><%= venue.title %></span></a></li>
-                    <% end %>
-                    <li style="background:none !important; width: 100%">
-                        <a href="#track-all" style="color: #212739 !important;">
-                            <i class="fa fa-table"></i> All talks + all venues
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="content">
-                <% for venue_key, venue of @site.venues: %>
-                <section id="#track-<%= venue_key %>">
-                    <div class="container">
-                        <div class="accordion">
-                            <% for slot_key, slot of @site.schedule: %>
-                                <% if 'break_key' of slot: %>
-                                    <% break_ = @site.breaks[slot.break_key] %>
-                                    <div class="b-item clearfix" style="background: #fafafa">
-                                        <div class="heading">
-                                            <div class="time col-md-3 col-sm-12 col-xs-12">
-                                                <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
-                                            </div>
-                                            <div class="title col-md-9 col-sm-12 col-xs-12">
-                                                <%= break_.title %>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <% else: %>
-                                    <% if venue_key of slot: %>
-                                        <% _talk = @site.talks[slot[venue_key].talk_key] %>
-                                        <div class="item clearfix">
-                                            <div class="heading">
-                                                <div class="time col-md-3 col-sm-12 col-xs-12">
-                                                    <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
-                                                </div>
-                                                <div class="e-title col-md-9 col-sm-12 col-xs-12">
-                                                    <strong><%= _talk.title %></strong>
-                                                    <%- @getHtmlLangImg(_talk) %>
-                                                    <br/>
-                                                    <% speakers = new Array() %>
-                                                    <% for speaker_key in _talk.speakers_keys: %>
-                                                    <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
-                                                    <% end %>
-
-                                                    <%- speakers.join(', ') %>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                                <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                                    <!-- not sure what to put here -->
-                                                </div>
-                                                <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                                    <%- _talk.description_html %>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <% end %>
-                                <% end %>
-                            <% end %>
+<!--SCHEDULE START-->
+<section>
+    <div id="cbx-schedule" class="cbx-schedule">
+        <div class="cbx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="cbx-heading">
+                            <h2 class="uppercase wow fadeInUp" data-wow-delay=".1s">
+                                    <span class="heading-serial">
+                                        <span class="heading-serial-inner">
+                                          #
+                                        </span>
+                                    </span>
+                                <span class="title">Agenda</span>
+                            </h2>
                         </div>
-                    </div><!--CONTAINER ENDS-->
-                </section>
-                <% end %>
+                    </div> <!--//main COL-->
+                </div> <!--//main row-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="cbx-tab">
+                            <ul id="agenda-venues" class="nav nav-pills text-center">
+                                <% for venue_key, venue of @site.venues: %>
+                                <li><a data-toggle="pill" href="#menu-<%= venue_key %>"><%= venue.title %></a></li>
+                                <% end %>
+                            </ul>
 
-                <section id="track-all">
-                    <div class="container">
-                        <div class="accordion">
-                            <% for slot_key, slot of @site.schedule: %>
-                                <% if 'break_key' of slot: %>
-                                    <% break_ = @site.breaks[slot.break_key] %>
-                                    <div class="b-item clearfix" style="background: #fafafa">
-                                        <div class="heading">
-                                            <div class="time col-md-3 col-sm-12 col-xs-12">
-                                                <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
+                            <div class="tab-content cbx-tab-content text-center">
+                                <% for venue_key, venue of @site.venues: %>
+                                <div id="menu-<%= venue_key %>" class="agenda-venues-tab tab-pane fade">
+
+                                        <% for slot_key, slot of @site.schedule: %>
+
+                                            <% if 'break_key' of slot: %>
+                                            <% break_ = @site.breaks[slot.break_key] %>
+                                    <div class="cbx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
                                             </div>
-                                            <div class="title col-md-9 col-sm-12 col-xs-12"><%= break_.title %></div>
+                                            <div class="col-xs-12 col-sm-8">
+                                                <div class="cbx-info text-left" style="margin-top: 5px; padding-top: 0; color: white;">
+                                                    <span><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
+                                                    <h3 class="uppercase"><%= break_.title %></h3>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                <% else: %>
-                                    <% iter = 0 %>
-                                    <% for venue_key, venue of @site.venues: %>
-                                        <% if venue_key of slot: %>
+                                            <% else: %>
+                                            <% if venue_key of slot: %>
                                             <% _talk = @site.talks[slot[venue_key].talk_key] %>
-                                            <div class="item clearfix">
-                                                <div class="heading">
-                                                    <div class="time col-md-3 col-sm-12 col-xs-12" <% if iter > 0: %> style="border:none !important;"<% end %>>
-                                                        <% if iter == 0: %><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %><% end %>
-                                                    </div>
-                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">
-                                                        <strong><%= _talk.title %></strong>
-                                                        <%- @getHtmlLangImg(_talk) %>
-                                                        <br/>
-                                                        <% speakers = new Array() %>
-                                                        <% for speaker_key in _talk.speakers_keys: %>
-                                                        <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
-                                                        <% end %>
+                                            <% if _talk.speakers_keys.length == 0: %>
+                                            <% continue; %>
+                                            <% end %>
+                                    <div class="cbx-single-tab">
+                                        <div class="row">
+                                            <% speakers = new Array() %>
+                                            <% for speaker_key in _talk.speakers_keys: %>
+                                            <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+                                            <% end %>
 
-                                                        <%- speakers.join(', ') %>
-
-                                                        <span class="venue-name"><%= venue.title %></span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-
-                                                    </div>
-                                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                                        <%- _talk.description_html %>
-                                                    </div>
-                                                </div>
+                                            <div class="col-xs-12 col-sm-4">
+                                                <% if _talk.speakers_keys.length == 1: %>
+                                                <% for speaker_key in _talk.speakers_keys: %>
+                                                <% speaker = @site.speakers[speaker_key] %>
+                                                <img src="<%= speaker.photo_url %>" alt=""/>
+                                                <% end %>
+                                                <% else: %>
+                                                <img src="<%= _talk.photo_url %>" alt=""/>
+                                                <% end %>
                                             </div>
-                                            <% iter++ %>
+                                            <div class="col-xs-12 col-sm-8">
+                                                <div class="cbx-info text-left">
+                                                    <span style="color: white;"><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
+                                                    <span style="color: white;"><i class="fa fa-map-marker"></i> <%= venue.title %></span>
+                                                    <span style="color: white;"><i class="fa fa-language"></i> <%- @getHtmlLangImg(_talk) %></span>
+                                                    <h3 class="uppercase"><%= _talk.title %></h3>
+                                                    <h5 class="uppercase">By <span class="span-color2">
+                                                    <%- speakers.join(', ') %>
+                                                    </span>
+                                                    </h5>
+                                                    <p><%- _talk.description_html %></p>
+                                                </div> <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                            <% end %>
+                                            <% end %>
                                         <% end %>
-                                    <% end %>
+
+                                </div>
                                 <% end %>
-                            <% end %>
+                            </div>
                         </div>
                     </div>
-                </section>
-            </div><!-- /content -->
-        </div><!-- /tabs -->
+                </div>
+            </div> <!--//container-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" style="margin-top: 30px">
+                        <a href="/doc/agenda.html" target="_blank" class="print-agenda"><i class="fa fa-print"></i> printable agenda</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!--//cbx-inner-->
     </div>
-</section>
+</section> <!--SCHEDULE END-->
 
-
-<!-- Event social links and download -->
-<section class="event-download-social-link section-padding">
-    <div class="col-lg-6 col-md-12 align-center event-download-padding">
-        <div class="d-sch text-right" target="_blank">&nbsp;</div>
-        <a class="fb " href="doc/agenda.html" target="_blank"><i class="fa fa-print"></i>print</a>
-    </div>
-</section>
-<!--/SCHEDULE-->

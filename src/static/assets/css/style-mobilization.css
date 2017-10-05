@@ -2592,6 +2592,11 @@ button { border: none !important; }
   visibility: hidden;
 }
 
+.print-agenda {
+  color: black;
+  font-size: 20px;
+}
+
 body {
   padding-right:0px !important;
   margin-right:0px !important;
