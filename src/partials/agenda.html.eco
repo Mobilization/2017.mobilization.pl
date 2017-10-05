@@ -22,7 +22,7 @@
                         <div class="cbx-tab">
                             <ul id="agenda-venues" class="nav nav-pills text-center">
                                 <% for venue_key, venue of @site.venues: %>
-                                <li><a data-toggle="pill" href="#menu-<%= venue_key %>"><%= venue.title %></a></li>
+                                <li id="menu-selector-<%= venue_key %>"><a data-toggle="pill" href="#menu-<%= venue_key %>"><%= venue.title %></a></li>
                                 <% end %>
                             </ul>
 
@@ -52,7 +52,7 @@
                                             <% if _talk.speakers_keys.length == 0: %>
                                             <% continue; %>
                                             <% end %>
-                                    <div class="cbx-single-tab">
+                                    <div class="cbx-single-tab" id="<%= slot[venue_key].talk_key %>">
                                         <div class="row">
                                             <% speakers = new Array() %>
                                             <% for speaker_key in _talk.speakers_keys: %>
