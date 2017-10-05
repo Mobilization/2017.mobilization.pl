@@ -628,6 +628,13 @@ docpadConfig = {
                     "twitter": "https://twitter.com/danielctull",
                     "github": "https://github.com/danielctull"
                 },
+                "speaker-aleksei-kliuev": {//34.5
+                    "firstname": "Aleksei",
+                    "lastname": "Kliuev",
+                    "bio_html": "Software Engineer, DeX Evangelist at Samsung R&D Institute Russia. Android and Java Developer since 2012.",
+                    "photo_url": "/images/speakers/aleksei_kliuev.png",
+                    "linkedin": "https://www.linkedin.com/in/a-kliuev/"
+                },
                 "speaker-victor-okunev": {//34
                     "firstname": "Victor",
                     "lastname": "Okunev",
@@ -662,7 +669,7 @@ docpadConfig = {
                        "linkedin": "https://www.linkedin.com/in/bkraszewski/",
                        "www" : "https://about.me/bartoszk"
                  },
-                 "speaker-maciej-puchalski": { //39
+                 "speaker-maciej-puchalski": { //38
                        "firstname": "Maciej",
                        "lastname": "Puchalski",
                        "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
@@ -921,7 +928,8 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": [
-                        "speaker-victor-okunev"
+                        "speaker-victor-okunev",
+                        "speaker-aleksei-kliuev"
                     ]
                 },
                 "talk-realm-database": { //26
@@ -1112,34 +1120,34 @@ docpadConfig = {
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
                     "venue-tomtom": {
-                        "talk_key": "talk-functional-approach"
+                        "talk_key": "talk-mvc"
                     },
                     "venue-htd": {
                         "talk_key": "talk-unmaintainable-code"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-speech-analysis-techniques"
+                        "talk_key": "talk-realm-database"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-make-your-app-instant"
+                        "talk_key": "talk-android-things-101"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-database-driven-ui"
+                        "talk_key": "talk-awesome-native-apps"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
                     "venue-tomtom": {
-                        "talk_key": "talk-kodein"
+                        "talk_key": "talk-functional-approach"
                     },
                     "venue-htd": {
                         "talk_key": "talk-cebulowe-testy"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-dont-loose-your-users"
+                        "talk_key": "talk-speech-analysis-techniques"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-optimizing-android-apps"
+                        "talk_key": "talk-breaking-bug"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-graphql-vs-rest"
@@ -1148,16 +1156,16 @@ docpadConfig = {
                 "slot-lunch": {"break_key": "break-lunch"},
                 "slot-4": {
                     "venue-tomtom": {
-                        "talk_key": "talk-database-handling-with-room"
+                        "talk_key": "talk-android-architecture-components-considered-harmful"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-offline-first"
+                        "talk_key": "talk-lets-framework"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-realm-database"
+                        "talk_key": "talk-making-scriptable-iOS-apps"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-advanced-retrofit"
+                        "talk_key": "talk-database-handling-with-room"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-introduction-to-react-native"
@@ -1166,13 +1174,49 @@ docpadConfig = {
                 "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-5": {
                     "venue-tomtom": {
-                        "talk_key": "talk-breaking-bug"
+                        "talk_key": "talk-kotlin-tools"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-lenses-and-prisms"
+                        "talk_key": "talk-offline-first"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-making-scriptable-iOS-apps"
+                        "talk_key": "talk-advanced-retrofit"
+                    },
+                    "venue-mobica": {
+                        "talk_key": "talk-using-android-things"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-zero-to-hero-in-ui-testing"
+                    }
+                },
+                "slot-coffee-5": {"break_key": "break-coffee"},
+                "slot-6": {
+                    "venue-tomtom": {
+                        "talk_key": "talk-rxswift-deep-cuts"
+                    },
+                    "venue-htd": {
+                        "talk_key": "talk-att-video-opt"
+                    },
+                    "venue-rndity": {
+                        "talk_key": "talk-building-ci-pipeline"
+                    },
+                    "venue-mobica": {
+                        "talk_key": "talk-optimizing-android-apps"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-i-didnt-know-the-browser"
+                    }
+                },
+                "slot-coffee-6": {"break_key": "break-coffee"},
+                "slot-7": {
+                    "venue-tomtom": {
+                        "talk_key": "talk-building-ios-apps"
+                    },
+                    "venue-htd": {
+                        "talk_key": "talk-make-your-app-instant"
+                    },
+                    "venue-rndity": {
+                        "talk_key": "talk-tensorflow"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-dont-fear-sql"
@@ -1181,58 +1225,22 @@ docpadConfig = {
                         "talk_key": "talk-predict-impending"
                     }
                 },
-                "slot-coffee-5": {"break_key": "break-coffee"},
-                "slot-6": {
-                    "venue-tomtom": {
-                        "talk_key": "talk-android-architecture-components-considered-harmful"
-                    },
-                    "venue-htd": {
-                        "talk_key": "talk-rxswift-deep-cuts"
-                    },
-                    "venue-rndity": {
-                        "talk_key": "talk-android-things-101"
-                    },
-                    "venue-mobica": {
-                        "talk_key": "talk-mvc"
-                    },
-                    "venue-seqr": {
-                        "talk_key": "talk-bluetooth-low-energy"
-                    }
-                },
-                "slot-coffee-6": {"break_key": "break-coffee"},
-                "slot-7": {
-                    "venue-tomtom": {
-                        "talk_key": "talk-kotlin-tools"
-                    },
-                    "venue-htd": {
-                        "talk_key": "talk-building-ios-apps"
-                    },
-                    "venue-rndity": {
-                        "talk_key": "talk-using-android-things"
-                    },
-                    "venue-mobica": {
-                        "talk_key": "talk-att-video-opt"
-                    },
-                    "venue-seqr": {
-                        "talk_key": "talk-awesome-native-apps"
-                    }
-                },
                 "slot-coffee-7": {"break_key": "break-coffee"},
                 "slot-8": {
                     "venue-tomtom": {
-                        "talk_key": "talk-tensorflow"
+                        "talk_key": "talk-kodein"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-lets-framework"
+                        "talk_key": "talk-lenses-and-prisms"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-zero-to-hero-in-ui-testing"
+                        "talk_key": "talk-dont-loose-your-users"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-building-ci-pipeline"
+                        "talk_key": "talk-database-driven-ui"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-i-didnt-know-the-browser"
+                        "talk_key": "talk-bluetooth-low-energy"
                     }
                 },
                 "slot-no-coffee-8": {"break_key": "break-no-coffee"},
