@@ -57,7 +57,7 @@
 														<% if speaker_key in talk.speakers_keys: %>
 														<% speaker_talk_keys.push(talk_key) %>
 														<span>
-															<small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:setTimeout(function() { window.location='/index.html#<%= talk_key %>' }, 500)" data-dismiss="modal"><strong><%= talk.title %></strong></a>
+															<small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('<%= talk_key %>')" data-dismiss="modal"><strong><%= talk.title %></strong></a>
 															</span>
 														<% end %>
 														<% end %>
