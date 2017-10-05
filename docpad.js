@@ -1142,16 +1142,16 @@ docpadConfig = {
                         "talk_key": "talk-functional-approach"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-cebulowe-testy"
+                        "talk_key": "talk-graphql-vs-rest"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-speech-analysis-techniques"
+                        "talk_key": "talk-cebulowe-testy"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-breaking-bug"
+                        "talk_key": "talk-speech-analysis-techniques"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-graphql-vs-rest"
+                          "talk_key": "talk-breaking-bug"
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},
@@ -1160,16 +1160,16 @@ docpadConfig = {
                         "talk_key": "talk-android-architecture-components-considered-harmful"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-lets-framework"
-                    },
-                    "venue-rndity": {
-                        "talk_key": "talk-making-scriptable-iOS-apps"
-                    },
-                    "venue-mobica": {
                         "talk_key": "talk-database-handling-with-room"
                     },
-                    "venue-seqr": {
+                    "venue-rndity": {
                         "talk_key": "talk-introduction-to-react-native"
+                    },
+                    "venue-mobica": {
+                        "talk_key": "talk-lets-framework"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-making-scriptable-iOS-apps"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
@@ -1178,16 +1178,16 @@ docpadConfig = {
                         "talk_key": "talk-kotlin-tools"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-offline-first"
-                    },
-                    "venue-rndity": {
                         "talk_key": "talk-advanced-retrofit"
                     },
-                    "venue-mobica": {
+                    "venue-rndity": {
                         "talk_key": "talk-using-android-things"
                     },
-                    "venue-seqr": {
+                    "venue-mobica": {
                         "talk_key": "talk-zero-to-hero-in-ui-testing"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-offline-first"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},
@@ -1214,16 +1214,16 @@ docpadConfig = {
                         "talk_key": "talk-building-ios-apps"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-make-your-app-instant"
+                        "talk_key": "talk-predict-impending"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-tensorflow"
+                        "talk_key": "talk-make-your-app-instant"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-dont-fear-sql"
+                        "talk_key": "talk-tensorflow"
                     },
                     "venue-seqr": {
-                        "talk_key": "talk-predict-impending"
+                        "talk_key": "talk-dont-fear-sql"
                     }
                 },
                 "slot-coffee-7": {"break_key": "break-coffee"},
@@ -1232,16 +1232,16 @@ docpadConfig = {
                         "talk_key": "talk-kodein"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-lenses-and-prisms"
-                    },
-                    "venue-rndity": {
-                        "talk_key": "talk-dont-loose-your-users"
-                    },
-                    "venue-mobica": {
                         "talk_key": "talk-database-driven-ui"
                     },
-                    "venue-seqr": {
+                    "venue-rndity": {
                         "talk_key": "talk-bluetooth-low-energy"
+                    },
+                    "venue-mobica": {
+                        "talk_key": "talk-lenses-and-prisms"
+                    },
+                    "venue-seqr": {
+                        "talk_key": "talk-dont-loose-your-users"
                     }
                 },
                 "slot-no-coffee-8": {"break_key": "break-no-coffee"},
