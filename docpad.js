@@ -675,6 +675,13 @@ docpadConfig = {
                        "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
                        "photo_url": "/images/speakers/maciej-puchalski.png",
                        "linkedin": "https://www.linkedin.com/in/maciej-puchalski-5ab71a133/"
+                },
+                "speaker-zachary-markin": { //39
+                       "firstname": "Zachary",
+                       "lastname": "Markin",
+                       "bio_html": "Founding Partner at HTD - the leading innovation consultancy serving the health industry.",
+                       "photo_url": "/images/speakers/zachary-markin.png",
+                       "www": "http://www.htdevelopers.com/"
                 },           
                 // Not confirmed bellow:
                 /*
@@ -1050,6 +1057,15 @@ docpadConfig = {
                         "speaker-nikola-irinchev"
                     ]
                 },
+                "talk-machine-learning": { //39
+                    "title": "Machine learning for a healthy society",
+                    "description_html": "Addiction to drugs and alcohol destroys lives, families, and communities. This talk explores how we are structuring content generated through a mobile-first social network and applying machine learning techniques to predict relapse to substance abuse based on natural language processing. We will explore our methods, findings, and toolset for providing clinical relevance of self-administered therapies.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": [
+                        "speaker-zachary-markin"
+                    ]
+                },
             },
             breaks: {
                 'break-registration': {
@@ -1106,7 +1122,7 @@ docpadConfig = {
                         "talk_key": "talk-how-to-combine-swift"
                     },
                     "venue-htd": {
-                        "talk_key": "talk-tbd" //mz
+                        "talk_key": "talk-machine-learning"
                     },
                     "venue-rndity": {
                         "talk_key": "talk-tbd" //bs
