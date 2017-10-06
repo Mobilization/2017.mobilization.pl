@@ -210,7 +210,12 @@ docpadConfig = {
                         "logo_url": "/images/partners/wydarzeniaitlodz.png",
                         "link": "https://www.facebook.com/WydarzeniaITwLodzi/"
                     },
-                ],
+                    {
+                        "name": "Dev@Ldz",
+                        "logo_url": "/images/partners/devldz.png",
+                        "link": "https://www.meetup.com/pl-PL/dev-LDZ/"
+                    },                
+                    ],
                 media: [
 
    					{
