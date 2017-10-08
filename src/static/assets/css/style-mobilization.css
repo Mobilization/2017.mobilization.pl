@@ -2611,3 +2611,49 @@ body {
   background-size: cover;
   display: block;
 }
+
+#menu-all-talks table {
+  margin-top: 20px;
+}
+
+#menu-all-talks p {
+  margin:0;
+  padding: 2px 0 4px;
+}
+
+#menu-all-talks td {
+  padding: 5px;
+  border-bottom: 1px #444 dashed;
+}
+
+#menu-all-talks td.header {
+  text-align: center;
+}
+
+#menu-all-talks td.special {
+  background-color: #fafafa;
+}
+
+#menu-all-talks td.odd {
+  /* background-color: #eee; */
+}
+
+#menu-all-talks td.even {
+  /* background-color: #ddd; */
+}
+
+#menu-all-talks td.presentation {
+  vertical-align: top;
+}
+
+#menu-all-talks td.presentation a {
+  color: #333;
+}
+
+#menu-all-talks td.first {
+  width: 5%;
+}
+
+#menu-selector-all a {
+  font-weight: 400;
+}
