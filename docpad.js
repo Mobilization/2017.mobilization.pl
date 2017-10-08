@@ -776,7 +776,7 @@ docpadConfig = {
                     "title": "Making Scriptable iOS Apps",
                     "description_html": "I will discuss how we can provide a Javascript interface to an app's core functionailty, and how this can help during development time, as well as providing advanced users with increased powers.",
                     "audience_level": "Intermediate",
-                    "language": "English",
+                    "language": "EN",
                     "speakers_keys": [
                         "speaker-daniel-tull"
                     ]
