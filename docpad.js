@@ -628,7 +628,7 @@ docpadConfig = {
                     "firstname": "Daniel",
                     "lastname": "Tull",
                     "bio_html": "Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app.",
-                    "photo_url": "https://www.gravatar.com/avatar/a226c33300a88ba937d7a8f69a4b0b3d?s=400",
+                    "photo_url": "/images/speakers/daniel-tull.png",
                     "www": "https://danieltull.co.uk",
                     "twitter": "https://twitter.com/danielctull",
                     "github": "https://github.com/danielctull"
