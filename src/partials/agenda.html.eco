@@ -99,7 +99,7 @@
                                         <div class="row">
                                             <% speakers = new Array() %>
                                             <% for speaker_key in _talk.speakers_keys: %>
-                                            <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+                                            <% speakers.push('<a data-toggle="modal" href="#speaker-more-info-' + speaker_key + '" class="link">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
                                             <% end %>
 
                                             <div class="col-xs-12 col-sm-4">

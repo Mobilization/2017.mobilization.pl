@@ -2660,6 +2660,10 @@ body {
   font-weight: 400;
 }
 
+.cbx-single-tab .link {
+  color: #8ac329 !important;
+}
+
 #cbx-partners {
   background-color: white;
 }
