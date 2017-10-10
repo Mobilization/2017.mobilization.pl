@@ -468,7 +468,7 @@ docpadConfig = {
                 "speaker-kamil-czopek": {//16
                     "firstname": "Kamil",
                     "lastname": "Czopek",
-                    "bio_html": "iOS developer, consultant, manager, online marketer. ",
+                    "bio_html": "Kamil is a consultant, a manager and a seasoned iOS developer with JEE background. Strongly interested in internet and mobile marketing. Occasionally, Kamil likes to utilize the humanistic side of his nature by writing magazine articles, e-books or traditional book chapters, recording video training sessions or by conveying his message in some sort of the ATL media - like radio or TV show. A husband to the one and only :)) and a father of two. Always loves to grab a cup of a decent coffee and sometimes happens to act like a foodie…",
                     "photo_url": "/images/speakers/czopek.jpg"
                 },
                 "speaker-rowdy-rabouw": {//17
@@ -883,7 +883,7 @@ docpadConfig = {
                 },
                 "talk-augmented-reality": { //16
                     "title": "Augmented Reality in the iOS World. What's in there for us?",
-                    "description_html": "Augmented Reality in the iOS world (what's there for us, not only from Apple)",
+                    "description_html": "The Goal of this session is to underline the importance of the AR related topics and to provide some introduction into the iOS AR world - from the developer's perspective. Nowadays, Augmented Reality seems to grow way beyond the BIG BUZZWORD and it's going to upscale a few more times during the upcoming years. TONS of opportunities seem to be waiting for a sign to appear suddenly on the horizon. And as \"Opportunity dances with those already on the dance floor\", the session intends to cover how to jump start into the AR on the iOS platform. Partly, but NOT ONLY, with the use of the goodies provided by Apple.",
                     "audience_level": "Beginner",
                     "language": "EN",
                     "speakers_keys": [
