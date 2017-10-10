@@ -941,9 +941,10 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": [
-                        "speaker-victor-okunev",
-                        "speaker-aleksei-kliuev"
-                    ]
+                        "speaker-aleksei-kliuev",
+                        "speaker-victor-okunev"
+                    ],
+                    "photo_url": "/images/speakers/aleksei_victor.jpg"
                 },
                 "talk-realm-database": { //26
                     "title": "Realm database in real life",
