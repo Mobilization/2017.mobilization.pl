@@ -370,7 +370,6 @@ docpadConfig = {
                     "bio_html": "Passionate about Kotlin for the last three years, I am the developer and maintainer of the Kodein library.\nDeeply rooted in the Open-Source philosophy, I am dedicated to making tools and libraries to make programming easier, safer, and more exciting.\nI also love boardgaming and flying small planes (which I have a license for).",
                     "photo_url": "/images/speakers/salomon_b.jpg",
                     "www": "https://github.com/SalomonBrys/",
-                    "twitter": "https://twitter.com/",
                     "github": "https://github.com/SalomonBrys",
                     "linkedin": "https://www.linkedin.com/in/salomonbrys"
                 },
