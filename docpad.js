@@ -214,7 +214,12 @@ docpadConfig = {
                         "name": "Dev@Ldz",
                         "logo_url": "/images/partners/devldz.png",
                         "link": "https://www.meetup.com/pl-PL/dev-LDZ/"
-                    },                
+                    },
+                    {
+                        "name": "Soldiers of mobile",
+                        "logo_url": "/images/partners/soldiers.png",
+                        "link": "https://soldiersofmobile.com/"
+                    },            
                     ],
                 media: [
 
