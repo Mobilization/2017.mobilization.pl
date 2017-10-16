@@ -52,7 +52,9 @@
                                                     <p>
                                                         <a style="cursor: pointer" onclick="javascript:go_to_hash('<%= slot[venue_key].talk_key %>')" data-dismiss="modal"><strong><%- @site.talks[slot[venue_key].talk_key].title %></strong></a>
                                                         <% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
-                                                            <small>(<%- @site.talks[slot[venue_key].talk_key].language %>)</small>
+                                                            <small>(<%- @site.talks[slot[venue_key].talk_key].language %><% if 'audience_level' of @site.talks[slot[venue_key].talk_key]: %>,&nbsp;<%- @site.talks[slot[venue_key].talk_key].audience_level %>)
+                                                            <% end %>
+                                                            </small>
                                                         <% end %>
                                                     </p>
                                                     <% speakers = new Array() %>
@@ -114,6 +116,7 @@
                                                     <span style="color: white;"><i class="fa fa-clock-o"></i> <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
                                                     <span style="color: white;"><i class="fa fa-map-marker"></i> <%= venue.title %></span>
                                                     <span style="color: white;"><i class="fa fa-language"></i> <%- @getHtmlLangImg(_talk) %></span>
+                                                    <span style="color: white;"><i class="fa fa-signal"></i><%- _talk.audience_level %></span>
                                                     <h3 class="uppercase"><%= _talk.title %></h3>
                                                     <% if speakers.length == 1: %>
                                                     <h5 class="uppercase">By <span class="span-color2">
