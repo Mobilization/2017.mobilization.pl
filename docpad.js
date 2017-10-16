@@ -253,6 +253,10 @@ docpadConfig = {
                 },
                 'slot-hello-world': {
                     from: '9:00',
+                    to: '9:10'
+                },
+                'slot-no-coffee-0' : {
+                    from: '9:10',
                     to: '9:15'
                 },
                 'slot-1': {
@@ -691,7 +695,17 @@ docpadConfig = {
                        "bio_html": "Founding Partner at HTD - the leading innovation consultancy serving the health industry.",
                        "photo_url": "/images/speakers/zachary-markin.png",
                        "www": "http://www.htdevelopers.com/"
+                },
+                "speaker-aliaksandr-zhukovich": { //40
+                       "firstname": "Aliaksandr ",
+                       "lastname": "Zhukovich",
+                        "bio_html": "My name is Alex. I'm a software enthusiast with passion for technologies. I started from Web development and last few years I'm working on Android projects. I have a passion for well written and tested software products. I like to share knowledge with articles, meetups and conferences. Last few months I'm additionally working on education project about Android testing.",
+                       "photo_url": "/images/speakers/aliaksandr-zhukovich.png",
+                       "www": "http://alexzh.com/",
+                       "twitter" : "https://twitter.com/Alex_Zhukovich"
                 },           
+
+
                 // Not confirmed bellow:
                 /*
 
@@ -1076,16 +1090,41 @@ docpadConfig = {
                         "speaker-zachary-markin"
                     ]
                 },
+                "talk-hello-world": {
+                    "title": "Hello world!",
+                    "description_html": "This is couple of words about Mobilization. For community by community.",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": [
+                    ]
+                },
+                "talk-finally": {
+                    "title": "Finally meeting",
+                    "description_html": "Time to give thanks to all the sponsors and the organizer\'s team.",
+                    "audience_level": "Advanced",
+                    "language": "EN",
+                    "speakers_keys": [
+                    ]
+                },
+                "talk-drink-espresso": {
+                    "title": "Drink Espresso during Android Testing",
+                    "description_html": "Mobile apps are growing. They become more complex and require more testing. It means that it is time to integrate automating tests to your project. In this talk we will discuss shortly testing of Android project in general and User Interface testing with Espresso framework in detail.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": [
+                        "speaker-aliaksandr-zhukovich"
+                    ]
+                },
             },
             breaks: {
                 'break-registration': {
                     title: 'Registration',
                     description_html: 'If you do not want to miss any presentation please register between 7:30-9:10. However, registration will be opened all day!'
                 },
-                'break-hello-world': {
-                    title: 'Hello World',
-                    description_html: 'This is couple of words about Mobilization. For community by community.'
-                },
+                // 'break-hello-world': {
+                //     title: 'Hello World',
+                //     description_html: 'This is couple of words about Mobilization. For community by community.'
+                // },
                 'break-coffee': {
                     title: 'Coffee Break',
                     description_html: ''
@@ -1098,10 +1137,10 @@ docpadConfig = {
                     title: 'No Coffee Break',
                     description_html: ''
                 },
-                'break-finally': {
-                    title: 'Finally meeting',
-                    description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
-                },
+                // 'break-finally': {
+                //     title: 'Finally meeting',
+                //     description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
+                // },
                 'break-afterparty': {
                     title: 'AfterParty in All Star Klubokawiarnia',
                     description_html: 'Free pizza and beer and follow up talks.<br>15min from conference venue.<br>Piotrkowska 217 Łódź'
@@ -1126,7 +1165,12 @@ docpadConfig = {
             },
             schedule: {
                 "slot-registration": {"break_key": "break-registration"},
-                "slot-hello-world": {"break_key": "break-hello-world"},
+                "slot-hello-world": {
+                    "venue-tomtom" : { 
+                        "talk_key": "talk-hello-world"
+                    }
+                },
+                "slot-no-coffee-0": {"break_key": "break-no-coffee"},
                 "slot-1": {
                     "venue-tomtom": {
                         "talk_key": "talk-how-to-combine-swift"
@@ -1135,7 +1179,7 @@ docpadConfig = {
                         "talk_key": "talk-machine-learning"
                     },
                     "venue-rndity": {
-                        "talk_key": "talk-tbd" //bs
+                        "talk_key": "talk-drink-espresso" //bs
                     },
                     "venue-mobica": {
                         "talk_key": "talk-augmented-reality"
@@ -1271,7 +1315,11 @@ docpadConfig = {
                     }
                 },
                 "slot-no-coffee-8": {"break_key": "break-no-coffee"},
-                "slot-finally": {"break_key": "break-finally"},
+                "slot-finally": {
+                    "venue-tomtom": {
+                        "talk_key": "talk-finally"
+                    },
+                },
                 "slot-afterparty": {"break_key": "break-afterparty"}
             },
             volunteers: {
