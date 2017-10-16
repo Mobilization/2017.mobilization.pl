@@ -80,8 +80,8 @@ td.std {
 			<% if venue_key of slot: %>
 				<p>
 					<strong><%- @site.talks[slot[venue_key].talk_key].title %></strong>
-					<% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
-						<small>(<%- @site.talks[slot[venue_key].talk_key].language %>, <%- @site.talks[slot[venue_key].talk_key].audience_level %>)</small>
+					<% if 'language' of @site.talks[slot[venue_key].talk_key] and 'audience_level' of @site.talks[slot[venue_key].talk_key]: %>
+						<small>(<%- @site.talks[slot[venue_key].talk_key].language %>,&nbsp;<%- @site.talks[slot[venue_key].talk_key].audience_level %>)</small>
 					<% end %>
 				</p>
 				<% speakers = new Array() %>
