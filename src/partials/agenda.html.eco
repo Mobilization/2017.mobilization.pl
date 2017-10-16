@@ -103,8 +103,10 @@
                                                 <% speaker = @site.speakers[speaker_key] %>
                                                 <img src="<%= speaker.photo_url %>" alt=""/>
                                                 <% end %>
-                                                <% else: %>
+                                                <% else if _talk.speakers_keys.length > 1: %>
                                                 <img src="<%= _talk.photo_url %>" alt=""/>
+                                                <% else: %>
+                                                
                                                 <% end %>
                                             </div>
                                             <div class="col-xs-12 col-sm-8">
