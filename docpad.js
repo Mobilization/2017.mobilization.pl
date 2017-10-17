@@ -325,7 +325,7 @@ docpadConfig = {
                 },
                 'slot-finally': {
                     from: '17:50',
-                    to: '18:10  '
+                    to: '18:10'
                 },
                 'slot-afterparty': {
                     from: '18:30',
