@@ -776,7 +776,8 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-enrique-lopez-manas"
                     ],
-                    "language": "EN"
+                    "language": "EN",
+                    "audience_level": "Intermediate",
                 },
 
                 "talk-cebulowe-testy": {//3
