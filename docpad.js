@@ -93,7 +93,7 @@ docpadConfig = {
                     {
                         "name": "Billennium",
                         "logo_url": "/images/sponsors/billennium.png",
-                        "link": "http://billennium.pl/oddzialy/lodz/"
+                        "link": "http://billennium.pl/kontakt/#contact=3"
                     },
                     {
                         "name": "CircleK Europe",
