@@ -1484,6 +1484,19 @@ docpadConfig = {
             return items.map(function (value) {
                 return value[0];
             });
+        },
+        getJSONData: function () {
+            return {
+                "breaks": this.site.breaks,
+                "event": this.site.event,
+                "partners": this.site.partners,
+                "schedule": this.site.schedule,
+                "slots": this.site.slots,
+                "speakers": this.site.speakers,
+                "sponsors": this.site.sponsors,
+                "talks": this.site.talks,
+                "venues": this.site.venues
+            }
         }
     },
     collections: {

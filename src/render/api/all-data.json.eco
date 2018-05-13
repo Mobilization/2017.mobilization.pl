@@ -1,0 +1,4 @@
+---
+outContentType: 'application/json'
+---
+<%- JSON.stringify(@getJSONData()) %>
